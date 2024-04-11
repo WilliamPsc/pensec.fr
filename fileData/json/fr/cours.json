@@ -1,0 +1,62 @@
+{
+    "2023":[
+        {
+            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "idName": "INFO3",
+            "name": "Introduction à la programmation et à l'algorithmique (programmation Python)",
+            "nbHeures": 20
+        },
+        {
+            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "idName": "INFO1-b",
+            "name": "TP : Introduction à l'électronique numérique et à la logique booléenne",
+            "nbHeures": 12
+        },
+        {
+            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "idName": "INFO1-b",
+            "name": "TD : Introduction à l'électronique numérique et à la logique booléenne",
+            "nbHeures": 8
+        }
+    ],
+    "2022": [
+        {
+            "annee": "Master 2 Informatique CSSE - SESI",
+            "idName": "Programmation parallèle",
+            "name": "Introduction à la progammation parallèle (C, OpenMP)",
+            "nbHeures": 8
+        },
+        {
+            "annee": "M1 SESI",
+            "idName": "FPGA",
+            "name": "Conception Architecture Numérique",
+            "nbHeures": 16
+        },
+        {
+            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "idName": "INFO3",
+            "name": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nbHeures": 24
+        },
+        {
+            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "idName": "INFO1-b",
+            "name": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nbHeures": 16
+        }
+    ],
+    "2021": [
+        {
+            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "idName": "INFO2",
+            "name": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nbHeures": 20
+        },
+        {
+            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "idName": "OSI-b",
+            "name": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nbHeures": 12
+        }
+    ]
+}
