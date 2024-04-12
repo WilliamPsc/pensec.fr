@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Date Progress Bar</title>
+<style>
+    #progress-bar {
+        width: 100%;
+        background-color: #f3f3f3;
+    }
+
+    #progress-bar-fill {
+        height: 30px;
+        background-color: #4caf50;
+        text-align: center;
+        line-height: 30px;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<div id="progress-bar">
+    <div id="progress-bar-fill">0%</div>
+</div>
+
+<script>
+    // Set your start and end dates here
+    var startDate = new Date("2024-04-01");
+    var endDate = new Date("2024-08-31");
+
+    // Get current date
+    var currentDate = new Date();
+
+    // Calculate progress
+    var totalTime = endDate - startDate;
+    var currentTime = currentDate - startDate;
+    var progressPercentage = (currentTime / totalTime) * 100;
+
+    // Update progress bar
+    var progressBarFill = document.getElementById("progress-bar-fill");
+    progressBarFill.style.width = progressPercentage + "%";
+    progressBarFill.textContent = progressPercentage.toFixed(0) + " %";
+</script>
+
+</body>
+</html>
