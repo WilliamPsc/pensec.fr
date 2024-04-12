@@ -42,6 +42,17 @@
     var progressBarFill = document.getElementById("progress-bar-fill");
     progressBarFill.style.width = progressPercentage + "%";
     progressBarFill.textContent = progressPercentage.toFixed(0) + " %";
+    
+    // Define color scale based on progress range
+    if (progressPercentage < 25) {
+        progressBarFill.style.backgroundColor = "#ff0000"; // Red
+    } else if (progressPercentage < 50) {
+        progressBarFill.style.backgroundColor = "#ff9900"; // Orange
+    } else if (progressPercentage < 75) {
+        progressBarFill.style.backgroundColor = "#ffff00"; // Yellow
+    } else {
+        progressBarFill.style.backgroundColor = "#4caf50"; // Green
+    }
 </script>
 
 </body>
