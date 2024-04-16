@@ -39,7 +39,7 @@
 
     <div id="progress-bar">
         <div id="progress-bar-fill" style="width: <?php echo $progress_percentage; ?>%;">
-            <?php echo round($progress_percentage, 0); ?> %
+            <?php echo round($progress_percentage, 2); ?> %
         </div>
     </div>
 

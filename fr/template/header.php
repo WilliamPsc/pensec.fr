@@ -45,6 +45,10 @@
         i a .ai {
             font-size: 1.5em;
         }
+
+        .progress {
+            height: 25px;
+        }
     </style>
 
     <!-- Google tag (gtag.js) -->

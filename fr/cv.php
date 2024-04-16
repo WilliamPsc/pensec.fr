@@ -52,6 +52,39 @@ $age = $intvl->y;
                 <li><strong>2021 - </strong></li>
             </ul>
             Thèse de Doctorat en Informatique : Protection d'un processeur avec DIFT contre des attaques physiques - Université Bretagne Sud - Lorient
+            <br />
+            <?php
+            // Set your start and end dates here
+            $startDate = new DateTime("2024-04-01");
+            $endDate = new DateTime("2024-08-31");
+
+            // Get current date
+            $currentDate = new DateTime();
+
+            // Calculate progress
+            $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
+            $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
+            $progressPercentage = ($currentTime / $totalTime) * 100;
+            
+            // Define color scale based on progress range
+            $progressBarColorClass = '';
+            if ($progressPercentage < 25) {
+                $progressBarColorClass = 'bg-danger'; // Red
+            } else if ($progressPercentage < 50) {
+                $progressBarColorClass = 'bg-warning'; // Orange
+            } else if ($progressPercentage < 75) {
+                $progressBarColorClass = 'bg-info'; // Blue
+            } else {
+                $progressBarColorClass = 'bg-success'; // Green
+            }
+            ?>
+
+            <!-- HTML for the progress bar -->
+            <div class="progress">
+                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Manuscrit : <?php echo round($progressPercentage,2); ?>%</div>
+            </div>
+
+
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
