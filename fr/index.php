@@ -43,7 +43,7 @@
                 Lab-STICC : <a href="https://labsticc.fr/fr/annuaire/pensec-william" target="_blank">William Pensec</a>
             </div><br>
             <div class="fs-4 mb-3">
-                <i class="ai ai-google-scholar"></i>
+                <i class="fa-brands fa-google-scholar"></i>
                 Google Scholar : <a href="https://scholar.google.com/citations?user=AJE3er8AAAAJ" target="_blank">William Pensec</a>
             </div><br>
             <div class="fs-4 mb-3">
