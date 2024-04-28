@@ -1,22 +1,23 @@
-    <br><br>
+<br><br>
     <footer class="footer">
-        <div class="jumbotron text-center" style="margin-bottom:2px">
-            <p>
-                <a href="https://www.pensec.fr/fr/" target="_blank" style="color:black;">William PENSEC</a>
-
-                <br>
-                Studente di dottorato
-
-                <br>
+        <div class="jumbotron text-center" style="margin-bottom:1px">
+            <a href="https://www.pensec.fr/it/" target="_blank" style="color:black;">William PENSEC</a>
+            <br>
+            Dottorando
+            <br>
+            <?php
+            echo "2020 - " . date("Y");
+            ?>
+            <br>
+            Versione 2.0
+            <br><br>
+            <p style="font-size: 10px;">
                 <?php
-                echo "2020 - " . date("Y");
+                echo "Ultimo aggiornamento : " . $dateMajFile;
                 ?>
-
-                <br>
-                Versione 2.0
             </p>
         </div>
     </footer>
-</body>
+    </body>
 
 </html>

@@ -14,8 +14,4 @@ IndexIgnore *
 IndexIgnore *.png *.zip *.jpg *.pdf
 
 # Redirection erreur 404
-ErrorDocument 404 /errors/404.php
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php [NC,L] 
+ErrorDocument 404 /errors/fr/404.php

@@ -1,13 +1,4 @@
 <?php
-/* PARTIE BASIQUE */
-
-$langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if ($langue == "it") {
-    header("Location : https://www.pensec.fr/it/elu.php");
-} elseif ($langue != "fr") {
-    header("Location : https://www.pensec.fr/en/elu.php");
-}
-
 include "template/header.php";
 include "template/menu.php";
 ?>
@@ -19,7 +10,7 @@ include "template/menu.php";
         <hr>
         <?php
         // Read JSON file
-        $json = file_get_contents($_SESSION['baseURL'] . "fileData/json/fr/delegue.json");
+        $json = file_get_contents("../assets/json/fr/delegue.json");
 
         //Decode JSON
         $json_data = json_decode($json, true);

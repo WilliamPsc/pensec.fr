@@ -23,16 +23,14 @@ $age = $intvl->y;
 <div class="container">
     <h2>Curriculum Vitae</h2>
     <div class="table-responsive-md">
-        <!-- <h4>Recherche de Thèse en Informatique Embarqué</h4> -->
-
         <div class="text-center">
             <p>
                 Version PDF :
-                <a href="../fileData/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../fileData/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
             <p>
                 Version anglaise PDF :
-                <a href="../fileData/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../fileData/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
         </div>
         <hr>
@@ -44,7 +42,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>FORMATION</p>
+            <h4>FORMATION</h4>
         </div>
         <hr>
         <div class="text-justify">
@@ -108,7 +106,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>COMPÉTENCES</p>
+            <h4>COMPÉTENCES</h4>
         </div>
         <hr>
         <div class="text-justify">
@@ -145,7 +143,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>PROJETS</p>
+            <h4>PROJETS</h4>
         </div>
         <hr>
         <div class="text-center">
@@ -221,7 +219,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>EXPÉRIENCE PROFESSIONNELLE</p>
+            <h4>EXPÉRIENCE PROFESSIONNELLE</h4>
         </div>
         <hr>
         <div class="text-justify">
@@ -233,7 +231,7 @@ $age = $intvl->y;
                 </li>
                 <li><strong>2021 - UBO (Lab-STICC)</strong>
                     <ul>
-                        <li>Coopération de drones dans un système hétérogène - Stagiaire - Java, C++, ModBus, Raspberry Pi - Avril 2021 à Aout 2021 </li>
+                        <li>Coopération de drones dans un système hétérogène - Stagiaire - Java, C++, ModBus, Raspberry Pi - Avril 2021 à Août 2021 </li>
                     </ul>
                 </li>
 
@@ -264,7 +262,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>CENTRES D'INTÉRÊT</p>
+            <h4>CENTRES D'INTÉRÊT</h4>
         </div>
         <hr>
         <div class="text-justify">
@@ -275,7 +273,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <p>CONTACT</p>
+            <h4>CONTACT</h4>
         </div>
         <hr>
         <div class="fs-4 mb-3 text-center">

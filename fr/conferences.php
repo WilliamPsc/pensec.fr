@@ -1,13 +1,4 @@
 <?php
-/* PARTIE BASIQUE & française */
-
-$langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if ($langue == "it") {
-    header("Location : https://www.pensec.fr/it/conferences.php");
-} elseif ($langue != "fr") {
-    header("Location : https://www.pensec.fr/en/conferences.php");
-}
-
 include "template/header.php";
 include "template/menu.php";
 ?>
@@ -16,19 +7,19 @@ include "template/menu.php";
 <div class="container text-justify">
     <h2>Liste non exhaustive des conférences assistées :</h2>
     <!-- Possibilité d'automatiser via IEEE et API -->
-    <!-- Ajout d'une section pour les évènements assistés/participés comme MT180 et les responsabilités (commission de la recherche, collège doctoral de Bretagne MathSTIC BO, ...) avec les durées de mandats -->
+    <!-- Ajout d'une section pour les évènements assistés/participés comme MT180 -->
     <?php
-    echo "<hr>";
-    ?>
-    <?php
+    echo "<hr>\n";
+
+    error_reporting(E_ALL);
     // Read JSON file
-    $json = file_get_contents($_SESSION['baseURL'] . "fileData/json/fr/conferences.json");
+    $json = file_get_contents("../assets/json/fr/conferences.json");
 
     //Decode JSON
     $json_conferences = json_decode($json, true);
 
     // Display content
-    echo "\t<div class=\"text-justify\">\n";
+    echo "<div class=\"text-justify\">\n";
     echo "\t\t<ul>\n";
     foreach ($json_conferences as $key => $value) {
         // Display HTML
@@ -44,8 +35,8 @@ include "template/menu.php";
             $differenceDate = date_diff($dateDebut, $dateFin, true);
             $differenceDateJours = ((int) $differenceDate->format('%a')) + 1;
             $chgtMois = ((int)$dateFin->format('m') - (int)$dateDebut->format('m'));
-            $formatter = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::MEDIUM, \IntlDateFormatter::MEDIUM);
-            $formatter1 = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::MEDIUM, \IntlDateFormatter::MEDIUM);
+            $formatter = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::LONG, \IntlDateFormatter::LONG);
+            $formatter1 = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::LONG, \IntlDateFormatter::LONG);
 
             if ($differenceDateJours == 1) {
                 if ((int)$dateDebut->format('d') == 1) {
@@ -60,11 +51,11 @@ include "template/menu.php";
                     if ((int)$dateFin->format('d') == 1) {
                         $formatter->setPattern('dd MMMM');
                         $formatter1->setPattern('MMMM');
-                        $strDate = $formatter->format($dateDebut) . " et " . "1<sup>er</sup> " . $formatter1->format($dateFin);
+                        $strDate = $formatter->format($dateDebut);// . " et " . "1<sup>er</sup> " . $formatter1->format($dateFin);
                     } else {
                         $formatter->setPattern('dd MMMM');
                         $formatter1->setPattern('dd MMMM');
-                        $strDate = $formatter1->format($dateDebut) . " et " . $formatter->format($dateFin);
+                        $strDate = $formatter1->format($dateDebut);// . " et " . $formatter->format($dateFin);
                     }
                 } else {
                     if ((int)$dateDebut->format('d') == 1) {

@@ -1,6 +1,4 @@
-    <br><br>
-    <footer class="footer">
-        <div class="jumbotron text-center" style="margin-bottom:1px">
+        <footer class="footer jumbotron text-center" style="margin-bottom:1px">
             <a href="https://www.pensec.fr/fr/" target="_blank" style="color:black;">William PENSEC</a>
             <br>
             Doctorant
@@ -16,8 +14,6 @@
                 echo "Dernière mise à jour : " . $dateMajFile;
                 ?>
             </p>
-        </div>
-    </footer>
+        </footer>
     </body>
-
 </html>

@@ -50,25 +50,12 @@
             height: 25px;
         }
     </style>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9DBMZKN0Q9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'G-9DBMZKN0Q9');
-    </script>
 </head>
 
 <body>
     <div class="jumbotron text-center" id="titre" style="margin-bottom:0">
         <?php
-        $_SESSION['baseURL'] = "https://pensec.fr/";
+        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
         $_SESSION['language'] = "fr";
         ?>
         <h1>William PENSEC</h1>

@@ -1,12 +1,10 @@
 <?php
-/* PARTIE BASIQUE & française */
-
-$langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if ($langue == "it") {
-    header("Location : https://www.pensec.fr/it/publications.php");
-} elseif ($langue != "fr") {
-    header("Location : https://www.pensec.fr/en/publications.php");
-}
+// $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+// if ($langue == "it") {
+//     header("Location : https://www.pensec.fr/it/publications.php");
+// } elseif ($langue != "fr") {
+//     header("Location : https://www.pensec.fr/en/publications.php");
+// }
 
 include "template/header.php";
 include "template/menu.php";
@@ -19,11 +17,11 @@ include "template/menu.php";
     <?php
     echo "<hr>\n\t";
     ?>
-    <h3>Liste des publications : </h3>
+    <h3>Liste des articles : </h3>
 
     <?php
     // Read JSON file
-    $json = file_get_contents($_SESSION['baseURL'] . "fileData/json/fr/publications.json");
+    $json = file_get_contents("../assets/json/fr/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);
@@ -34,7 +32,6 @@ include "template/menu.php";
     echo "\t<div class=\"text-justify\">\n";
     echo "\t\t<ul>\n";
     foreach ($json_publications as $key => $value) {
-
         // Display HTML
         echo "\t\t\t<li><strong>" . $key . "</strong>\n";
         echo "\t\t\t\t<ul>\n";
@@ -42,6 +39,7 @@ include "template/menu.php";
             // Init variables
             $strAuthors = "";
             $strKeyWords = "";
+            $publish = "";
             for ($i = 0; $i < count($valuesArray['author']); $i++) {
                 if ($i == count($valuesArray['author']) - 2) {
                     $strAuthors .= $valuesArray['author'][$i] . ' and ';
@@ -62,17 +60,29 @@ include "template/menu.php";
                 }
             }
 
+            $publisher = $valuesArray['publisher'];
+            if($publisher == "riscv") {
+                $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
+            } else if($publisher == "ieee") {
+                $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
+            } else if($publisher == "acm") {
+                $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
+            } else if($publisher == "hal") {
+                $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
+            } else {
+
+            }
+            
             echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                $strAuthors . ", " .
-                $valuesArray['titre'] . ", " .
+                $publish . $strAuthors . ", " . "<u>" .
+                $valuesArray['titre'] . "</u>" . ", " .
                 $valuesArray['booktitle'] .
                 " (" . $valuesArray['acronyme'] . "), " .
                 $valuesArray['month'] . ", " .
-                "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>, " .
-                $strKeyWords . "\n";
-            echo "\t\t\t\t\t\t<ul>\n";
-            echo "\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t" . $valuesArray['abstract'] . "\n\t\t\t\t\t\t\t</li>\n";
-            echo "\t\t\t\t\t\t</ul>\n";
+                "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+            // echo "\t\t\t\t\t\t<ul>\n";
+            // echo "\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t" . $valuesArray['abstract'] . "\n\t\t\t\t\t\t\t</li>\n";
+            // echo "\t\t\t\t\t\t</ul>\n";
             echo "\t\t\t\t\t</li>\n";
         }
         echo "\t\t\t\t</ul>\n";
@@ -80,6 +90,19 @@ include "template/menu.php";
     }
     echo "\t\t</ul>\n";
     echo "\t</div>";
+    ?>
+
+    <hr>
+    <h3>Liste des présentations : </h3>
+    <?php
+    echo "TODO <br/>";
+    echo "Ajouter les abstracts en toast ou tooltip ?"
+    ?>
+
+    <hr>
+    <h3>Divers : </h3>
+    <?php
+    echo "TODO";
     ?>
 </div>
 
