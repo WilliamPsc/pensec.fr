@@ -61,20 +61,19 @@ include "template/menu.php";
             }
 
             $publisher = $valuesArray['publisher'];
-            if($publisher == "riscv") {
+            if ($publisher == "riscv") {
                 $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if($publisher == "ieee") {
+            } else if ($publisher == "ieee") {
                 $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if($publisher == "acm") {
+            } else if ($publisher == "acm") {
                 $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if($publisher == "hal") {
+            } else if ($publisher == "hal") {
                 $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
             } else {
-
             }
-            
+
             echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                $publish . $strAuthors . ", " . "<u>" .
+                $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
                 $valuesArray['titre'] . "</u>" . ", " .
                 $valuesArray['booktitle'] .
                 " (" . $valuesArray['acronyme'] . "), " .
@@ -93,10 +92,15 @@ include "template/menu.php";
     ?>
 
     <hr>
-    <h3>Liste des présentations : </h3>
+    <h3>Liste des présentations orales : </h3>
     <?php
     echo "TODO <br/>";
-    echo "Ajouter les abstracts en toast ou tooltip ?"
+    ?>
+
+    <hr>
+    <h3>Liste des posters : </h3>
+    <?php
+    echo "TODO <br/>";
     ?>
 
     <hr>

@@ -1,5 +1,7 @@
         <footer class="footer jumbotron text-center" style="margin-bottom:1px">
-            <a href="https://www.pensec.fr/fr/" target="_blank" style="color:black;">William PENSEC</a>
+            <?php
+            echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">William PENSEC</a>";
+            ?>
             <br>
             Doctorant
             <br>
