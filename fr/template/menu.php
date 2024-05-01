@@ -39,6 +39,9 @@ $newPageIt = ".." . preg_replace("/(\/fr)/i", "/it", $page);
                     <a class="dropdown-item" href="<?php echo $newPageIt?>"><span class="flag-icon flag-icon-it"> </span> Italiano</a>
                 </div>
             </li>
+            <li class="nav-item">
+                <a class="navbar-brand" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/test.php"?>" style="color:lightblue">Test</a> -->
+            </li>
         </ul>
     </div>
 </nav>

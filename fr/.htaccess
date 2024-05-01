@@ -14,4 +14,4 @@ IndexIgnore *
 IndexIgnore *.png *.zip *.jpg *.pdf
 
 # Redirection erreur 404
-ErrorDocument 404 /errors/fr/404.php
+ErrorDocument 404 /errors/404.php
