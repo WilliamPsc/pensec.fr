@@ -1,4 +1,20 @@
 {
+    "2024":[
+        {
+            "name": "Colloque National du GDR SoC²",
+            "dateStart": "2024-06-10",
+            "dateEnd": "2024-06-12",
+            "place": "Toulouse",
+            "link": "https://colloque-gdr-soc2.sciencesconf.org/"
+        },
+        {
+            "name": "IEEE Computer Society Annual Symposium on VLSI",
+            "dateStart": "2024-07-01",
+            "dateEnd": "2024-07-03",
+            "place": "Knoxville, Tennessee, USA",
+            "link": "https://www.ieee-isvlsi.org/ISVLSI_2024_Website/"
+        }
+    ],
     "2023":[
         {
             "name": "10 years of PULP platform",
@@ -52,7 +68,7 @@
             "link": "https://labh-curien.univ-st-etienne.fr/cryptarchi/workshop22/home.html"
         },
         {
-            "name": "Ecole d'été : Embedded Signal Processing and Machine Learning for Edge Intelligence",
+            "name": "Summer School : Embedded Signal Processing and Machine Learning for Edge Intelligence",
             "dateStart": "2022-06-13",
             "dateEnd": "2022-06-16",
             "place": "Lorient",
@@ -66,14 +82,14 @@
             "link": "http://www.uasconferences.com/2022_icuas/"
         },
         {
-            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF)",
+            "name": "JAIF 2022",
             "dateStart": "2022-11-09",
             "dateEnd": "2022-11-09",
             "place": "Valence / visio-conférence",
             "link": "https://jaif.io/2022/"
         },
         {
-            "name": "École d'hiver : International Winter School on Microarchitectural Security",
+            "name": "International Winter School on Microarchitectural Security",
             "dateStart": "2022-12-05",
             "dateEnd": "2022-12-09",
             "place": "Paris",

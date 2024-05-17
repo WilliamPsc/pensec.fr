@@ -13,20 +13,15 @@ include "template/menu.php";
 <br><br>
 <div class="container text-justify">
     <h2>Publications scientifiques</h2>
-    <!-- Possibilité d'automatiser via IEEE et API -->
-    <?php
-    echo "<hr>\n\t";
-    ?>
-    <h3>Liste des articles : </h3>
+    <hr>
 
+    <h3>Liste des articles : </h3>
     <?php
     // Read JSON file
     $json = file_get_contents("../assets/json/fr/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);
-
-    // Init variables
 
     // Display content
     echo "\t<div class=\"text-justify\">\n";
@@ -36,53 +31,53 @@ include "template/menu.php";
         echo "\t\t\t<li><strong>" . $key . "</strong>\n";
         echo "\t\t\t\t<ul>\n";
         foreach ($value as $keyArray => $valuesArray) {
-            // Init variables
-            $strAuthors = "";
-            $strKeyWords = "";
-            $publish = "";
-            for ($i = 0; $i < count($valuesArray['author']); $i++) {
-                if ($i == count($valuesArray['author']) - 2) {
-                    $strAuthors .= $valuesArray['author'][$i] . ' and ';
-                } else if ($i == count($valuesArray['author']) - 1) {
-                    $strAuthors .= $valuesArray['author'][$i];
-                } else {
-                    $strAuthors .= $valuesArray['author'][$i] . ', ';
+            if ($valuesArray['subject'] == "paper") {
+                // Init variables
+                $strAuthors = "";
+                $strKeyWords = "";
+                $publish = "";
+                for ($i = 0; $i < count($valuesArray['author']); $i++) {
+                    if ($i == count($valuesArray['author']) - 2) {
+                        $strAuthors .= $valuesArray['author'][$i] . ' and ';
+                    } else if ($i == count($valuesArray['author']) - 1) {
+                        $strAuthors .= $valuesArray['author'][$i];
+                    } else {
+                        $strAuthors .= $valuesArray['author'][$i] . ', ';
+                    }
                 }
-            }
 
-            for ($i = 0; $i < count($valuesArray['keywords']); $i++) {
-                if ($i == count($valuesArray['keywords']) - 2) {
-                    $strKeyWords .= $valuesArray['keywords'][$i] . ' and ';
-                } else if ($i == count($valuesArray['keywords']) - 1) {
-                    $strKeyWords .= $valuesArray['keywords'][$i];
-                } else {
-                    $strKeyWords .= $valuesArray['keywords'][$i] . ', ';
+                for ($i = 0; $i < count($valuesArray['keywords']); $i++) {
+                    if ($i == count($valuesArray['keywords']) - 2) {
+                        $strKeyWords .= $valuesArray['keywords'][$i] . ' and ';
+                    } else if ($i == count($valuesArray['keywords']) - 1) {
+                        $strKeyWords .= $valuesArray['keywords'][$i];
+                    } else {
+                        $strKeyWords .= $valuesArray['keywords'][$i] . ', ';
+                    }
                 }
-            }
 
-            $publisher = $valuesArray['publisher'];
-            if ($publisher == "riscv") {
-                $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if ($publisher == "ieee") {
-                $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if ($publisher == "acm") {
-                $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else if ($publisher == "hal") {
-                $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"30\" style=\"margin-right: 5px;\"></img>";
-            } else {
-            }
+                $publisher = $valuesArray['publisher'];
+                if ($publisher == "riscv") {
+                    $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "ieee") {
+                    $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "acm") {
+                    $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "hal") {
+                    $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                } else {
+                }
 
-            echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
-                $valuesArray['titre'] . "</u>" . ", " .
-                $valuesArray['booktitle'] .
-                " (" . $valuesArray['acronyme'] . "), " .
-                $valuesArray['month'] . ", " .
-                "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
-            // echo "\t\t\t\t\t\t<ul>\n";
-            // echo "\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t" . $valuesArray['abstract'] . "\n\t\t\t\t\t\t\t</li>\n";
-            // echo "\t\t\t\t\t\t</ul>\n";
-            echo "\t\t\t\t\t</li>\n";
+                echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
+                    $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                    $valuesArray['titre'] . "</u>" . ", " .
+                    $valuesArray['booktitle'] .
+                    " (" . $valuesArray['acronyme'] . "), " .
+                    $valuesArray['location'] . ", " .
+                    $valuesArray['month'] . ", " .
+                    "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                echo "\t\t\t\t\t</li>\n";
+            }
         }
         echo "\t\t\t\t</ul>\n";
         echo "\t\t\t</li>\n";
@@ -100,7 +95,72 @@ include "template/menu.php";
     <hr>
     <h3>Liste des posters : </h3>
     <?php
-    echo "TODO <br/>";
+    // Read JSON file
+    $json = file_get_contents("../assets/json/fr/publications.json");
+
+    //Decode JSON
+    $json_publications = json_decode($json, true);
+
+    // Display content
+    echo "\t<div class=\"text-justify\">\n";
+    echo "\t\t<ul>\n";
+    foreach ($json_publications as $key => $value) {
+        // Display HTML
+        echo "\t\t\t<li><strong>" . $key . "</strong>\n";
+        echo "\t\t\t\t<ul>\n";
+        foreach ($value as $keyArray => $valuesArray) {
+            if ($valuesArray['subject'] == "poster") {
+                // Init variables
+                $strAuthors = "";
+                $strKeyWords = "";
+                $publish = "";
+                for ($i = 0; $i < count($valuesArray['author']); $i++) {
+                    if ($i == count($valuesArray['author']) - 2) {
+                        $strAuthors .= $valuesArray['author'][$i] . ' and ';
+                    } else if ($i == count($valuesArray['author']) - 1) {
+                        $strAuthors .= $valuesArray['author'][$i];
+                    } else {
+                        $strAuthors .= $valuesArray['author'][$i] . ', ';
+                    }
+                }
+
+                for ($i = 0; $i < count($valuesArray['keywords']); $i++) {
+                    if ($i == count($valuesArray['keywords']) - 2) {
+                        $strKeyWords .= $valuesArray['keywords'][$i] . ' and ';
+                    } else if ($i == count($valuesArray['keywords']) - 1) {
+                        $strKeyWords .= $valuesArray['keywords'][$i];
+                    } else {
+                        $strKeyWords .= $valuesArray['keywords'][$i] . ', ';
+                    }
+                }
+
+                $publisher = $valuesArray['publisher'];
+                if ($publisher == "riscv") {
+                    $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "ieee") {
+                    $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "acm") {
+                    $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                } else if ($publisher == "hal") {
+                    $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
+                } else {}
+
+                echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
+                    $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                    $valuesArray['titre'] . "</u>" . ", " .
+                    $valuesArray['booktitle'] .
+                    " (" . $valuesArray['acronyme'] . "), " .
+                    $valuesArray['location'] . ", " .
+                    $valuesArray['month'] . ", " .
+                    "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                echo "\t\t\t\t\t</li>\n";
+            }
+        }
+        echo "\t\t\t\t</ul>\n";
+        echo "\t\t\t</li>\n";
+    }
+    echo "\t\t</ul>\n";
+    echo "\t</div>";
     ?>
 
     <hr>
