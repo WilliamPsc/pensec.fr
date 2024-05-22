@@ -28,7 +28,7 @@ if ($langue == "it") {
         echo "<h1>Error 404</h1>";
     }
     ?>
-    <img src="../assets/img/error404.png" class="img-fluid rounded mx-auto d-block" alt="Error 404">
+    <img src="../assets/img/404.png" class="img-fluid rounded mx-auto d-block" alt="Error 404">
     <br />
     <br />
     <br />
