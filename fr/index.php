@@ -17,8 +17,7 @@
         <h2>Étudiant en Doctorat</h2>
         <div class="table-responsive-md">
             <h3>Protection d'un processeur avec DIFT contre des attaques physiques</h3><br>
-            <h4>UMR CNRS 6285, Lab-STICC</h4>
-            <h4>Université Bretagne Sud</h4>
+            <h4>Université Bretagne Sud, UMR CNRS 6285, Lab-STICC, Lorient</h4>
             <br><br>
             <div class="fs-4 mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
@@ -58,6 +57,11 @@
                     William PENSEC
                 </a>
             </div>
+        </div>
+
+        <div class="table-responsive-md">
+            <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.3970043063163757%2C47.74707190196078%2C-3.393463790416718%2C47.74852733013962&amp;layer=mapnik&amp;marker=47.74779962113755%2C-3.3952340483665466" style="border: 1px solid black"></iframe>
+            <br/><small><a href="https://www.openstreetmap.org/?mlat=47.74768&amp;mlon=-3.39507#map=19/47.74768/-3.39507" target="_blank">Afficher une carte plus grande</a></small>
         </div>
     </div>
 
