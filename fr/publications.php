@@ -60,11 +60,11 @@ include "template/menu.php";
                 if ($publisher == "riscv") {
                     $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
                 } else if ($publisher == "ieee") {
-                    $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                    $publish = "<i class=\"ai ai-ieee ai-2x\"></i> ";
                 } else if ($publisher == "acm") {
-                    $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                    $publish = "<i class=\"ai ai-acm ai-2x\"></i> ";
                 } else if ($publisher == "hal") {
-                    $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                    $publish = "<i class=\"ai ai-hal ai-2x\"></i> ";
                 } else {
                 }
 
