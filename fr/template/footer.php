@@ -1,4 +1,4 @@
-        <footer class="footer jumbotron text-center" style="margin-bottom:1px">
+        <footer class="footer mt-auto py-3 bg-body-secondary jumbotron text-center">
             <?php
             echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">William PENSEC</a>";
             ?>
@@ -11,7 +11,7 @@
             <br>
             Version 2.0
             <br><br>
-            <p style="font-size: 10px;">
+            <p style="font-size: 10px; margin-bottom: auto">
                 <?php
                 echo "Dernière mise à jour : " . $dateMajFile;
                 ?>
