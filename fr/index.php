@@ -13,29 +13,120 @@
     ?>
 
     <?php
+    // Include the Composer autoloader
+    require '../assets/googlescholar/vendor/autoload.php';
+
+    // Use the simple_html_dom library
+    use voku\helper\HtmlDomParser;
+
+    // Function to fetch the HTML content
+    function fetch_html($url) {
+        $options = [
+            'http' => [
+                'method' => "GET",
+                'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
+            ]
+        ];
+        $context = stream_context_create($options);
+        return file_get_contents($url, false, $context);
+    }
+
+    // Function to parse the HTML and extract data using simple_html_dom
+    function parse_html($html) {
+        $dom = voku\helper\HtmlDomParser::str_get_html($html);
+
+        // Extract total citations
+        $totalCitations = 0;
+        // $citationElement = $dom->find('td.gsc_rsb_std', 1); // Second element in the array
+        // if ($citationElement) {
+        //     $totalCitations = (int) $citationElement->text();
+        // }
+
+        // // Extract citations per year
+        $citationsPerYear = [];
+        // $yearElements = $dom->findMulti('span.gsc_g_t');
+        // $citationYearElements = $dom->find('span.gsc_g_al');
+        // for ($i = 0; $i < count($yearElements); $i++) {
+        //     $year = trim($yearElements[$i]->text());
+        //     $citations = (int) trim($citationYearElements[$i]->text());
+        //     $citationsPerYear[$year] = $citations;
+        // }
+
+        // // Extract publication details
+        $publications = [];
+        // foreach ($dom->find('tr.gsc_a_tr') as $publicationElement) {
+        //     $titleElement = $publicationElement->find('a.gsc_a_at', 0);
+        //     $title = $titleElement ? trim($titleElement->text()) : '';
+
+        //     $authorElements = $publicationElement->findMulti('div.gs_gray');
+        //     $authors = $authorElements && count($authorElements) > 0 ? trim($authorElements[0]->text()) : '';
+        //     $venue = $authorElements && count($authorElements) > 1 ? trim($authorElements[1]->text()) : '';
+
+        //     $citationElement = $publicationElement->find('a.gsc_a_ac', 0);
+        //     $citations = $citationElement ? (int) trim($citationElement->text()) : 0;
+
+        //     $yearElement = $publicationElement->find('span.gsc_a_h', 0);
+        //     $year = $yearElement ? (int) trim($yearElement->text()) : 0;
+
+        //     $publications[] = [
+        //         'title' => $title,
+        //         'authors' => $authors,
+        //         'venue' => $venue,
+        //         'citations' => $citations,
+        //         'year' => $year
+        //     ];
+        // }
+
+        return [
+            'total_citations' => $totalCitations,
+            'citations_per_year' => $citationsPerYear,
+            'publications' => $publications
+        ];
+    }
+
+    // URL of the Google Scholar profile
+    $url = "https://scholar.google.com/citations?user=AJE3er8AAAAJ&hl=fr";
+
+    // Fetch the HTML content
+    $html = fetch_html($url);
+
+    // Parse the HTML and extract data
+    $data = parse_html($html);
+    print_r($data);
+
+    // Output the results as JSON
+    // header('Content-Type: application/json');
+    // echo json_encode($data, JSON_PRETTY_PRINT);
+
+    ?>
+
+
+
+    <?php
     // URL of the JSON data
-    $url = "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=AJE3er8AAAAJ";
+    // $url = $_SESSION['baseURL'] . "assets/googlescholar/googlescholar.php?user=AJE3er8AAAAJ";
+    // $url = "https://scholar.google.com/citations?user=AJE3er8AAAAJ&hl=fr";
+    // echo $url;
 
     // Fetch the JSON data from the URL
-    $json_data = file_get_contents($url);
+    // $json_data = file_get_contents($url);
 
     // Check if data was fetched successfully
-    if ($json_data === FALSE) {
-        die('Error fetching JSON data.');
-    }
+    // if ($json_data === FALSE) {
+    //     die('Error fetching JSON data.');
+    // }
 
     // Decode the JSON data to a PHP array
-    $data = json_decode($json_data, true);
-    $nb_citations = $data['total_citations'];
-    $nb_publications = count($data['publications']);
+    // $data = json_decode($json_data, true);
+    // $nb_citations = $data['total_citations'];
+    // $nb_publications = count($data['publications']);
+    $nb_citations = 2;
+    $nb_publications = 8;
 
     // Check if the JSON data was decoded successfully
-    if (json_last_error() !== JSON_ERROR_NONE) {
-        die('Error decoding JSON data: ' . json_last_error_msg());
-    }
-    // echo "<pre>";
-    // print_r($data);
-    // echo "</pre>";
+    // if (json_last_error() !== JSON_ERROR_NONE) {
+    //     die('Error decoding JSON data: ' . json_last_error_msg());
+    // }
     ?>
 
     <br><br>
