@@ -1,132 +1,31 @@
     <?php
-    /* PARTIE BASIQUE */
 
-    // $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-    // if ($langue == "it") {
-    //     header("Location : https://www.pensec.fr/it/index.php");
-    // }elseif($langue != "fr"){
-    //     header("Location : https://www.pensec.fr/en/index.php");
-    // }
+    ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
 
+
+    session_start(); // Ensure the session is started if you're using session variables
     include "template/header.php";
     include "template/menu.php";
     ?>
 
     <?php
-    // Include the Composer autoloader
-    require '../assets/googlescholar/vendor/autoload.php';
-
-    // Use the simple_html_dom library
-    use voku\helper\HtmlDomParser;
-
-    // Function to fetch the HTML content
-    function fetch_html($url) {
-        $options = [
-            'http' => [
-                'method' => "GET",
-                'header' => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36"
-            ]
-        ];
-        $context = stream_context_create($options);
-        return file_get_contents($url, false, $context);
-    }
-
-    // Function to parse the HTML and extract data using simple_html_dom
-    function parse_html($html) {
-        $dom = voku\helper\HtmlDomParser::str_get_html($html);
-
-        // Extract total citations
-        $totalCitations = 0;
-        // $citationElement = $dom->find('td.gsc_rsb_std', 1); // Second element in the array
-        // if ($citationElement) {
-        //     $totalCitations = (int) $citationElement->text();
-        // }
-
-        // // Extract citations per year
-        $citationsPerYear = [];
-        // $yearElements = $dom->findMulti('span.gsc_g_t');
-        // $citationYearElements = $dom->find('span.gsc_g_al');
-        // for ($i = 0; $i < count($yearElements); $i++) {
-        //     $year = trim($yearElements[$i]->text());
-        //     $citations = (int) trim($citationYearElements[$i]->text());
-        //     $citationsPerYear[$year] = $citations;
-        // }
-
-        // // Extract publication details
-        $publications = [];
-        // foreach ($dom->find('tr.gsc_a_tr') as $publicationElement) {
-        //     $titleElement = $publicationElement->find('a.gsc_a_at', 0);
-        //     $title = $titleElement ? trim($titleElement->text()) : '';
-
-        //     $authorElements = $publicationElement->findMulti('div.gs_gray');
-        //     $authors = $authorElements && count($authorElements) > 0 ? trim($authorElements[0]->text()) : '';
-        //     $venue = $authorElements && count($authorElements) > 1 ? trim($authorElements[1]->text()) : '';
-
-        //     $citationElement = $publicationElement->find('a.gsc_a_ac', 0);
-        //     $citations = $citationElement ? (int) trim($citationElement->text()) : 0;
-
-        //     $yearElement = $publicationElement->find('span.gsc_a_h', 0);
-        //     $year = $yearElement ? (int) trim($yearElement->text()) : 0;
-
-        //     $publications[] = [
-        //         'title' => $title,
-        //         'authors' => $authors,
-        //         'venue' => $venue,
-        //         'citations' => $citations,
-        //         'year' => $year
-        //     ];
-        // }
-
-        return [
-            'total_citations' => $totalCitations,
-            'citations_per_year' => $citationsPerYear,
-            'publications' => $publications
-        ];
-    }
-
-    // URL of the Google Scholar profile
-    $url = "https://scholar.google.com/citations?user=AJE3er8AAAAJ&hl=fr";
-
-    // Fetch the HTML content
-    $html = fetch_html($url);
-
-    // Parse the HTML and extract data
-    $data = parse_html($html);
-    print_r($data);
-
-    // Output the results as JSON
-    // header('Content-Type: application/json');
-    // echo json_encode($data, JSON_PRETTY_PRINT);
-
-    ?>
-
-
-
-    <?php
     // URL of the JSON data
-    // $url = $_SESSION['baseURL'] . "assets/googlescholar/googlescholar.php?user=AJE3er8AAAAJ";
-    // $url = "https://scholar.google.com/citations?user=AJE3er8AAAAJ&hl=fr";
-    // echo $url;
+    $url = $_SESSION['baseURL'] . "assets/googlescholar/googlescholar.php";
 
-    // Fetch the JSON data from the URL
-    // $json_data = file_get_contents($url);
+    include "../assets/googlescholar/googlescholar.php";
 
-    // Check if data was fetched successfully
-    // if ($json_data === FALSE) {
-    //     die('Error fetching JSON data.');
-    // }
+    if ($json_data === FALSE) {
+        die('<h1 class="align-middle text-center">Error fetching JSON data.</h1>');
+    }
 
     // Decode the JSON data to a PHP array
-    // $data = json_decode($json_data, true);
-    // $nb_citations = $data['total_citations'];
-    // $nb_publications = count($data['publications']);
-    $nb_citations = 2;
-    $nb_publications = 8;
+    $data = json_decode($json_data, true);
 
-    // Check if the JSON data was decoded successfully
-    // if (json_last_error() !== JSON_ERROR_NONE) {
-    //     die('Error decoding JSON data: ' . json_last_error_msg());
-    // }
+    // Extract the number of citations and publications
+    $nb_citations = $data['total_citations'];
+    $nb_publications = count($data['publications']);
     ?>
 
     <br><br>
@@ -183,7 +82,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                                 </svg>
-                                William PENSEC
+                                LinkedIn
                             </a>
                         </td>
                     </tr>
