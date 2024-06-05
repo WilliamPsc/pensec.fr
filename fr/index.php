@@ -1,9 +1,7 @@
     <?php
-
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-
+    // ini_set('display_errors', 1);
+    // ini_set('display_startup_errors', 1);
+    // error_reporting(E_ALL);
 
     session_start(); // Ensure the session is started if you're using session variables
     include "template/header.php";
@@ -11,9 +9,6 @@
     ?>
 
     <?php
-    // URL of the JSON data
-    $url = $_SESSION['baseURL'] . "assets/googlescholar/googlescholar.php";
-
     include "../assets/googlescholar/googlescholar.php";
 
     if ($json_data === FALSE) {
@@ -22,6 +17,7 @@
 
     // Decode the JSON data to a PHP array
     $data = json_decode($json_data, true);
+    // print_r($data);
 
     // Extract the number of citations and publications
     $nb_citations = $data['total_citations'];
@@ -56,7 +52,7 @@
                     </tr>
                     <tr>
                         <td class="align-middle text-center">
-                            <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=AJE3er8AAAAJ" target="_blank">Google Scholar</a>
+                            <i class="fa-brands fa-google-scholar"></i> <a href="https://scholar.google.com/citations?user=AJE3er8AAAAJ" target="_blank">Google Scholar :</a>
                         </td>
                         <td class="align-middle text-center"><?php echo "$nb_citations citations / $nb_publications publications"; ?></td>
                         <td class="align-middle text-center">
@@ -75,15 +71,17 @@
                             </svg> <a href="https://github.com/WilliamPsc/" target="_blank">GitHub</a>
                         </td>
                         <td class="align-middle text-center" colspan="2">
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
-                            </svg> -->
                             <a href="https://www.linkedin.com/in/william-pensec-7464a217b/" target="_blank" class="btn btn-info" role="button">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                                 </svg>
                                 LinkedIn
                             </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="align-middle text-center" colspan="4">
+                            <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0006-0234-8213" target="_blank">ORCID : 0009-0006-0234-8213</a>
                         </td>
                     </tr>
                 </tbody>
