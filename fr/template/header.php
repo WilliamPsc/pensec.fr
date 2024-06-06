@@ -77,7 +77,7 @@
 </head>
 
 <body>
-    <div class="jumbotron text-center" id="titre" style="margin-bottom:0">
+    <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
         <?php
         $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
         $_SESSION['language'] = "fr";
