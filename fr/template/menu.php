@@ -26,8 +26,7 @@ $newPageIt = ".." . preg_replace("/(\/fr)/i", "/it", $page);
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/" . $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Engagement scientifique et universitaire</a>
                 <div class="dropdown-menu" aria-labelledby="engagement">
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fas fa-chalkboard-teacher"></i> Enseignements</a>
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/delegue.php" ?>"><i class="fas fa-vote-yea"></i> Délégué</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns"></i> Université</a>
                     <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader"></i> Conférences</a>
                     <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book"></i> Publications</a>
                 </div>

@@ -5,7 +5,7 @@ include "template/menu.php";
 
 <br><br>
 <div class="container text-justify">
-    <h2>Liste des conférences assistées :</h2>
+    <h2><i class="fa-solid fa-book-journal-whills"></i> Liste des conférences assistées :</h2>
     <!-- Possibilité d'automatiser via IEEE et API -->
     <!-- Ajout d'une section pour les évènements assistés/participés comme MT180 -->
     <?php
@@ -115,7 +115,7 @@ include "template/menu.php";
     ?>
 </div>
 <div class="container text-justify">
-    <h2>Participation à des évènements scientifiques :</h2>
+    <h2><i class="fa-solid fa-calendar-check"></i> Participation à des évènements scientifiques :</h2>
 
     <ul>
         <li><strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023

@@ -12,7 +12,7 @@ include "template/menu.php";
 
 <br><br>
 <div class="container text-justify">
-    <h2>Publications scientifiques</h2>
+    <h2><i class="fa-solid fa-book"></i> Publications scientifiques</h2>
     <hr>
 
     <h3>Liste des articles : </h3>
@@ -60,9 +60,9 @@ include "template/menu.php";
                 if ($publisher == "riscv") {
                     $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
                 } else if ($publisher == "ieee") {
-                    $publish = "<i class=\"ai ai-ieee ai-2x\"></i> ";
+                    $publish = "<i class=\"ai ai-ieee ai-2x\" alt=\"ieee\"></i> ";
                 } else if ($publisher == "acm") {
-                    $publish = "<i class=\"ai ai-acm ai-2x\"></i> ";
+                    $publish = "<i class=\"ai ai-acm ai-2x\" alt=\"acm\"></i> ";
                 } else if ($publisher == "hal") {
                     $publish = "<i class=\"ai ai-hal ai-2x\"></i> ";
                 } else {
@@ -163,11 +163,11 @@ include "template/menu.php";
     echo "\t</div>";
     ?>
 
-    <hr>
-    <h3>Divers : </h3>
+    <!-- <hr> -->
+    <!-- <h3>Divers : </h3>
     <?php
     echo "TODO";
-    ?>
+    ?> -->
 </div>
 
 <?php
