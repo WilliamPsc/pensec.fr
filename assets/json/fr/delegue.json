@@ -1,18 +1,27 @@
 {
     "2023": [
         {
-            "name": "Suppléant - Collège Doctoral de Bretagne",
-            "periode": "01/2023 - "
+            "nameFR": "Suppléant - Collège Doctoral de Bretagne",
+            "nameEN": "Substitute - Collège Doctoral de Bretagne",
+            "nameIT": "Supplente - Collegio dottorale della Bretagna",
+            "dateStart": "2023-01",
+            "dateEnd": "2024-11"
         }
     ],
     "2022": [
         {
-            "name": "Titulaire - École Doctorale MathSTIC Bretagne Océane",
-            "periode": "11/2022 - "
+            "nameFR": "Titulaire - École Doctorale MathSTIC Bretagne Océane",
+            "nameEN": "Full member - MathSTIC Bretagne Océane Doctoral School",
+            "nameIT": "Membro titolare - Scuola di dottorato MathSTIC Bretagne Océane",
+            "dateStart": "2022-11",
+            "dateEnd": "2024-11"
         },
         {
-            "name": "Titulaire - Commission de la Recherche UBS",
-            "periode": "04/2022 - 06/2024"
+            "nameFR": "Titulaire - Commission de la Recherche Université Bretagne Sud",
+            "nameEN": "Full member - Research Commission Université Bretagne Sud",
+            "nameIT": "Membro - Commissione di ricerca Université Bretagne Sud",
+            "dateStart": "2022-04",
+            "dateEnd": "2024-06"
         }
     ]
 }

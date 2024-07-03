@@ -6,12 +6,12 @@ include "template/menu.php";
 <br><br>
 <div class="container text-justify">
     <h2><i class="fa-solid fa-book-journal-whills"></i> Liste des conférences assistées :</h2>
-    <!-- Possibilité d'automatiser via IEEE et API -->
-    <!-- Ajout d'une section pour les évènements assistés/participés comme MT180 -->
     <?php
     echo "<hr>\n";
 
-    error_reporting(E_ALL);
+    // ini_set('display_errors', 1);
+    // ini_set('display_startup_errors', 1);
+    // error_reporting(E_ALL);
     // Read JSON file
     $json = file_get_contents("../assets/json/fr/conferences.json");
 

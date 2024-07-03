@@ -13,6 +13,13 @@
             "dateEnd": "2024-07-03",
             "place": "Knoxville, Tennessee, USA",
             "link": "https://www.ieee-isvlsi.org/ISVLSI_2024_Website/"
+        },
+        {
+            "name": "27th Euromicro Conference Series on Digital System Design",
+            "dateStart": "2024-08-28",
+            "dateEnd": "2024-08-30",
+            "place": "Paris",
+            "link": "https://dsd-seaa.com/dsd2024/"
         }
     ],
     "2023":[
@@ -20,14 +27,14 @@
             "name": "10 years of PULP platform",
             "dateStart": "2023-06-05",
             "dateEnd": "2023-06-06",
-            "place": "Lugano, Suisse",
+            "place": "Lugano, Switzerland",
             "link": "https://pulp-platform.org/10years/"
         },
         {
             "name": "RISC-V Summit Europe",
             "dateStart": "2023-06-06",
             "dateEnd": "2023-06-09",
-            "place": "Barcelone, Espagne",
+            "place": "Barcelona, Spain",
             "link": "https://riscv-europe.org/"
         },
         {
@@ -41,7 +48,7 @@
             "name": "Sensors S&P",
             "dateStart": "2023-11-12",
             "dateEnd": "2023-11-12",
-            "place": "Istanbul, Turquie",
+            "place": "Istanbul, Turkiye",
             "link": "https://sensorssp.github.io/sensorssp23/"
         },
         {
@@ -78,7 +85,7 @@
             "name": "International Conference on Unmanned Aircraft Systems (ICUAS)",
             "dateStart": "2022-06-21",
             "dateEnd": "2022-06-24",
-            "place": "Dubrovnik, Croatie / visio-conférence",
+            "place": "Dubrovnik, Croatia / visio-conference",
             "link": "http://www.uasconferences.com/2022_icuas/"
         },
         {
@@ -98,7 +105,7 @@
     ],
     "2021": [
         {
-            "name": "Journées de la sécurité",
+            "name": "Journées de la sécurité informatique",
             "dateStart": "2021-10-14",
             "dateEnd": "2021-10-15",
             "place": "Visio-conférence",

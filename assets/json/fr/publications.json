@@ -1,6 +1,29 @@
 {
     "2024": [
         {
+            "subject": "poster",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
+            "titre": "FISSA: Fault Injection Simulation for Security Assessment",
+            "booktitle": "Journée Nationales du GDR SOC2",
+            "acronyme": "GDR SOC2",
+            "month": "June",
+            "abstract": "This work introduces FISSA, an open-source software tool designed to simplify the creation of fault injection campaigns using popular HDL simulation tools. FISSA comprises two key modules, each encapsulating an existing HDL simulator. The first module generates TCL scripts to automate fault injection according to user specifications, while the second module facilitates fault analysis, allowing users to evaluate design's security. This approach seamlessly integrates fault injection simulations into the design workflow. To showcase FISSA's effectiveness, the paper presents a case study assessing the robustness of a Dynamic Information Flow Tracking mechanism within a RISC-V processor across fault injection scenarios.",
+            "location": "Toulouse",
+            "publisher": "hal",
+            "keywords": [
+                "Hardware security",
+                "RISC-V",
+                "DIFT",
+                "Fault Injections Attacks",
+                "Open-Source tool",
+                "Vulnerability Assessment"
+            ]
+        },
+        {
             "subject": "paper",
             "author": [
                 "W. PENSEC",
@@ -24,9 +47,32 @@
                 "Error-Correcting Code",
                 "Countermeasures"
             ]
+        },
+        {
+            "subject": "paper",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
+            "titre": "Scripting the Unpredictable: Automate Fault Injection in CABA Simulation for Vulnerability Assessment",
+            "booktitle": "Euromicro Conference on Digital System Design",
+            "acronyme": "DSD 2024",
+            "month": "August",
+            "abstract": "This paper presents FISSA, an open-source software tool that facilitates the building of fault injection campaigns based on well-known HDL simulation tools. The proposed solution relies on two software modules that encapsulate an existing HDL simulator. The first module generates TCL scripts to drive the simulation process and automatically inject faults according to the user's needs. The second module is dedicated to fault analysis, enabling users to assess the resilience of their design. The proposed approach allows the designers to seamlessly integrate fault injection simulations into their workflow. To demonstrate the solution's capacity, this paper proposes a case study to evaluate the robustness of a Dynamic Information Flow Tracking mechanism integrated into a RISC-V processor against different fault injection scenarios. For that purpose, a total of 360,747 simulations have been performed.",
+            "doi": "",
+            "location": "Paris",
+            "publisher": "ieee",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "Open-Source tool",
+                "Vulnerability Assessment"
+            ]
         }
     ],
-    "2023":[
+    "2023": [
         {
             "subject": "poster",
             "author": [
@@ -90,7 +136,7 @@
             "publisher": "ieee",
             "keywords": [
                 "Industry 4.0",
-                "Java", 
+                "Java",
                 "C++",
                 "ModBus",
                 "Raspberry Pi",

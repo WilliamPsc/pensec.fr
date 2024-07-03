@@ -1,61 +1,106 @@
 {
     "2023":[
         {
-            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "BUT 2 (2<sup>ème</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO3",
-            "name": "Introduction à la programmation et à l'algorithmique (programmation Python)",
+            "nameFR": "Introduction à la programmation et à l'algorithmique (programmation Python)",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 20
         },
         {
-            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO1-b",
-            "name": "TP : Introduction à l'électronique numérique et à la logique booléenne",
+            "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 12
         },
         {
-            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "type": "TD",
+            "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO1-b",
-            "name": "TD : Introduction à l'électronique numérique et à la logique booléenne",
+            "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 8
         }
     ],
     "2022": [
         {
-            "annee": "Master 2 Informatique CSSE - SESI",
+            "type": "TP",
+            "anneeFR": "Master 2 CSSE & SESI",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "Programmation parallèle",
-            "name": "Introduction à la progammation parallèle (C, OpenMP)",
+            "nameFR": "Introduction à la progammation parallèle (C, OpenMP)",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 8
         },
         {
-            "annee": "M1 SESI",
+            "type": "TP",
+            "anneeFR": "M1 SESI",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "FPGA",
-            "name": "Conception Architecture Numérique",
+            "nameFR": "Conception d'Architecture Numérique",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 16
         },
         {
-            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "BUT 2 (2<sup>ème</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO3",
-            "name": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nameFR": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 24
         },
         {
-            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO1-b",
-            "name": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 16
         }
     ],
     "2021": [
         {
-            "annee": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "DUT 2 (2<sup>ème</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "INFO2",
-            "name": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nameFR": "Introduction à la programmation et à l'algorithmique (programmation C)",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 20
         },
         {
-            "annee": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "type": "TP",
+            "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
+            "anneeEN": "",
+            "anneeIT": "",
             "idName": "OSI-b",
-            "name": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
+            "nameEN": "",
+            "nameIT": "",
             "nbHeures": 12
         }
     ]
