@@ -32,6 +32,9 @@ error_reporting(E_ALL);
             foreach ($activities as $activity) {
                 $type = $activity['type'];
                 $nbHeures = $activity['nbHeures'];
+                $annee = $activity['anneeFR'];
+                $idName = $activity['idName'];
+                $name = $activity['nameFR'];
 
                 // Update total hours by type
                 if (isset($totalHoursByType[$type])) {
@@ -46,27 +49,47 @@ error_reporting(E_ALL);
 
                 // Update overall total hours
                 $totalHours += $nbHeures;
+
+                // Store detailed activity info
+                $activityDetails[$year][] = [
+                    'type' => $type,
+                    'annee' => $annee,
+                    'idName' => $idName,
+                    'name' => $name,
+                    'nbHeures' => $nbHeures
+                ];
             }
         }
-
-        // Display content
-        echo "<div class=\"text-justify\">\n";
-        echo "\t\t\t<ul>\n";
-        foreach ($json_data as $key => $value) {
-            // Init variables
-            $nbHeures = 0;
-
-            // Display HTML
-            echo "\t\t\t\t<li><strong>" . $key . " - " . (((int)$key) + 1) . "</strong> : ";
-            echo "\t\t\t\t\t<ul>\n";
-            foreach ($value as $keyArray => $valuesArray) {
-                echo "\t\t\t\t\t\t<li>" . $valuesArray['type'] . " - " . $valuesArray['anneeFR'] . " : " . $valuesArray['idName'] . " - " . $valuesArray['nameFR'] . " - " . $valuesArray['nbHeures'] . "h</li>\n";
-            }
-            echo "\t\t\t\t\t</ul>\n\t\t\t\t</li>\n";
-        }
-        echo "\t\t\t</ul>\n";
-        echo "\t\t</div>\n";
         ?>
+
+        <h4>Détails:</h4>
+        <?php foreach ($activityDetails as $year => $activities) : ?>
+            <ul><li><h5 style="display: inline;"><?php echo $year; ?></h5> <h6 style="display: inline;"> : <?php echo "$totalHoursByYear[$year] h"?></h6></li></ul>
+            <div class="table-container">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Type</th>
+                            <th>Promotion</th>
+                            <th>Nom</th>
+                            <th>Intitulé</th>
+                            <th>Nombre d'heures</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($activities as $activity) : ?>
+                            <tr>
+                                <td><?php echo $activity['type']; ?></td>
+                                <td><?php echo $activity['annee']; ?></td>
+                                <td><?php echo $activity['idName']; ?></td>
+                                <td><?php echo $activity['name']; ?></td>
+                                <td><?php echo $activity['nbHeures']; ?></td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
+        <?php endforeach; ?>
 
         <hr>
         <h4>Récapitulatif</h4>
@@ -80,11 +103,13 @@ error_reporting(E_ALL);
             </thead>
             <tbody>
                 <?php foreach ($totalHoursByType as $type => $hours) : ?>
-                    <tr>
-                        <td><?php echo $type; ?></td>
-                        <td><?php echo $hours . " h"; ?></td>
-                    </tr>
-                <?php endforeach; ?>
+                    <?php if ($hours != 0) { ?>
+                        <tr>
+                            <td><?php echo $type; ?></td>
+                            <td><?php echo $hours . " h"; ?></td>
+                        </tr>
+                <?php }
+                endforeach; ?>
             </tbody>
         </table>
 
