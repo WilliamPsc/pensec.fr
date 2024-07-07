@@ -79,7 +79,7 @@
 <body>
     <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
         <?php
-        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
+        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
         $_SESSION['language'] = "fr";
         ?>
         <h1>William PENSEC</h1>

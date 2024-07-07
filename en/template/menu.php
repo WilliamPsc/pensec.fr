@@ -1,11 +1,11 @@
 <?php
 $page = $_SERVER['PHP_SELF'];
 
-$currPage = preg_replace("/(\/en\/)/i", "", $page);
+$currPage = preg_replace("/\/en\//", "", $page);
 
-$newPageFr = ".." . preg_replace("/(\/en)/i", "/fr", $page);
+$newPageFr = ".." . preg_replace("/\/en\//", "/fr/", $page);
 
-$newPageIt = ".." . preg_replace("/(\/en)/i", "/it", $page);
+$newPageIt = ".." . preg_replace("/\/en\//", "/it/", $page);
 ?>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">

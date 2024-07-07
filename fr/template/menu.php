@@ -1,11 +1,11 @@
 <?php
-$page = $_SERVER['PHP_SELF'];
+$page = $_SESSION['baseURL'] . $_SERVER['PHP_SELF'];
 
-$currPage = preg_replace("/(\/fr\/)/i", "", $page);
+$currPage = preg_replace("/\/fr\//", "/fr/", $page);
 
-$newPageEn = ".." . preg_replace("/(\/fr)/i", "/en", $page);
+$newPageEn = preg_replace("/\/fr\//", "/en/", $page);
 
-$newPageIt = ".." . preg_replace("/(\/fr)/i", "/it", $page);
+$newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 ?>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top ps-4 align-items-bottom">
@@ -15,20 +15,20 @@ $newPageIt = ".." . preg_replace("/(\/fr)/i", "/it", $page);
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="navbar-brand">
-                <img src="<?php echo $_SESSION['baseURL'] . "logo/favicon-32x32.png" ?>" class="rounded-circle" alt="Cinque Terre">
+                <img src="<?php echo $_SESSION['baseURL'] . "/logo/favicon-32x32.png" ?>" class="rounded-circle" alt="Cinque Terre">
             </li>
             <li class="navbar-brand">
-                <a href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/index.php" ?>" style="color:white"><i class="bi bi-house me-2"></i>Accueil</a>
+                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>" style="color:white"><i class="bi bi-house me-2"></i>Accueil</a>
             </li>
             <li class="navbar-brand">
-                <a href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/cv.php" ?>" style="color:white">CV</a>
+                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>" style="color:white">CV</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/" . $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Engagement scientifique et universitaire</a>
+                <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Engagement scientifique et universitaire</a>
                 <div class="dropdown-menu" aria-labelledby="engagement">
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns"></i> Université</a>
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader"></i> Conférences</a>
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book"></i> Publications</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns"></i> Université</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader"></i> Conférences</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book"></i> Publications</a>
                 </div>
             </li>
             <li class="nav-item dropdown">

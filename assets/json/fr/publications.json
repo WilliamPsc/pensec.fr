@@ -7,6 +7,22 @@
                 "V. LAPÔTRE",
                 "G. GOGNIAT"
             ],
+            "titre": "Automating Fault Injection through CABA Simulation for Vulnerability Assessment",
+            "booktitle": "CYBERUS Spring School",
+            "acronyme": "CYBERUS",
+            "month": "May",
+            "abstract": "Internet of Things (IoT) devices have revolutionised data collection and analysis, yet their proximity raises concerns about physical attacks like fault injection attacks (FIA). Numerous studies have highlighted critical system vulnerabilities to FIAs. This poster presents FISSA (Fault Injection Simulation for Security Assessment), automating circuit design robustness evaluation against FIA through early-stage simulations using existing HDL simulators.",
+            "location": "Lorient",
+            "publisher": "",
+            "keywords": []
+        },
+        {
+            "subject": "poster",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
             "titre": "FISSA: Fault Injection Simulation for Security Assessment",
             "booktitle": "Journée Nationales du GDR SOC2",
             "acronyme": "GDR SOC2",
@@ -96,6 +112,23 @@
             ]
         },
         {
+            "subject": "poster",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
+            "titre": "Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks",
+            "booktitle": "Journée thématique sur les Attaques par Injection de Fautes",
+            "acronyme": "JAIF",
+            "month": "September",
+            "abstract": "",
+            "doi": "",
+            "location": "Gardanne",
+            "publisher": "",
+            "keywords": []
+        },
+        {
             "subject": "paper",
             "author": [
                 "W. PENSEC",
@@ -149,6 +182,40 @@
                 "UAV",
                 "IDS"
             ]
+        },
+        {
+            "subject": "poster",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
+            "titre": "Protection of a processor with DIFT against physical attacks",
+            "booktitle": "Assemblée Générale du Pôle SHARP - Lab-STICC",
+            "acronyme": "AG SHARP",
+            "month": "July",
+            "abstract": "Internet of Things (IoT) devices are spreading massively in critical infrastructures like industry, smart cities, bio-medical devices, etc. Unfortunately, they also contribute to the increase of the attack surface of information systems, which represents a significant threat. A low-cost processor is usually a key element of IoT devices. Thus, it is necessary to build protection mechanisms taking into account performances, energy consumption and area. Due to network connectivity and proximity to attackers, embedded systems face both software and physical attacks. Dynamic Information Flow Tracking (DIFT) techniques can detect various software attacks by attaching and propagating tags to information containers at runtime. The goal of this project is therefore to design and evaluate a robust DIFT protection mechanism against both software and physical attacks (side channel analysis and fault injection attacks). This work relies on an open source RISC-V processor.",
+            "doi": "",
+            "location": "Brest",
+            "publisher": "",
+            "keywords": []
+        },
+        {
+            "subject": "presentation",
+            "author": [
+                "W. PENSEC",
+                "V. LAPÔTRE",
+                "G. GOGNIAT"
+            ],
+            "titre": "",
+            "booktitle": "CYBERUS",
+            "acronyme": "CYBERUS",
+            "month": "September",
+            "abstract": "",
+            "doi": "",
+            "location": "Lorient",
+            "publisher": "",
+            "keywords": []
         }
     ]
 }
