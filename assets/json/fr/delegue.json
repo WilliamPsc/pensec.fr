@@ -19,9 +19,41 @@
         {
             "nameFR": "Titulaire - Commission de la Recherche Université Bretagne Sud",
             "nameEN": "Full member - Research Commission Université Bretagne Sud",
-            "nameIT": "Membro - Commissione di ricerca Université Bretagne Sud",
+            "nameIT": "",
             "dateStart": "2022-04",
             "dateEnd": "2024-06"
+        }
+    ],
+    "2020": [
+        {
+            "nameFR": "Délégué de promotion Master 2 Informatique - LSE - UBO",
+            "nameEN": "Class representative Master 2 Informatique - LSE - UBO",
+            "nameIT": "Rappresentante di classe Master 2 Informatique - LSE - UBO",
+            "dateStart": "2020-09",
+            "dateEnd": "2021-06"
+        },
+        {
+            "nameFR": "Représentant des Masters Informatique - UBO",
+            "nameEN": "Computer Sciences Masters representative - UBO",
+            "nameIT": "Rappresentante dei master IT - UBO",
+            "dateStart": "2020-09",
+            "dateEnd": "2021-06"
+        },
+        {
+            "nameFR": "Représentant au conseil de département - UBO",
+            "nameEN": "Representative on the Department Council - UBO",
+            "nameIT": "Rappresentante nel Consiglio di Dipartimento - UBO",
+            "dateStart": "2020-09",
+            "dateEnd": "2021-06"
+        }
+    ],
+    "2019": [
+        {
+            "nameFR": "Délégué de promotion Master 1 Informatique",
+            "nameEN": "Class representative Master 1 Informatique",
+            "nameIT": "Rappresentante di classe Master 1 Informatique",
+            "dateStart": "2019-09",
+            "dateEnd": "2020-06"
         }
     ]
 }

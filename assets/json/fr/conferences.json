@@ -20,6 +20,13 @@
             "dateEnd": "2024-08-30",
             "place": "Paris",
             "link": "https://dsd-seaa.com/dsd2024/"
+        },
+        {
+            "name": "JAIF 2024",
+            "dateStart": "2024-10-01",
+            "dateEnd": "2024-10-01",
+            "place": "Rennes",
+            "link": "https://jaif.io/2024/"
         }
     ],
     "2023":[
