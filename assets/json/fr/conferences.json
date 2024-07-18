@@ -4,7 +4,7 @@
             "name": "Colloque National du GDR SoC²",
             "dateStart": "2024-06-10",
             "dateEnd": "2024-06-12",
-            "place": "Toulouse",
+            "place": "Toulouse, France",
             "link": "https://colloque-gdr-soc2.sciencesconf.org/"
         },
         {
@@ -18,14 +18,14 @@
             "name": "27th Euromicro Conference Series on Digital System Design",
             "dateStart": "2024-08-28",
             "dateEnd": "2024-08-30",
-            "place": "Paris",
+            "place": "Paris, France",
             "link": "https://dsd-seaa.com/dsd2024/"
         },
         {
             "name": "JAIF 2024",
             "dateStart": "2024-10-01",
             "dateEnd": "2024-10-01",
-            "place": "Rennes",
+            "place": "Rennes, France",
             "link": "https://jaif.io/2024/"
         }
     ],
@@ -48,7 +48,7 @@
             "name": "JAIF 2023",
             "dateStart": "2023-09-28",
             "dateEnd": "2023-09-28",
-            "place": "Aix-en-Provence",
+            "place": "Aix-en-Provence, France",
             "link": "https://jaif.io/2023/"
         },
         {
@@ -62,7 +62,7 @@
             "name": "BITFLIP By DGA - European Cyber Week (ECW)",
             "dateStart": "2023-11-22",
             "dateEnd": "2023-11-23",
-            "place": "Rennes",
+            "place": "Rennes, France",
             "link": "https://www.european-cyber-week.eu/bitflip"
         }
     ],
@@ -71,42 +71,42 @@
             "name": "GT Méthodes Formelles pour la Sécurité",
             "dateStart": "2022-03-21",
             "dateEnd": "2022-03-23",
-            "place": "Fréjus",
+            "place": "Fréjus, France",
             "link": "https://gtmfs2022.sciencesconf.org/"
         },
         {
             "name": "CryptArchi Workshop",
             "dateStart": "2022-05-29",
             "dateEnd": "2022-06-01",
-            "place": "Porquerolles",
+            "place": "Porquerolles, France",
             "link": "https://labh-curien.univ-st-etienne.fr/cryptarchi/workshop22/home.html"
         },
         {
             "name": "Summer School : Embedded Signal Processing and Machine Learning for Edge Intelligence",
             "dateStart": "2022-06-13",
             "dateEnd": "2022-06-16",
-            "place": "Lorient",
+            "place": "Lorient, France",
             "link": "https://www.gdr-isis.fr/index.php/annonce/8476/"
         },
         {
             "name": "International Conference on Unmanned Aircraft Systems (ICUAS)",
             "dateStart": "2022-06-21",
             "dateEnd": "2022-06-24",
-            "place": "Dubrovnik, Croatia / visio-conference",
+            "place": "Dubrovnik, Croatia",
             "link": "http://www.uasconferences.com/2022_icuas/"
         },
         {
             "name": "JAIF 2022",
             "dateStart": "2022-11-09",
             "dateEnd": "2022-11-09",
-            "place": "Valence / visio-conference",
+            "place": "Valence, France",
             "link": "https://jaif.io/2022/"
         },
         {
             "name": "International Winter School on Microarchitectural Security",
             "dateStart": "2022-12-05",
             "dateEnd": "2022-12-09",
-            "place": "Paris",
+            "place": "Paris, France",
             "link": "https://www.ip-paris.fr/en/international-winter-school-microarchitectural-security-2022"
         }
     ],
@@ -115,7 +115,7 @@
             "name": "Journées de la sécurité informatique",
             "dateStart": "2021-10-14",
             "dateEnd": "2021-10-15",
-            "place": "Visio-conférence",
+            "place": "Paris, France",
             "link": "https://www.societe-informatique-de-france.fr/les-journees-sif/journees-securite-14-et-15-octobre-2/"
         }
     ]
