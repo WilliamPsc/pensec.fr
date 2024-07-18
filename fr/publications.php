@@ -101,61 +101,67 @@ include "template/menu.php";
     echo "\t<div class=\"text-justify\">\n";
     echo "\t\t<ul>\n";
     foreach ($json_publications as $key => $value) {
-        // Display HTML
-        echo "\t\t\t<li><strong>" . $key . "</strong>\n";
-        echo "\t\t\t\t<ul>\n";
-        foreach ($value as $keyArray => $valuesArray) {
-            if ($valuesArray['subject'] == "journal") {
-                // Init variables
-                $strAuthors = "";
-                $strKeyWords = "";
-                $publish = "";
-                for ($i = 0; $i < count($valuesArray['author']); $i++) {
-                    if ($i == count($valuesArray['author']) - 2) {
-                        $strAuthors .= $valuesArray['author'][$i] . ' and ';
-                    } else if ($i == count($valuesArray['author']) - 1) {
-                        $strAuthors .= $valuesArray['author'][$i];
-                    } else {
-                        $strAuthors .= $valuesArray['author'][$i] . ', ';
+        // $filtered_values = count(array_filter($value, function ($value) {
+        //     return $value['subject'] == 'presentation';
+        // }));
+        // // Display HTML
+        // if ($filtered_values != 0) {
+            echo "\t\t\t<li><strong>" . $key . "</strong>\n";
+            echo "\t\t\t\t<ul>\n";
+            foreach ($value as $keyArray => $valuesArray) {
+                if ($valuesArray['subject'] == "journal") {
+                    // Init variables
+                    $strAuthors = "";
+                    $strKeyWords = "";
+                    $publish = "";
+                    for ($i = 0; $i < count($valuesArray['author']); $i++) {
+                        if ($i == count($valuesArray['author']) - 2) {
+                            $strAuthors .= $valuesArray['author'][$i] . ' and ';
+                        } else if ($i == count($valuesArray['author']) - 1) {
+                            $strAuthors .= $valuesArray['author'][$i];
+                        } else {
+                            $strAuthors .= $valuesArray['author'][$i] . ', ';
+                        }
                     }
-                }
 
-                for ($i = 0; $i < count($valuesArray['keywords']); $i++) {
-                    if ($i == count($valuesArray['keywords']) - 2) {
-                        $strKeyWords .= $valuesArray['keywords'][$i] . ' and ';
-                    } else if ($i == count($valuesArray['keywords']) - 1) {
-                        $strKeyWords .= $valuesArray['keywords'][$i];
-                    } else {
-                        $strKeyWords .= $valuesArray['keywords'][$i] . ', ';
+                    for ($i = 0; $i < count($valuesArray['keywords']); $i++) {
+                        if ($i == count($valuesArray['keywords']) - 2) {
+                            $strKeyWords .= $valuesArray['keywords'][$i] . ' and ';
+                        } else if ($i == count($valuesArray['keywords']) - 1) {
+                            $strKeyWords .= $valuesArray['keywords'][$i];
+                        } else {
+                            $strKeyWords .= $valuesArray['keywords'][$i] . ', ';
+                        }
                     }
+
+                    $publisher = $valuesArray['publisher'];
+                    if ($publisher == "riscv") {
+                        $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                    } else if ($publisher == "ieee") {
+                        $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                    } else if ($publisher == "acm") {
+                        $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
+                    } else if ($publisher == "hal") {
+                        $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
+                    } else {
+                    }
+
+                    $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
+
+                    echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
+                        $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                        $valuesArray['titre'] . "</u>" . ", " .
+                        $valuesArray['booktitle'] .
+                        " (" . $valuesArray['acronyme'] . "), " .
+                        $valuesArray['location'] . ", " .
+                        $month_of_publications . ", " .
+                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                    echo "\t\t\t\t\t</li>\n";
                 }
-
-                $publisher = $valuesArray['publisher'];
-                if ($publisher == "riscv") {
-                    $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
-                } else if ($publisher == "ieee") {
-                    $publish = "<img src=\"../assets/img/publishers/ieee.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
-                } else if ($publisher == "acm") {
-                    $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
-                } else if ($publisher == "hal") {
-                    $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
-                } else {}
-
-                $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
-
-                echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                    $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
-                    $valuesArray['titre'] . "</u>" . ", " .
-                    $valuesArray['booktitle'] .
-                    " (" . $valuesArray['acronyme'] . "), " .
-                    $valuesArray['location'] . ", " .
-                    $month_of_publications . ", " .
-                    "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
-                echo "\t\t\t\t\t</li>\n";
             }
-        }
-        echo "\t\t\t\t</ul>\n";
-        echo "\t\t\t</li>\n";
+            echo "\t\t\t\t</ul>\n";
+            echo "\t\t\t</li>\n";
+        // }
     }
     echo "\t\t</ul>\n";
     echo "\t</div>";
@@ -174,11 +180,11 @@ include "template/menu.php";
     echo "\t<div class=\"text-justify\">\n";
     echo "\t\t<ul>\n";
     foreach ($json_publications as $key => $value) {
-        $filtered_values = count(array_filter($value, function($value) {
-            return $value['subject'] == 'presentation';
-        }));
+        // $filtered_values = count(array_filter($value, function ($value) {
+        //     return $value['subject'] == 'presentation';
+        // }));
         // Display HTML
-        if($filtered_values != 0){
+        // if ($filtered_values != 0) {
             echo "\t\t\t<li><strong>" . $key . "</strong>\n";
             echo "\t\t\t\t<ul>\n";
             foreach ($value as $keyArray => $valuesArray) {
@@ -216,7 +222,8 @@ include "template/menu.php";
                         $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
                     } else if ($publisher == "hal") {
                         $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
-                    } else {}
+                    } else {
+                    }
 
                     $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
@@ -233,7 +240,7 @@ include "template/menu.php";
             }
             echo "\t\t\t\t</ul>\n";
             echo "\t\t\t</li>\n";
-        }
+        // }
     }
     echo "\t\t</ul>\n";
     echo "\t</div>";
@@ -290,7 +297,8 @@ include "template/menu.php";
                     $publish = "<img src=\"../assets/img/publishers/acm.svg\" height=\"10\" style=\"margin-right: 5px;\"></img> ";
                 } else if ($publisher == "hal") {
                     $publish = "<img src=\"../assets/img/publishers/hal.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
-                } else {}
+                } else {
+                }
 
                 $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
