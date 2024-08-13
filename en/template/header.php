@@ -8,13 +8,23 @@
     <meta name="keywords" content="">
     <meta name="description" content="Personal website">
     <meta name="author" content="William PENSEC">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Icons and fonts + flags -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/751e653695.js" crossorigin="anonymous"></script>
 
+    <!-- FAVICONS & Manifest -->
     <link rel="apple-touch-icon" sizes="180x180" href="../logo/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../logo/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../logo/favicon-16x16.png">
@@ -44,26 +54,17 @@
         i a .ai {
             font-size: 1.5em;
         }
-    </style>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9DBMZKN0Q9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
+        .progress {
+            height: 25px;
         }
-        gtag('js', new Date());
-
-        gtag('config', 'G-9DBMZKN0Q9');
-    </script>
+    </style>
 </head>
 
 <body>
-    <div class="jumbotron text-center" id="titre" style="margin-bottom:0">
+    <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
         <?php
-        $_SESSION['baseURL'] = "https://pensec.fr/";
+        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
         $_SESSION['language'] = "en";
         ?>
         <h1>William PENSEC</h1>
