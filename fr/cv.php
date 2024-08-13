@@ -46,11 +46,6 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-justify">
-            <ul>
-                <li><strong>2021 - </strong></li>
-            </ul>
-            Thèse de Doctorat en Informatique : Protection d'un processeur avec DIFT contre des attaques physiques - Université Bretagne Sud - Lorient
-            <br />
             <?php
             // Set your start and end dates here
             $startDate = new DateTime("2024-04-01");
@@ -63,7 +58,7 @@ $age = $intvl->y;
             $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
             $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
             $progressPercentage = ($currentTime / $totalTime) * 100;
-            
+
             // Define color scale based on progress range
             $progressBarColorClass = '';
             if ($progressPercentage < 25) {
@@ -79,10 +74,17 @@ $age = $intvl->y;
 
             <!-- HTML for the progress bar -->
             <div class="progress">
-                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Manuscrit : <?php echo round($progressPercentage,2); ?>%</div>
+                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
             </div>
-
-
+            <ul>
+                <li><strong>10/2024 - </strong></li>
+            </ul>
+            Postdoctorat : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien - Saint-Étienne
+            <br><br>
+            <ul>
+                <li><strong>10/2021 - 09/2024</strong></li>
+            </ul>
+            Thèse de Doctorat en Informatique : Protection d'un processeur avec DIFT contre des attaques physiques - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>

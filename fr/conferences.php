@@ -31,7 +31,7 @@ include "template/menu.php";
         <hr>
         <?php
         // Read JSON file
-        $json = file_get_contents("../assets/json/fr/conferences.json");
+        $json = file_get_contents("../assets/json/conferences.json");
 
         // Decode JSON
         $json_conferences = json_decode($json, true);

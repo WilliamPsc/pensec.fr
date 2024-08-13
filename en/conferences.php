@@ -1,102 +1,117 @@
 <?php
-// echo $_SESSION['language'];
+include "template/header.php";
+include "template/menu.php";
 ?>
-<!-- <h3>Liste des conférences assistées (non exhaustive) : </h3> -->
-<?php
-// Read JSON file
-$json = file_get_contents($_SESSION['baseURL'] . "fileData/json/fr/conferences.json");
 
-//Decode JSON
-$json_conferences = json_decode($json, true);
+<style>
+    .year-heading {
+        margin-top: 20px;
+        color: blue;
+    }
 
-// Display content
-echo "\t<div class=\"text-justify\">\n";
-echo "\t\t<ul>\n";
-foreach ($json_conferences as $key => $value) {
-    // Display HTML
-    echo "\t\t\t<li><strong>" . $key . "</strong>\n";
-    echo "\t\t\t\t<ul>\n";
-    foreach ($value as $keyArray => $valuesArray) {
+    .table-container {
+        margin-top: 10px;
+    }
+
+    table a {
+        color: black;
+        text-decoration: none;
+    }
+
+    table a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+
+<br><br>
+<div class="container text-justify my-4">
+    <h2><i class="fa-solid fa-book-journal-whills"></i> Liste des conférences assistées :</h2>
+    <div class="table-responsive-md">
+        <hr>
+        <?php
+        // Read JSON file
+        $json = file_get_contents("../assets/json/conferences.json");
+
+        // Decode JSON
+        $json_conferences = json_decode($json, true);
+
         // Init variables
-        $strDate = "";
+        $activityDetails = [];
 
-        // Gestion de la date
-        $dateDebut = new DateTime($valuesArray['dateStart']);
-        $dateFin = new DateTime($valuesArray['dateEnd']);
-        $differenceDate = date_diff($dateDebut, $dateFin, true);
-        $differenceDateJours = ((int) $differenceDate->format('%a')) + 1;
-        $chgtMois = ((int)$dateFin->format('m') - (int)$dateDebut->format('m'));
-        $formatter = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::MEDIUM, \IntlDateFormatter::MEDIUM);
-        $formatter1 = new \IntlDateFormatter('fr_FR', \IntlDateFormatter::MEDIUM, \IntlDateFormatter::MEDIUM);
-
-        if ($differenceDateJours == 1) {
-            if((int)$dateDebut->format('d') == 1){
-                $formatter->setPattern('MMMM');
-                $strDate = "1<sup>er</sup> " . $formatter->format($dateDebut);
-            } else{
-                $formatter->setPattern('dd MMMM');
-                $strDate = $formatter->format($dateDebut);
-            }
-        } else if ($differenceDateJours == 2) {
-            if ($chgtMois >= 1) {
-                if ((int)$dateFin->format('d') == 1) {
-                    $formatter->setPattern('dd MMMM');
-                    $formatter1->setPattern('MMMM');
-                    $strDate = $formatter->format($dateDebut) . " et " . "1<sup>er</sup> " . $formatter1->format($dateFin);
-                } else {
-                    $formatter->setPattern('dd MMMM');
-                    $formatter1->setPattern('dd MMMM');
-                    $strDate = $formatter1->format($dateDebut) . " et " . $formatter->format($dateFin);
-                }
-            } else {
-                if ((int)$dateDebut->format('d') == 1) {
-                    $formatter->setPattern('dd MMMM');
-                    $strDate = "1<sup>er</sup> et " . $formatter->format($dateFin);
-                } else {
-                    $formatter->setPattern('dd MMMM');
-                    $formatter1->setPattern('dd');
-                    $strDate = $formatter1->format($dateDebut) . " et " . $formatter->format($dateFin);
-                }
-            }
-        } else {
-            if ($chgtMois >= 1) {
-                if ((int)$dateDebut->format('d') == 1) {
-                    $formatter->setPattern('MMMM');
-                    $formatter1->setPattern('dd MMMM');
-                    $strDate = "1<sup>er</sup> " . $formatter->format($dateDebut) . $formatter1->format($dateFin);
-                } else {
-                    if ((int)$dateFin->format('d') == 1) {
-                        $formatter->setPattern('dd MMMM');
-                        $formatter1->setPattern('MMMM');
-                        $strDate = $formatter->format($dateDebut) . " au " . "1<sup>er</sup> " . $formatter1->format($dateFin);
-                    } else {
-                        $formatter->setPattern('dd MMMM');
-                        $formatter1->setPattern('dd MMMM');
-                        $strDate = $formatter1->format($dateDebut) . " au " . $formatter->format($dateFin);
-                    }
-                }
-            } else {
-                if ((int)$dateDebut->format('d') == 1) {
-                    $formatter->setPattern('dd MMMM');
-                    $strDate = "1<sup>er</sup> au " . $formatter->format($dateFin);
-                } else {
-                    $formatter->setPattern('dd MMMM');
-                    $formatter1->setPattern('dd');
-                    $strDate = $formatter1->format($dateDebut) . " au " . $formatter->format($dateFin);
-                }
-            }
+        // Function to format dates in French
+        function formatDate($date) {
+            $formatter = new IntlDateFormatter(
+                'fr_FR',
+                IntlDateFormatter::LONG,
+                IntlDateFormatter::NONE
+            );
+            $dateTime = new DateTime($date);
+            return $formatter->format($dateTime);
         }
 
-        echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-            "<strong>" . $valuesArray['name'] . "</strong> - " .
-            $strDate . " - " .
-            $valuesArray['place'] . " - " .
-            "<a target='_blank' href='" . $valuesArray['link'] . "'>Lien</a>" .
-            "\n\t\t\t\t\t</li>\n";
-    }
-    echo "\t\t\t\t</ul>\n";
-    echo "\t\t\t</li>\n";
-}
-echo "\t\t</ul>\n";
-echo "\t</div>";
+        // Compute values
+        foreach ($json_conferences as $year => $activities) {
+            foreach ($activities as $activity) {
+                $name = $activity['name'];
+                $start = $activity['dateStart'];
+                $end = $activity['dateEnd'];
+                $location = $activity['place'];
+                $url = $activity['link'];
+
+                // Store detailed activity info
+                $activityDetails[$year][] = [
+                    'name' => $name,
+                    'dateStart' => formatDate($start),
+                    'dateEnd' => formatDate($end),
+                    'place' => $location,
+                    'url' => $url
+                ];
+            }
+        }
+        ?>
+
+        <?php foreach ($activityDetails as $year => $activities) : ?>
+            <div class="mb-4">
+                <h5 class="year-heading"><?php echo $year; ?></h5>
+                <div class="table-container">
+                    <table class="table table-striped table-hover">
+                        <thead class="table">
+                            <tr>
+                                <th style="text-align: center;">Nom</th>
+                                <th style="text-align: center;">Début</th>
+                                <th style="text-align: center;">Fin</th>
+                                <th style="text-align: center;">Lieu</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($activities as $activity) : ?>
+                                <tr>
+                                    <td style="text-align: left;"><?php echo "<a target='_blank' href='" . $activity['url'] . "'>" .  $activity['name'] . "</a>"; ?></td>
+                                    <td style="text-align: center;"><?php echo $activity['dateStart']; ?></td>
+                                    <td style="text-align: center;"><?php echo $activity['dateEnd']; ?></td>
+                                    <td style="text-align: center;"><?php echo $activity['place']; ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>
+
+<div class="container text-justify">
+    <hr>
+    <h2><i class="fa-solid fa-calendar-check"></i> Participation à des évènements scientifiques :</h2>
+
+    <ul>
+        <li><strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
+    </ul>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<?php
+$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
+include "template/footer.php";
 ?>

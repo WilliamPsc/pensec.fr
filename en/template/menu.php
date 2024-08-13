@@ -26,8 +26,8 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Scientific and academic involvement</a>
                 <div class="dropdown-menu" aria-labelledby="engagement">
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns"></i> Université</a>
-                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader"></i> Conférences</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/teachings.php" ?>"><i class="fa-solid fa-building-columns"></i> University</a>
+                    <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader"></i> Conferences</a>
                     <a class="dropdown-item" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book"></i> Publications</a>
                 </div>
             </li>

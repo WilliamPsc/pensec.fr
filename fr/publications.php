@@ -18,7 +18,7 @@ include "template/menu.php";
     <h3>Liste des articles de conférences : </h3>
     <?php
     // Read JSON file
-    $json = file_get_contents("../assets/json/fr/publications.json");
+    $json = file_get_contents("../assets/json/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);
@@ -92,7 +92,7 @@ include "template/menu.php";
     <h3>Liste des articles de journaux : </h3>
     <?php
     // Read JSON file
-    $json = file_get_contents("../assets/json/fr/publications.json");
+    $json = file_get_contents("../assets/json/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);
@@ -171,7 +171,7 @@ include "template/menu.php";
     <h3>Liste des présentations orales : </h3>
     <?php
     // Read JSON file
-    $json = file_get_contents("../assets/json/fr/publications.json");
+    $json = file_get_contents("../assets/json/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);
@@ -250,7 +250,7 @@ include "template/menu.php";
     <h3>Liste des posters : </h3>
     <?php
     // Read JSON file
-    $json = file_get_contents("../assets/json/fr/publications.json");
+    $json = file_get_contents("../assets/json/publications.json");
 
     //Decode JSON
     $json_publications = json_decode($json, true);

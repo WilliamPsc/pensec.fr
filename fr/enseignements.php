@@ -16,7 +16,7 @@ error_reporting(E_ALL);
         <hr>
         <?php
         // Read JSON file
-        $json = file_get_contents("../assets/json/fr/cours.json");
+        $json = file_get_contents("../assets/json/cours.json");
 
         //Decode JSON
         $json_data = json_decode($json, true);
@@ -150,7 +150,7 @@ error_reporting(E_ALL);
         <hr>
         <?php
         // Read JSON file
-        $json = file_get_contents("../assets/json/fr/delegue.json");
+        $json = file_get_contents("../assets/json/delegue.json");
 
         //Decode JSON
         $json_data = json_decode($json, true);
