@@ -1,15 +1,14 @@
 <?php
 /* PARTIE BASIQUE */
-$langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-if ($langue == "it") {
-    header("Location : https://www.pensec.fr/it/cv.php");
-} elseif ($langue != "fr") {
-    header("Location : https://www.pensec.fr/en/cv.php");
-}
+// $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+// if ($langue == "it") {
+//     header("Location : https://www.pensec.fr/it/cv.php");
+// } elseif ($langue != "fr") {
+//     header("Location : https://www.pensec.fr/en/cv.php");
+// }
 
 include "template/header.php";
 include "template/menu.php";
-
 
 $firstDate  = new DateTime("1996-10-26");
 $secDate = new DateTime();
@@ -49,7 +48,7 @@ $age = $intvl->y;
             <?php
             // Set your start and end dates here
             $startDate = new DateTime("2024-04-01");
-            $endDate = new DateTime("2024-08-31");
+            $endDate = new DateTime("2024-09-15");
 
             // Get current date
             $currentDate = new DateTime();
@@ -76,6 +75,7 @@ $age = $intvl->y;
             <div class="progress">
                 <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
             </div>
+            
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
@@ -124,19 +124,19 @@ $age = $intvl->y;
             <ul>
                 <li><strong>Informatique :</strong>
                     <ul>
-                        <li>Programmation logicielle : C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic </li>
+                        <li>Programmation logicielle : C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic</li>
                         <li>Programmation matérielle : VHDL, System Verilog, FPGA, Suite Vivado HLS, Assembleur, RISC-V, LiteX</li>
                         <li>Gestion de projets : GitHub</li>
                         <li>Web : HTML, CSS, php, BootStrap, WordPress</li>
                         <li>Gestion des données : MySQL, JSON, YAML, XML</li>
                         <li>Systèmes d'exploitation : Linux, Windows</li>
-                        <li>Micro-contrôleur : Arduino, Raspberry Pi, FPGA Basic 3, Chip Whisperer</li>
+                        <li>Micro-contrôleur : Arduino, Raspberry Pi, FPGA Basic 3, ChipWhisperer</li>
                     </ul>
                 </li>
                 <li><strong>Langues :</strong>
                     <ul>
                         <li>Français : langue maternelle</li>
-                        <li>Anglais : B1 </li>
+                        <li>Anglais : B1/B2 </li>
                         <li>Italien : A2+</li>
                         <li>Espagnol : A2</li>
                     </ul>
@@ -226,7 +226,7 @@ $age = $intvl->y;
         <hr>
         <div class="text-justify">
             <ul>
-                <li><strong>2023 - USI (Suisse)</strong>
+                <li><strong>2023 - USI (Suisse, Lugano)</strong>
                     <ul>
                         <li>Mobilité internationale dans le cadre de mon Doctorat - Doctorant invité - SystemVerilog, Python - Mai 2023 à Septembre 2023</li>
                     </ul>
