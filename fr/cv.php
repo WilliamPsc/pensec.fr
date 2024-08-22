@@ -79,7 +79,7 @@ $age = $intvl->y;
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
-            Postdoctorat : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien - Saint-Étienne
+            Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Saint-Étienne
             <br><br>
             <ul>
                 <li><strong>10/2021 - 09/2024</strong></li>

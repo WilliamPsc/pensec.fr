@@ -1,16 +1,17 @@
 {
+    "2025": [],
     "2024": [
         {
             "subject": "poster",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Automating Fault Injection through CABA Simulation for Vulnerability Assessment",
             "booktitle": "CYBERUS Spring School",
             "acronyme": "CYBERUS",
-            "month": "May",
+            "month": "April",
             "abstract": "Internet of Things (IoT) devices have revolutionised data collection and analysis, yet their proximity raises concerns about physical attacks like fault injection attacks (FIA). Numerous studies have highlighted critical system vulnerabilities to FIAs. This poster presents FISSA (Fault Injection Simulation for Security Assessment), automating circuit design robustness evaluation against FIA through early-stage simulations using existing HDL simulators.",
             "location": "Lorient",
             "publisher": "",
@@ -19,9 +20,9 @@
         {
             "subject": "poster",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "FISSA: Fault Injection Simulation for Security Assessment",
             "booktitle": "Journée Nationales du GDR SOC2",
@@ -42,10 +43,10 @@
         {
             "subject": "paper",
             "author": [
-                "W. PENSEC",
-                "F. REGAZZONI",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Francesco REGAZZONI",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Defending the Citadel: Fault Injection Attacks against Dynamic Information Flow Tracking and Related Countermeasures",
             "booktitle": "IEEE Computer Society Annual Symposium on VLSI",
@@ -67,9 +68,9 @@
         {
             "subject": "paper",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Scripting the Unpredictable: Automate Fault Injection in CABA Simulation for Vulnerability Assessment",
             "booktitle": "Euromicro Conference on Digital System Design",
@@ -86,15 +87,38 @@
                 "Open-Source tool",
                 "Vulnerability Assessment"
             ]
+        },
+        {
+            "subject": "poster",
+            "author": [
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Implementation and evaluation of countermeasures in a DIFT mechanism against Fault Injection Attacks",
+            "booktitle": "Journée thématique sur les Attaques par Injection de Fautes",
+            "acronyme": "JAIF",
+            "month": "October",
+            "abstract": "Nowadays, IoT devices face many threats and these systems, sometimes critical, need to be protected against both software and physical attacks. Software attacks can be detected using Dynamic Information Flow Tracking (DIFT) techniques.",
+            "doi": "",
+            "location": "Rennes",
+            "publisher": "",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "Countermeasures",
+                "Vulnerability Assessment"
+            ]
         }
     ],
     "2023": [
         {
             "subject": "poster",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "When in-core DIFT faces fault injection attacks",
             "booktitle": "RISC-V Summit Europe",
@@ -112,18 +136,79 @@
             ]
         },
         {
+            "subject": "presentation",
+            "author": [
+                "Vianney LAPÔTRE",
+                "William PENSEC",
+                "Guy GOGNIAT"
+            ],
+            "titre": "When in-core Dynamic Information Flow Tracking faces fault injection attacks",
+            "booktitle": "19th International Workshops on Cryptographic architectures embedded in logic devices",
+            "acronyme": "CryptArchi",
+            "month": "June",
+            "abstract": "Both software and physical attacks are serious threats for Internet of Things (IoT) devices. Low-cost and low-power processors are usually the key component of these systems. They manipulate sensitive data leading to strict security needs. In this paper, we study the impact of Fault Injection Attacks (FIA) on protected RISC-V processor integrating a Dynamic Information Flow Tracking (DIFT) mechanism against software threats.",
+            "doi": "https://hal.science/hal-04381235",
+            "location": "Cantabria, Spain",
+            "publisher": "hal",
+            "keywords": [
+                "Processor security",
+                "RISC-V",
+                "Dynamic Information Flow Tracking",
+                "Fault injection attacks"
+            ]
+        },
+        {
+            "subject": "presentation",
+            "author": [
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Fault Injection Attacks Against an In-Core DIFT Mechanism",
+            "booktitle": "Cyberus Summer School 2023",
+            "acronyme": "CYBERUS",
+            "month": "July",
+            "abstract": "Internet of Things (IoT) devices manipulate sensitive data leading to strict security needs. They face both software and physical attacks due to their network connectivity and their proximity to attackers. These devices are usually built around low-cost and low-power processors. In this paper, we study the impact of Fault Injection Attacks (FIA) on the D-RI5CY processor integrating a Dynamic Information Flow Tracking (DIFT) mechanism against software threats. Our results highlight the high sensitivity of the target to multiple fault types at multiple spatial and temporal locations.",
+            "doi": "https://master-cyberus.eu/mediacenter/uploads/23_cyberus_williampensec1.pdf",
+            "location": "Lorient",
+            "publisher": "hal",
+            "keywords": [
+                "Processor security",
+                "RISC-V",
+                "Dynamic Information Flow Tracking",
+                "Fault injection attacks"
+            ]
+        },
+        {
             "subject": "poster",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks",
             "booktitle": "Journée thématique sur les Attaques par Injection de Fautes",
             "acronyme": "JAIF",
             "month": "September",
-            "abstract": "",
-            "doi": "",
+            "abstract": "Different software attacks, such as buffer overflow, SQL injections, and malware, can be detected using Dynamic Information Flow Tracking (DIFT) techniques. These techniques involve attaching and propagating tags to information containers at runtime, allowing for the detection of malicious behavior. The literature has explored various implementations of DIFT, including hardware, software, and hybrid approaches. Hardware DIFT solutions can be classified into two categories: off-core and in-core. This work focuses on the D-RI5CY processor, which implements an in-core DIFT. Our objective is to investigate the impact of Fault Injection Attacks (FIA) on the efficiency of the D-RI5CY DIFT mechanism. We conduct fault injection simulations to evaluate the sensitivity of the D-RI5CY DIFT and identify the hardware components related to DIFT that require protection.",
+            "doi": "https://jaif.io/2023/media/JAIF2023-poster-Pensec.pdf",
+            "location": "Gardanne",
+            "publisher": "",
+            "keywords": []
+        },
+        {
+            "subject": "presentation",
+            "author": [
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks",
+            "booktitle": "Journée thématique sur les Attaques par Injection de Fautes",
+            "acronyme": "JAIF",
+            "month": "September",
+            "abstract": "Different software attacks, such as buffer overflow, SQL injections, and malware, can be detected using Dynamic Information Flow Tracking (DIFT) techniques. These techniques involve attaching and propagating tags to information containers at runtime, allowing for the detection of malicious behavior. The literature has explored various implementations of DIFT, including hardware, software, and hybrid approaches. Hardware DIFT solutions can be classified into two categories: off-core and in-core. This work focuses on the D-RI5CY processor, which implements an in-core DIFT. Our objective is to investigate the impact of Fault Injection Attacks (FIA) on the efficiency of the D-RI5CY DIFT mechanism. We conduct fault injection simulations to evaluate the sensitivity of the D-RI5CY DIFT and identify the hardware components related to DIFT that require protection.",
+            "doi": "https://jaif.io/2023/media/JAIF2023-slides-Pensec.pdf",
             "location": "Gardanne",
             "publisher": "",
             "keywords": []
@@ -131,9 +216,9 @@
         {
             "subject": "paper",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Another Break in the Wall: Harnessing Fault Injection Attacks to Penetrate Software Fortresses",
             "booktitle": "Proceedings of the First International Workshop on Security and Privacy of Sensing Systems",
@@ -149,15 +234,37 @@
                 "RISC-V",
                 "Fault injection attacks"
             ]
+        },
+        {
+            "subject": "presentation",
+            "author": [
+                "Vianney LAPÔTRE",
+                "William PENSEC",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Protecting a RISC-V embedded processor against physical and software attacks",
+            "booktitle": "BITFLIP by DGA-European Cyber Week",
+            "acronyme": "BITFLIP by DGA",
+            "month": "November",
+            "abstract": "",
+            "doi": "https://hal.science/hal-04381708/",
+            "location": "Rennes",
+            "publisher": "hal",
+            "keywords": [
+                "Processor security",
+                "RISC-V",
+                "Dynamic Information Flow Tracking",
+                "Fault injection attacks"
+            ]
         }
     ],
     "2022": [
         {
             "subject": "paper",
             "author": [
-                "W. PENSEC",
-                "D. ESPES",
-                "C. DEZAN"
+                "William PENSEC",
+                "David ESPES",
+                "Catherine DEZAN"
             ],
             "titre": "Smart Anomaly Detection and Monitoring of Industry 4.0 by Drones",
             "booktitle": "International Conference on Unmanned Aircraft Systems",
@@ -186,9 +293,9 @@
         {
             "subject": "poster",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
             "titre": "Protection of a processor with DIFT against physical attacks",
             "booktitle": "Assemblée Générale du Pôle SHARP - Lab-STICC",
@@ -203,17 +310,34 @@
         {
             "subject": "presentation",
             "author": [
-                "W. PENSEC",
-                "V. LAPÔTRE",
-                "G. GOGNIAT"
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
             ],
-            "titre": "",
+            "titre": "Protection of a processor with DIFT against physical attacks",
             "booktitle": "CYBERUS",
             "acronyme": "CYBERUS",
             "month": "September",
             "abstract": "",
             "doi": "",
             "location": "Lorient",
+            "publisher": "",
+            "keywords": ["embedded systems", "security", "processors"]
+        },
+        {
+            "subject": "poster",
+            "author": [
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Protection of a processor with DIFT against physical attacks",
+            "booktitle": "International Winter School on Microarchitectural Security",
+            "acronyme": "Mic-Sec Winter School",
+            "month": "December",
+            "abstract": "Internet of Things (IoT) devices are spreading massively in critical infrastructures like industry, smart cities, bio-medical devices, etc. Unfortunately, they also contribute to the increase of the attack surface of information systems, which represents a significant threat. A low-cost processor is usually a key element of IoT devices. Thus, it is necessary to build protection mechanisms taking into account performances, energy consumption and area. Due to network connectivity and proximity to attackers, embedded systems face both software and physical attacks. Dynamic Information Flow Tracking (DIFT) techniques can detect various software attacks by attaching and propagating tags to information containers at runtime. The goal of this project is therefore to design and evaluate a robust DIFT protection mechanism against both software and physical attacks (side channel analysis and fault injection attacks). This work relies on an open source RISC-V processor.",
+            "doi": "https://www.ip-paris.fr/en/international-winter-school-microarchitectural-security-2022",
+            "location": "Paris",
             "publisher": "",
             "keywords": []
         }
