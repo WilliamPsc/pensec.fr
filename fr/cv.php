@@ -46,17 +46,40 @@ $age = $intvl->y;
         <hr>
         <div class="text-justify">
             <?php
-            // Set your start and end dates here
-            $startDate = new DateTime("2024-04-01");
-            $endDate = new DateTime("2024-09-15");
+            // Example array of tasks with their completion status
+            $tasks = [
+                ['name' => 'Introduction - Context', 'completed' => true],
+                ['name' => 'Introduction - Objectives', 'completed' => true],
+                ['name' => 'Introduction - Outline', 'completed' => true],
+                ['name' => 'SoA - Introduction', 'completed' => true],
+                ['name' => 'SoA - IFT - Different types of IFT', 'completed' => false],
+                ['name' => 'SoA - IFT - Different levels of DIFT', 'completed' => false],
+                ['name' => 'SoA - IFT - How hardware DIFT work', 'completed' => false],
+                ['name' => 'SoA - PA - RE', 'completed' => false],
+                ['name' => 'SoA - PA - SCA', 'completed' => false],
+                ['name' => 'SoA - PA - FIA', 'completed' => false],
+                ['name' => 'SoA - Countermeasures against FIA', 'completed' => false],
+                ['name' => 'DRISCY - D-RI5CY - ISA', 'completed' => true],
+                ['name' => 'DRISCY - D-RI5CY - DIFT design', 'completed' => false],
+                ['name' => 'DRISCY - D-RI5CY - Case study', 'completed' => false],
+                ['name' => 'DRISCY - Use cases - BO', 'completed' => false],
+                ['name' => 'DRISCY - Use cases - FS', 'completed' => false],
+                ['name' => '', 'completed' => false],
+                ['name' => '', 'completed' => false],
+                ['name' => '', 'completed' => false],
+                ['name' => '', 'completed' => false],
+                ['name' => '', 'completed' => false],
+            ];
 
-            // Get current date
-            $currentDate = new DateTime();
+            $completedCount = 0;
+            $totalTasks = count($tasks);
 
-            // Calculate progress
-            $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
-            $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
-            $progressPercentage = ($currentTime / $totalTime) * 100;
+            foreach ($tasks as $task) {
+                if ($task['completed']) {
+                    $completedCount++;
+                }
+            }
+            $progressPercentage = ($completedCount / $totalTasks) * 100;
 
             // Define color scale based on progress range
             $progressBarColorClass = '';
@@ -71,11 +94,54 @@ $age = $intvl->y;
             }
             ?>
 
+            <div class="progress">
+                <div class="progress-bar <?php echo $progressBarColorClass; ?>" id="progressFill" style="width: <?php echo $progressPercentage; ?>%">
+                    Achèvement du manuscrit: <?php echo round($progressPercentage); ?>%
+                </div>
+            </div>
+
+            <div class="checkbox-group">
+                <?php foreach ($tasks as $task): ?>
+                    <label>
+                        <input type="checkbox" class="progress-checkbox" disabled <?php echo $task['completed'] ? 'checked' : ''; ?>>
+                        <?php echo $task['name']; ?>
+                    </label><br>
+                <?php endforeach; ?>
+            </div>
+            <br>
+
+
+            <?php
+            // Set your start and end dates here
+            $startDate = new DateTime("2024-06-01");
+            $endDate = new DateTime("2024-09-30");
+
+            // Get current date
+            $currentDate = new DateTime();
+
+            // Calculate progress
+            $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
+            $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
+            $progressPercentage = ($currentTime / $totalTime) * 100;
+
+            // Define color scale based on progress range
+            $progressBarColorClass = '';
+            if ($progressPercentage < 25) {
+                $progressBarColorClass = 'bg-success'; // Red
+            } else if ($progressPercentage < 50) {
+                $progressBarColorClass = 'bg-info'; // Orange
+            } else if ($progressPercentage < 75) {
+                $progressBarColorClass = 'bg-warning'; // Blue
+            } else {
+                $progressBarColorClass = 'bg-danger'; // Green
+            }
+            ?>
+
             <!-- HTML for the progress bar -->
             <div class="progress">
-                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
+                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Deadline : <?php echo round($progressPercentage, 2); ?>%</div>
             </div>
-            
+
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
