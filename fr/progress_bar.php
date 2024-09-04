@@ -38,17 +38,17 @@ include "template/menu.php";
     <?php
     // Array of sections with their completion status
     $tasks = [
-        ['name' => 'Introduction - Context', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Introduction - Objectives', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Introduction - Outline', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - Introduction', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Context', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Objectives', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Outline', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - Introduction', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - IFT - Different types of IFT', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - IFT - Different levels of DIFT', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - IFT - How hardware DIFT work', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - PA - RE', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - PA - SCA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'SoA - PA - FIA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - Countermeasures against FIA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - Countermeasures against FIA', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'DRISCY - D-RI5CY - ISA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'DRISCY - D-RI5CY - DIFT design', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
         ['name' => 'DRISCY - D-RI5CY - Case study', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
