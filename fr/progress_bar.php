@@ -38,56 +38,67 @@ include "template/menu.php";
     <?php
     // Array of sections with their completion status
     $tasks = [
-        ['name' => 'Introduction - Context', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Introduction - Objectives', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Introduction - Outline', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - Introduction', 'written' => true, 'readVianney' => true, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - IFT - Different types of IFT', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - IFT - Different levels of DIFT', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - IFT - How hardware DIFT work', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - PA - RE', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - PA - SCA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - PA - FIA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'SoA - Countermeasures against FIA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - D-RI5CY - ISA', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - D-RI5CY - DIFT design', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - D-RI5CY - Case study', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Use cases - BO', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Use cases - FS', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Vulnerability Assessment - Fault model', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Vulnerability Assessment - BO', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Vulnerability Assessment - FS', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Vulnerability Assessment - CC', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'DRISCY - Summary', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - SoA Tools', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - Software Archi', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - Supported FM', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - TCL Gen', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - FI Sim', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - Analyser', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - FISSA - Extending', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - Use case - Configuration', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - Use case - Experimental results', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - Discussion', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'FISSA - Summary', 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Countermeasures Implem - Fault model', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Countermeasures Implem - Simple parity', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Countermeasures Implem - HC', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Countermeasures Implem - Summary', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - FM', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - HC - 2', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - HC - 3', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - HC - 4', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - HC - 5', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - SD - 1', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - SD - 2', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - SD - 3', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - SD - 4', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - SD - 5', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - Discussion', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Evaluation of countermeasures - Summary', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Conclusion - Synthesis', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
-        ['name' => 'Conclusion - Perspectives', 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Context',                    'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Objectives',                 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Introduction - Outline',                    'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - Introduction',                        'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - IFT - How hardware DIFT work',        'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - IFT - Different types of IFT',        'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - IFT - Different levels of DIFT',      'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - PA - RE',                             'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - PA - SCA',                            'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - PA - FIA',                            'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - CM against FIA - Physical layer',     'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - CM against FIA - Software',           'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - CM against FIA - Hardware',           'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'SoA - Summary',                             'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - D-RI5CY - Introduction',           'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - D-RI5CY - ISA',                    'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - D-RI5CY - DIFT design',            'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - D-RI5CY - Case study',             'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - Use cases - BO',                   'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - Use cases - FS',                   'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - Use cases - Summary',              'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - VA - Fault model',                 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - VA - BO',                          'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - VA - FS',                          'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - VA - CC',                          'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'DRISCY - Summary',                          'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - Introduction',                      'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - SoA Tools',                         'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - Software Archi',            'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - Supported FM',              'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - TCL Gen',                   'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - FI Sim',                    'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - Analyser',                  'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - FISSA - Extending',                 'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - Use case - Configuration',          'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - Use case - Experimental results',   'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - Discussion',                        'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'FISSA - Summary',                           'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Introduction',                  'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Fault model',                   'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Simple parity - Presentation',  'written' => true, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Simple parity - Implem',        'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - HC - Presentation',             'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - HC - Implementation',           'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Discussion',                    'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'CM Implem - Summary',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - FM',                           'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - Simple Parity - 1',            'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - HC - 2',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - HC - 3',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - HC - 4',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - HC - 5',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - SD - 1',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - SD - 2',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - SD - 3',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - SD - 4',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - SD - 5',                       'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - Discussion',                   'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Eval of CM - Summary',                      'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Conclusion - Synthesis',                    'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
+        ['name' => 'Conclusion - Perspectives',                 'written' => false, 'readVianney' => false, 'readGuy' => false, 'validated' => false],
     ];
 
     $writtenCount = 0;
@@ -162,28 +173,28 @@ include "template/menu.php";
     }
     ?>
 
-    <h5>Écriture</h5>
+    <h5>Écriture : <?php echo $writtenCount . " / " . $totalTasks; ?></h5>
     <div class="progress">
         <div class="progress-bar <?php echo $progressBarColorClassWritten; ?>" id="progressFill" style="width: <?php echo $progressWrittenPercentage; ?>%">
             <?php echo round($progressWrittenPercentage); ?>%
         </div>
     </div>
     <br>
-    <h5>Relecture Vianney</h5>
+    <h5>Relecture Vianney : <?php echo $readVianney . " / " . $totalTasks; ?></h5>
     <div class="progress">
         <div class="progress-bar <?php echo $progressBarColorClassVianney; ?>" id="progressFill" style="width: <?php echo $progressVianneyPercentage; ?>%">
            <?php echo round($progressVianneyPercentage); ?>%
         </div>
     </div>
     <br>
-    <h5>Relecture Guy</h5>
+    <h5>Relecture Guy : <?php echo $readGuy . " / " . $totalTasks; ?></h5>
     <div class="progress">
         <div class="progress-bar <?php echo $progressBarColorClassGuy; ?>" id="progressFill" style="width: <?php echo $progressGuyPercentage; ?>%">
             <?php echo round($progressGuyPercentage); ?>%
         </div>
     </div>
     <br>
-    <h5>Validation</h5>
+    <h5>Validation : <?php echo $validatedCount . " / " . $totalTasks; ?></h5>
     <div class="progress">
         <div class="progress-bar <?php echo $progressBarColorClassValidated; ?>" id="progressFill" style="width: <?php echo $progressValidatedPercentage; ?>%">
             <?php echo round($progressValidatedPercentage); ?>%
