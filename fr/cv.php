@@ -71,19 +71,18 @@ $age = $intvl->y;
             }
             ?>
 
-            <!-- HTML for the progress bar -->
-            <div class="progress">
-                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Deadline : <?php echo round($progressPercentage, 2); ?>%</div>
-            </div>
-
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
             Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Saint-Étienne
             <br><br>
             <ul>
-                <li><strong>10/2021 - 09/2024</strong></li>
+                <li><strong>10/2021 - 09/2024 / Soutenance : 19 décembre 2024 - 10h</strong></li>
             </ul>
+            <!-- HTML for the progress bar -->
+            <div class="progress">
+                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Rendu du manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
+            </div>
             Thèse de Doctorat en Informatique : Protection d'un processeur avec DIFT contre des attaques physiques - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
             <br><br>
             <ul>
