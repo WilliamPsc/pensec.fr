@@ -53,7 +53,7 @@
             "acronyme": "ISLVSI 2024",
             "month": "July",
             "abstract": "Embedded processors are key components of Internet of Things (IoT) devices of Cyber-Physical Systems (CPSs) that manipulate sensitive data. In order to mitigate software attacks, hardware-assisted Dynamic Information Flow Tracking (DIFT) has been integrated into embedded processors. Due to their proximity to attackers, IoT devices are also exposed to physical attacks such as Fault Injection Attacks (FIAs). In this paper, we protect DIFT from fault injection attacks by extending current DIFT support with fault detection and correction capabilities. To do so, we design, implement and evaluate two countermeasures based on parity bit or Hamming code to protect DIFT-related registers of RISC-V CPUs. Our experimental results, obtained using the D-RI5CY processor as a use case, show a 100% fault detection and fault correction when relying on a Hamming code-based protection and a low area overhead (10.6%) compared to the original design.",
-            "doi": "",
+            "doi": "https://doi.org/10.1109/ISVLSI61997.2024.00042",
             "location": "Knoxville, Tennessee, USA",
             "publisher": "ieee",
             "keywords": [
