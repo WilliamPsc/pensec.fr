@@ -41,14 +41,14 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <h4>FORMATION</h4>
+            <h4>CURSUS UNIVERSITAIRE</h4>
         </div>
         <hr>
         <div class="text-justify">
             <?php
             // Set your start and end dates here
             $startDate = new DateTime("2024-06-01");
-            $endDate = new DateTime("2024-09-30");
+            $endDate = new DateTime("2024-10-15");
 
             // Get current date
             $currentDate = new DateTime();
@@ -83,7 +83,7 @@ $age = $intvl->y;
             <div class="progress">
                 <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Rendu du manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
             </div>
-            Thèse de Doctorat en Informatique : Protection d'un processeur avec DIFT contre des attaques physiques - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
+            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
@@ -220,7 +220,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-center">
-            <h4>EXPÉRIENCE PROFESSIONNELLE</h4>
+            <h4>EXPÉRIENCES PROFESSIONNELLES</h4>
         </div>
         <hr>
         <div class="text-justify">
