@@ -89,8 +89,8 @@
         </div>
 
         <div class="table-responsive-md">
-            <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-3.3970043063163757%2C47.74707190196078%2C-3.393463790416718%2C47.74852733013962&amp;layer=mapnik&amp;marker=47.74779962113755%2C-3.3952340483665466" style="border: 1px solid black"></iframe>
-            <br /><small><a href="https://www.openstreetmap.org/?mlat=47.74768&amp;mlon=-3.39507#map=19/47.74768/-3.39507" target="_blank">Afficher une carte plus grande</a></small>
+            <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=4.384360313415528%2C45.4522172679292%2C4.387900829315186%2C45.45382787736185&amp;layer=mapnik&amp;marker=45.4530225783951%2C4.3861305713653564" style="border: 1px solid black"></iframe>
+            <br/><small><a href="https://www.openstreetmap.org/?mlat=45.453023&amp;mlon=4.386131#map=19/45.453023/4.386131" target="_blank">Afficher une carte plus grande</a></small>
         </div>
     </div>
 
