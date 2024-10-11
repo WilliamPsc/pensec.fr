@@ -45,36 +45,10 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-justify">
-            <?php
-            // Set your start and end dates here
-            $startDate = new DateTime("2024-06-01");
-            $endDate = new DateTime("2024-10-15");
-
-            // Get current date
-            $currentDate = new DateTime();
-
-            // Calculate progress
-            $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
-            $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
-            $progressPercentage = ($currentTime / $totalTime) * 100;
-
-            // Define color scale based on progress range
-            $progressBarColorClass = '';
-            if ($progressPercentage < 25) {
-                $progressBarColorClass = 'bg-success'; // Red
-            } else if ($progressPercentage < 50) {
-                $progressBarColorClass = 'bg-info'; // Orange
-            } else if ($progressPercentage < 75) {
-                $progressBarColorClass = 'bg-warning'; // Blue
-            } else {
-                $progressBarColorClass = 'bg-danger'; // Green
-            }
-            ?>
-
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
-            Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Saint-Étienne
+            Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Équipe SESAM - Saint-Étienne
             <br><br>
             <ul>
                 <li><strong>10/2021 - 09/2024 / Soutenance : 19 décembre 2024 - 10h</strong></li>

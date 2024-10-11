@@ -26,10 +26,10 @@
 
     <br><br>
     <div class="container">
-        <h2>Étudiant en Doctorat</h2>
+        <h2>Postdoctorant</h2>
         <div class="table-responsive-md">
-            <h3>Protection d'un processeur avec DIFT contre des attaques physiques</h3><br>
-            <h4>Université Bretagne Sud, UMR CNRS 6285, Lab-STICC, Lorient</h4>
+            <h3>Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux sur RISC-V</h3><br>
+            <h4>Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Saint-Étienne</h4>
             <br><br>
             <table class="table table-striped table-hover">
                 <tbody>
@@ -61,7 +61,7 @@
                             </svg> Institution :
                         </td>
                         <td class="align-middle text-center">
-                            <a href="https://labsticc.fr/fr/annuaire/pensec-william" target="_blank">Université Bretagne Sud,<br> UMR 6285, Lab-STICC</a>
+                            <a href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/teams/secure-embedded-systems-hardware-architectures.html" target="_blank">Université Jean Monnet,<br>UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) -<br> Équipe SESAM - Saint-Étienne</a>
                         </td>
                     </tr>
                     <tr>
