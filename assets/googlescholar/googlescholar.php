@@ -29,20 +29,16 @@ function parse_html($html) {
 
     // Extract total citations
     $totalCitations = 0;
-    $citationElement = $dom->findOne('td.gsc_rsb_std:nth-of-type(2)'); // Second element in the array
-    if ($citationElement) {
-        $totalCitations = (int) $citationElement->text();
-    }
+    $hindex = 0;
+    $index_10 = 0;
 
-    // Extract citations per year
-    // $citationsPerYear = [];
-    // $yearElements = $dom->findMulti('span.gsc_g_t');
-    // $citationYearElements = $dom->findMulti('span.gsc_g_al');
-    // for ($i = 0; $i < count($yearElements); $i++) {
-    //     $year = trim($yearElements[$i]->text());
-    //     $citations = (int) trim($citationYearElements[$i]->text());
-    //     $citationsPerYear[$year] = $citations;
-    // }
+    // Find all 'td' elements with the class 'gsc_rsb_std'
+    $citationElement = $dom->find('td.gsc_rsb_std');
+
+    // Store the values in different variables
+    $totalCitations = isset($citationElement[0]) ? $citationElement[0]->text() : null;
+    $hindex = isset($citationElement[1]) ? $citationElement[2]->text() : null;
+    $index_10 = isset($citationElement[2]) ? $citationElement[4]->text() : null;
 
     // Extract publication details
     $publications = [];
@@ -71,7 +67,9 @@ function parse_html($html) {
 
     return [
         'total_citations' => $totalCitations,
-        'publications' => $publications
+        'publications' => $publications,
+        'hindex' => $hindex,
+        'indexi10' => $index_10
     ];
 }
 

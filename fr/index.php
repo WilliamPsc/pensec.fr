@@ -22,6 +22,8 @@
     // Extract the number of citations and publications
     $nb_citations = $data['total_citations'];
     $nb_publications = count($data['publications']);
+    $hindex = $data['hindex'];
+    $index10 = $data['indexi10'];
     ?>
 
     <br><br>
@@ -80,9 +82,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td class="align-middle text-center" colspan="4">
+                        <td class="align-middle text-center" colspan="2">
                             <i class="fa-brands fa-orcid"></i> <a href="https://orcid.org/0009-0006-0234-8213" target="_blank">ORCID : 0009-0006-0234-8213</a>
                         </td>
+                        <td class="align-middle text-center" colspan="2">H-Index : <?php echo "$hindex"; ?> / Index i10 : <?php echo "$index10"; ?></td>
                     </tr>
                 </tbody>
             </table>

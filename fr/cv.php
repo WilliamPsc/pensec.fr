@@ -53,10 +53,6 @@ $age = $intvl->y;
             <ul>
                 <li><strong>10/2021 - 09/2024 / Soutenance : 19 décembre 2024 - 10h</strong></li>
             </ul>
-            <!-- HTML for the progress bar -->
-            <div class="progress">
-                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">Rendu du manuscrit : <?php echo round($progressPercentage, 2); ?>%</div>
-            </div>
             Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
             <br><br>
             <ul>
