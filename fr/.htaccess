@@ -3,7 +3,11 @@
 Order Allow,Deny
 Deny from all
 </Files>
-./progress_bar.php
+
+<Files "progress_bar.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
 
 # Disable directory browsing 
 Options -Indexes
@@ -14,5 +18,6 @@ IndexIgnore *
 # Hide files of type .png, .zip, .jpg, .gif and .doc from listing
 IndexIgnore *.png *.zip *.jpg *.pdf
 
-# Redirection erreur 404
+# Redirection erreur XXX
 ErrorDocument 404 /errors/404.php
+ErrorDocument 403 /errors/403.php
