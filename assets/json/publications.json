@@ -1,6 +1,59 @@
 {
-    "2025": [],
+    "2025": [
+        {
+            "subject": "presentation",
+            "author": [
+                "William PENSEC"
+            ],
+            "titre": "Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks",
+            "booktitle": "Séminaire de présentation des travaux de thèse",
+            "acronyme": "Séminaire",
+            "month": "January",
+            "abstract": "",
+            "doi": "",
+            "location": "Montpellier",
+            "publisher": "hal",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "Countermeasures",
+                "Vulnerability Assessment",
+                "Dynamic Information Flow Tracking",
+                "Error-Correcting Code",
+                "Error-Detecting Code",
+                "Embedded processor",
+                "IoT","RISC-V"
+            ]
+        }
+    ],
     "2024": [
+        {
+            "subject": "presentation",
+            "author": [
+                "William PENSEC"
+            ],
+            "titre": "Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks",
+            "booktitle": "Soutenance de thèse",
+            "acronyme": "Soutenance",
+            "month": "December",
+            "abstract": "The expansion of the Internet of Things (IoT) in sectors such as healthcare and industry is concurrently increasing the attack surface and giving rise to significant security concerns. These systems, which process sensitive data, are susceptible to both software and physical attacks due to their network connectivity and proximity to potential attackers. Dynamic Information Flow Tracking (DIFT) is a method of detecting software attacks, such as malware, by tagging and analysing the data flow during the execution of a program. Fault injection attacks (FIAs) induce errors (for example, through the use of laser pulses) that disrupt the normal functioning of a system and bypass security mechanisms. FIAs are of particular importance in the context of embedded and cryptographic systems, where vulnerabilities can lead to the compromise of data. Despite the existence of numerous studies examining FIA vulnerabilities, none have focused on DIFT mechanisms. Our research is focused on the D-RI5CY processor, implementing an in-core hardware DIFT. The present study is concerned with evaluating the impact of FIAs on the effectiveness of DIFT. To this end, we have designed and developed FISSA, a tool for simulating fault injections at the RTL level. A set of FIA-sensitive registers was identified, and three protections were implemented and compared: single parity for detection, Hamming Code for single-bit error correction, and SECDED for double-bit error detection. The implementation of these protections was studied using different strategies, which were evaluated in terms of their impact on the area, and performance overhead and level of security facing different fault models.",
+            "doi": "",
+            "location": "Lorient",
+            "publisher": "hal",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "Countermeasures",
+                "Vulnerability Assessment",
+                "Dynamic Information Flow Tracking",
+                "Error-Correcting Code",
+                "Error-Detecting Code",
+                "Embedded processor",
+                "IoT","RISC-V"
+            ]
+        },
         {
             "subject": "poster",
             "author": [

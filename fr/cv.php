@@ -37,7 +37,7 @@ $age = $intvl->y;
             PENSEC William <br><br>
             <?php echo $age ?> ans <br><br>
             Permis B - Véhiculé <br><br>
-            Lorient (56100) - Université Bretagne Sud <br><br>
+            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
         </div>
         <hr>
         <div class="text-center">
@@ -51,9 +51,20 @@ $age = $intvl->y;
             Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Équipe SESAM - Saint-Étienne
             <br><br>
             <ul>
-                <li><strong>10/2021 - 09/2024 / Soutenance : 19 décembre 2024 - 10h</strong></li>
+                <li>
+                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">Soutenance</a> : 19 décembre 2024</strong>
+                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+                        <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                    </a>
+                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@allskillnoluck7734" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                        <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
+                    </a>
+                </li>
             </ul>
-            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient
+            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - Label Européen
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
@@ -247,13 +258,13 @@ $age = $intvl->y;
             <h4>CONTACT</h4>
         </div>
         <hr>
-        <div class="fs-4 mb-3 text-center">
+        <!-- <div class="fs-4 mb-3 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
             </svg>
             Contact : +33 06.51.36.06.63
-        </div>
+        </div> -->
         <div class="fs-4 mb-3 text-center">
             <script src="../js/script.js"></script>
         </div>

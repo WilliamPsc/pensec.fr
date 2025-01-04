@@ -21,7 +21,6 @@ include "template/menu.php";
     table a:hover {
         text-decoration: underline;
     }
-
 </style>
 
 <br><br>
@@ -40,7 +39,8 @@ include "template/menu.php";
         $activityDetails = [];
 
         // Function to format dates in French
-        function formatDate($date) {
+        function formatDate($date)
+        {
             $formatter = new IntlDateFormatter(
                 'fr_FR',
                 IntlDateFormatter::LONG,
@@ -103,8 +103,11 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
-    <h2><i class="fa-solid fa-calendar-check"></i> Participation à des évènements scientifiques :</h2>
-
+    <h2><i class="fa-solid fa-calendar-check"></i> Évènements scientifiques :</h2>
+    <ul>
+        <li><strong>Séminaire LIRMM</strong> - Présentation travaux de thèse - Montpellier - 07/01/2025
+    </ul>
+    
     <ul>
         <li><strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
     </ul>
