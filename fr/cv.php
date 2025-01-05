@@ -20,7 +20,7 @@ $age = $intvl->y;
 
 <br><br>
 <div class="container">
-    <h2>Curriculum Vitae</h2>
+    <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
         <div class="text-center">
             <p>
@@ -59,7 +59,7 @@ $age = $intvl->y;
                     <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
-                    <a href="https://www.youtube.com/@allskillnoluck7734" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
                         <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
                     </a>
                 </li>

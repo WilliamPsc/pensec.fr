@@ -105,13 +105,27 @@ include "template/menu.php";
     <hr>
     <h2><i class="fa-solid fa-calendar-check"></i> Évènements scientifiques :</h2>
     <ul>
-        <li><strong>Séminaire LIRMM</strong> - Présentation travaux de thèse - Montpellier - 07/01/2025
+        <li>
+            <strong>Séminaire LIRMM</strong> - Présentation travaux de thèse - Montpellier - 07/01/2025
+            <a href="../assets/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                    </a>
+    </li>
     </ul>
-    
+
     <ul>
-        <li><strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
+        <li>
+            <strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
+            <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
+            </a>
+        </li>
     </ul>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <details>
+        <summary>Vidéo de MT180s</summary>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </details>
+
 </div>
 
 <?php
