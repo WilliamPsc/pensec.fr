@@ -115,7 +115,7 @@
             "acronyme": "DSD 2024",
             "month": "August",
             "abstract": "This paper presents FISSA, an open-source software tool that facilitates the building of fault injection campaigns based on well-known HDL simulation tools. The proposed solution relies on two software modules that encapsulate an existing HDL simulator. The first module generates TCL scripts to drive the simulation process and automatically inject faults according to the user's needs. The second module is dedicated to fault analysis, enabling users to assess the resilience of their design. The proposed approach allows the designers to seamlessly integrate fault injection simulations into their workflow. To demonstrate the solution's capacity, this paper proposes a case study to evaluate the robustness of a Dynamic Information Flow Tracking mechanism integrated into a RISC-V processor against different fault injection scenarios. For that purpose, a total of 360,747 simulations have been performed.",
-            "doi": "https://hal.science/hal-04683084",
+            "doi": "https://doi.org/10.1109/DSD64264.2024.00056",
             "location": "Paris",
             "publisher": "hal",
             "keywords": [
@@ -140,9 +140,9 @@
             "acronyme": "DSD 2024",
             "month": "August",
             "abstract": "Fault Injection Attacks (FIA) pose significant threats to the security and reliability of embedded systems. FIAs can be used to target an embedded processor by manipulating its clock signal, power supply or by using electromagnetic pulses.In this study, we analyze FIA on the Physical Memory Protection (PMP) configuration flow of a CVA6 RISC-V core. Fault injection campaigns targeting an FPGA implementation on an ARTY A7-100T board are performed to characterize the fault effects. For that purpose, we rely on clock glitches. Moreover, in order to further characterize the induced faults, Error-Correction Code (ECC) is considered. We extend the ID pipeline stage with hardware modules to filter faults using Hamming code. Experimental results demonstrate that FIA has multiple effects on the PMP configuration registers. By classifying these effects in regards with injection parameters, we highlight that a given effect can be obtained with high probability by an attacker. Furthermore, thanks to integrated ECC modules used as filters, we confirm that single bit-flips is a prevalent effect in our experiments. Particularly, results demonstrate that numerous fault effects observed in the PMP configuration registers are caused by single bit-flips in the ID stage of the CVA6 core.",
-            "doi": "https://hal.science/hal-04683083/",
+            "doi": "https://doi.org/10.1109/DSD64264.2024.00015",
             "location": "Paris",
-            "publisher": "hal",
+            "publisher": "ieee",
             "keywords": [
                 "Hardware security",
                 "Fault Injection Attacks",

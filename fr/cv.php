@@ -64,7 +64,7 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - Label Européen
+            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - Label Européen - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>

@@ -26,11 +26,30 @@ include "template/menu.php";
     .table td {
         font-size: 1.1rem;
     }
+
+  .large-icon {
+    font-size: 35px;
+  }
 </style>
 
 <br><br>
 <div class="container">
     <h2 class="text-center">Soutenance de thèse</h2>
+    <h5 class="text-center">19 décembre 2024</h5>
+    <p class="text-center">
+        <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+            <i class="fas fa-file-pdf large-icon" style="color: #d9534f;"></i>
+        </a>
+        <a href="https://hal.science/tel-04862037/" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+            <i class="ai ai-hal ai-2x large-icon" style="margin-left: 20px;"></i>
+        </a>
+        <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+            <i class="fas fa-file-powerpoint large-icon" style="margin-left: 20px; color: #f77b00;"></i>
+        </a>
+        <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+            <i class="fab fa-youtube large-icon" style="margin-left: 20px; color: red;"></i>
+        </a>
+    </p>
     <hr>
 
     <h3 class="text-justify">Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes</h3>
