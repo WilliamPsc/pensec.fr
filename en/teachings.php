@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 
 <br><br>
 <div class="container">
-    <h2><i class="fas fa-chalkboard-teacher"></i> Teachings (TP and TD)</h2>
+    <h2><i class="fas fa-chalkboard-teacher"></i> Teachings</h2>
     <div class="table-responsive-md">
         <hr>
         <?php

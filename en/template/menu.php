@@ -1,7 +1,7 @@
 <?php
 $page = $_SESSION['baseURL'] . $_SERVER['PHP_SELF'];
 
-$currPage = preg_replace("/\/en\//", "", $page);
+$currPage = preg_replace("/\/en\//", "/en/", $page);
 
 $newPageFr = preg_replace("/\/en\//", "/fr/", $page);
 
@@ -15,7 +15,7 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="navbar-brand">
-                <img src="<?php echo $_SESSION['baseURL'] . "/logo/favicon-32x32.png" ?>" class="rounded-circle" alt="Cinque Terre">
+                <img src="<?php echo $_SESSION['baseURL'] . "/logo/favicon-32x32.png" ?>" class="rounded-circle" alt="Accueil">
             </li>
             <li class="navbar-brand">
                 <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>" style="color:white"><i class="bi bi-house me-2"></i>Home</a>

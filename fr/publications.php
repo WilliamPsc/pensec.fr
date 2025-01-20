@@ -1,10 +1,4 @@
 <?php
-// $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-// if ($langue == "it") {
-//     header("Location : https://www.pensec.fr/it/publications.php");
-// } elseif ($langue != "fr") {
-//     header("Location : https://www.pensec.fr/en/publications.php");
-// }
 
 include "template/header.php";
 include "template/menu.php";

@@ -1,12 +1,12 @@
 <footer class="footer mt-auto py-3 bg-body-secondary jumbotron text-center">
     <?php
-    echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">William PENSEC</a>";
+    echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
     ?>
     <br>
-    PhD Candidate
+    Postdoctorate Researcher
     <br>
     <?php
-    echo "2020 - " . date("Y");
+    echo "2017 - " . date("Y");
     ?>
     <br>
     Version 2.0

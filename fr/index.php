@@ -17,7 +17,6 @@
 
     // Decode the JSON data to a PHP array
     $data = json_decode($json_data, true);
-    // print_r($data);
 
     // Extract the number of citations and publications
     $nb_citations = $data['total_citations'];

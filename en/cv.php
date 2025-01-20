@@ -20,22 +20,20 @@ $age = $intvl->y;
 
 <br /><br />
 <div class="container">
-    <h2>Curriculum Vitae</h2>
+    <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
-        <!-- <h4>Recherche de Thèse en Informatique Embarqué</h4> -->
-        <center>
+        <div class="text-center">
             <p>
                 Download PDF version :
                 <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
-            </p>
-        </center>
+        </div>
         <hr />
         <div class="text-justify">
             PENSEC William <br /><br />
-            <?php echo $age ?> ans <br /><br />
+            <?php echo $age ?> years old <br /><br />
             Driving licence - Vehicle <br /><br />
-            France - Lorient (56100) - Université Bretagne Sud <br /><br />
+            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
         </div>
         <hr>
         <div class="text-center">
@@ -43,47 +41,27 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-justify">
-            <?php
-            // Set your start and end dates here
-            $startDate = new DateTime("2024-04-01");
-            $endDate = new DateTime("2024-09-15");
-
-            // Get current date
-            $currentDate = new DateTime();
-
-            // Calculate progress
-            $totalTime = $endDate->getTimestamp() - $startDate->getTimestamp();
-            $currentTime = $currentDate->getTimestamp() - $startDate->getTimestamp();
-            $progressPercentage = ($currentTime / $totalTime) * 100;
-
-            // Define color scale based on progress range
-            $progressBarColorClass = '';
-            if ($progressPercentage < 25) {
-                $progressBarColorClass = 'bg-danger'; // Red
-            } else if ($progressPercentage < 50) {
-                $progressBarColorClass = 'bg-warning'; // Orange
-            } else if ($progressPercentage < 75) {
-                $progressBarColorClass = 'bg-info'; // Blue
-            } else {
-                $progressBarColorClass = 'bg-success'; // Green
-            }
-            ?>
-
-            <!-- HTML for the progress bar -->
-            <div class="progress">
-                <div id="progress-bar-fill" class="progress-bar <?php echo $progressBarColorClass; ?>" role="progressbar" style="width: <?php echo $progressPercentage; ?>%;" aria-valuenow="<?php echo $progressPercentage; ?>" aria-valuemin="0" aria-valuemax="100">PhD dissertation : <?php echo round($progressPercentage, 2); ?>%</div>
-            </div>
-
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
-            Postdoctorate: Security Evaluation of Neural Network FPGA implementations - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien - Saint-Étienne
+            Postdoctorate: Security Evaluation of Neural Network FPGA implementations - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien - SESAM Team -  Saint-Étienne
             <br><br>
             <ul>
-                <li><strong>10/2021 - 09/2024</strong></li>
+                <li>
+                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">PhD Defense</a> : 19 décembre 2024</strong>
+                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+                        <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                    </a>
+                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                        <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
+                    </a>
+                </li>
             </ul>
-            PhD Thesis in Computer Science: Protection of a processor with DIFT against physical attacks - Université Bretagne Sud - Lorient
-            <br /><br />
+            PhD Thesis in Computer Sciences: Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - European Label - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
+            <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
             </ul>
@@ -97,7 +75,7 @@ $age = $intvl->y;
             <ul>
                 <li><strong>2014 - 2015</strong></li>
             </ul>
-            First Year Common to Health Studies (Première Années Communes aux Études de Santé - PACES) - Université de Bretagne Occidentale - Brest
+            First Year Common to Medical Studies (Première Années Communes aux Études de Santé - PACES) - Université de Bretagne Occidentale - Brest
             <br /><br />
             <ul>
                 <li><strong>2014</strong></li>
@@ -116,7 +94,7 @@ $age = $intvl->y;
                 <li><strong>Supervision:</strong>
                     <ul>
                         <li>2022 : Co-supervision of a M2 student working on : Implementation of a RISC-V processor on an FPGA target</li>
-                        <li>2022 : Co-supervision of an M1 trainee on : Physical attack on FPGA target</li>
+                        <li>2022 : Co-supervision of an M1 internship on : Physical attack on FPGA target</li>
                     </ul>
                 </li>
             </ul>
@@ -124,30 +102,30 @@ $age = $intvl->y;
                 <li><strong>Computer Science:</strong></li>
                 <ul>
                     <li>Programming language: C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic</li>
-                    <li>Hardware development: VHDL, System Verilog, FPGA, Suite Vivado HLS, Assembleur, RISC-V, LiteX</li>
+                    <li>Hardware development: VHDL, System Verilog, FPGA, Vivado HLS, Assembly, RISC-V, LiteX</li>
                     <li>Project management: GitHub</li>
                     <li>Web: HTML, CSS, PHP, BootStrap, WordPress</li>
-                    <li>Data: MySQL, JSON, YAML, XML</li>
-                    <li>Operating Systems: Windows, Linux</li>
-                    <li>Microcontroller: Arduino, Raspberry Pi, FPGA Basic 3, ChipWhisperer</li>
+                    <li>Data management: MySQL, JSON, YAML, XML</li>
+                    <li>Operating Systems: Linux, Windows</li>
+                    <li>Microcontroller: Arduino, Raspberry Pi, Zedboard Zynq-7000, Basic 3, ChipWhisperer, STM32</li>
                 </ul>
 
                 <li><strong>Languages:</strong></li>
                 <ul>
                     <li>French: Native speaker</li>
-                    <li>English: B1/B2 </li>
+                    <li>English: B2 </li>
                     <li>Italian: A2+</li>
-                    <li>Spanish: A2</li>
+                    <li>Spanish: High School / A2</li>
                 </ul>
             </ul>
         </div>
         <hr>
         <div class="text-center">
-            <h4>PROJETS</h4>
+            <h4>PROJECTS</h4>
         </div>
         <hr>
         <div class="text-center">
-            <p>See the <a href="projets.php">projects</a> page for more information and links to the projects in aforementioned</p>
+            <p>See the <a href="projets.php">projects</a> page for more information and links to the projects aforementioned</p>
         </div>
         <div class="text-justify">
             <ul>
@@ -225,9 +203,11 @@ $age = $intvl->y;
         <hr>
         <div class="text-justify">
             <ul>
-                <li><strong>2023 - USI (Switzerland, Lugano)</strong>
+                <li><strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
                     <ul>
-                        <li>International mobility as part of my PhD - Visiting PhD student - SystemVerilog, Python - May 2023 to September 2023</li>
+                        <li>
+                            International mobility as part of my PhD - Visiting PhD student - SystemVerilog, Python - May 2023 to September 2023
+                        </li>
                     </ul>
                 </li>
                 <li><strong>2021 - UBO (Lab-STICC)</strong></li>
@@ -272,13 +252,13 @@ $age = $intvl->y;
             <h4>CONTACT</h4>
         </div>
         <hr>
-        <div class="fs-4 mb-3 text-center">
+        <!-- <div class="fs-4 mb-3 text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                 <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
             </svg>
             Contact: +33 06.51.36.06.63
-        </div>
+        </div> -->
         <div class="fs-4 mb-3 text-center">
             <script src="../js/script.js"></script>
         </div>
@@ -287,12 +267,13 @@ $age = $intvl->y;
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
-                William PENSEC
+                Dr. William PENSEC
             </a>
         </div>
     </div>
 </div>
 
 <?php
+$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
 include "template/footer.php";
 ?>

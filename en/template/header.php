@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>William PENSEC - Personal website</title>
+    <title>Dr. William PENSEC - Personal website</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <meta name="description" content="Personal website">
-    <meta name="author" content="William PENSEC">
-
+    <meta name="author" content="Dr. William PENSEC">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -67,6 +66,6 @@
         $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
         $_SESSION['language'] = "en";
         ?>
-        <h1>William PENSEC</h1>
+        <h1>Dr. William PENSEC</h1>
         <p>PERSONAL WEBSITE</p>
     </div>

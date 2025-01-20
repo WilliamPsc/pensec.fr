@@ -110,15 +110,15 @@ $age = $intvl->y;
                         <li>Web : HTML, CSS, php, BootStrap, WordPress</li>
                         <li>Gestion des données : MySQL, JSON, YAML, XML</li>
                         <li>Systèmes d'exploitation : Linux, Windows</li>
-                        <li>Micro-contrôleur : Arduino, Raspberry Pi, FPGA Basic 3, ChipWhisperer</li>
+                        <li>Micro-contrôleur : Arduino, Raspberry Pi, Zedboard Zynq-7000, Basic 3, ChipWhisperer, STM32</li>
                     </ul>
                 </li>
                 <li><strong>Langues :</strong>
                     <ul>
                         <li>Français : langue maternelle</li>
-                        <li>Anglais : B1/B2 </li>
+                        <li>Anglais : B2 </li>
                         <li>Italien : A2+</li>
-                        <li>Espagnol : A2</li>
+                        <li>Espagnol : Bac / A2</li>
                     </ul>
                 </li>
             </ul>
@@ -190,6 +190,9 @@ $age = $intvl->y;
                 <li><strong>Personnels</strong>
                     <ul>
                         <li>
+                            Création d'une application Android pour la gestion de ma consommation d'essence personnelle - Android, MySQL, php, BootStrap - 2021
+                        </li>
+                        <li>
                             Création d'un site web de gestion de l'organisation d'évènements festifs personnels - PHP, JavaScript, MySQL, HTML - 2019/2021
                         </li>
                         <li>
@@ -206,9 +209,11 @@ $age = $intvl->y;
         <hr>
         <div class="text-justify">
             <ul>
-                <li><strong>2023 - USI (Suisse, Lugano)</strong>
+                <li><strong>2023 - Università della Svizzera italiana (Suisse, Lugano)</strong>
                     <ul>
-                        <li>Mobilité internationale dans le cadre de mon Doctorat - Doctorant invité - SystemVerilog, Python - Mai 2023 à Septembre 2023</li>
+                        <li>
+                            Mobilité internationale dans le cadre de mon Doctorat - Doctorant invité - SystemVerilog, Python - Mai 2023 à Septembre 2023
+                        </li>
                     </ul>
                 </li>
                 <li><strong>2021 - UBO (Lab-STICC)</strong>
@@ -273,7 +278,7 @@ $age = $intvl->y;
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
                 </svg>
-                William PENSEC
+                Dr. William PENSEC
             </a>
         </div>
     </div>
