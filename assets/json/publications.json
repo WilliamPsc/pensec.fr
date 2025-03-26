@@ -1,6 +1,29 @@
 {
     "2025": [
         {
+            "subject": "poster",
+            "author": [
+                "William PENSEC",
+                "Vianney LAPÔTRE",
+                "Guy GOGNIAT"
+            ],
+            "titre": "Implementation and evaluation of countermeasures in a DIFT mechanism against Fault Injection Attacks",
+            "booktitle": "Design, Automation and Test in Europe Conference",
+            "acronyme": "DATE",
+            "month": "March",
+            "abstract": "Nowadays, IoT devices face many threats and these systems, sometimes critical, need to be protected against both software and physical attacks. Software attacks can be detected using Dynamic Information Flow Tracking (DIFT) techniques.",
+            "doi": "",
+            "location": "Lyon",
+            "publisher": "hal",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "Countermeasures",
+                "Vulnerability Assessment"
+            ]
+        },
+        {
             "subject": "presentation",
             "author": [
                 "William PENSEC"

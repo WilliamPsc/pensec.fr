@@ -1,4 +1,13 @@
 {
+    "2025":[
+        {
+            "name": "Design, Automation and Test in Europe Conference (DATE) - Young People Programme",
+            "dateStart": "2025-03-31",
+            "dateEnd": "2025-03-31",
+            "place": "Lyon, France",
+            "link": "https://www.date-conference.com/call-for-papers#ypp"
+        }
+    ],
     "2024":[
         {
             "name": "Colloque National du GDR SoC²",

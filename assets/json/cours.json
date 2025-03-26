@@ -1,5 +1,18 @@
 {
-    "2023":[
+    "2024": [
+        {
+            "type": "TD",
+            "anneeFR": "FISE 2 (2<sup>ème</sup> année cycle ingénieur TSE",
+            "anneeEN": "FISE 2",
+            "anneeIT": "FISE 2",
+            "idName": "PING",
+            "nameFR": "Projets PING - projet cycle ingénieur",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 7
+        }
+    ],
+    "2023": [
         {
             "type": "TP",
             "anneeFR": "BUT 2 (2<sup>ème</sup> année d'IUT)",
