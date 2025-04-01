@@ -21,8 +21,11 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
                 <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>" style="color:white"><i class="bi bi-house me-2"></i>Home</a>
             </li>
             <li class="navbar-brand">
-                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>" style="color:white">CV</a>
+                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>" style="color:white">Curriculum vitae</a>
             </li>
+            <!-- <li class="navbar-brand">
+                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cours.php" ?>" style="color:white">Cours</a>
+            </li> -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Scientific and academic involvement</a>
                 <div class="dropdown-menu" aria-labelledby="engagement">

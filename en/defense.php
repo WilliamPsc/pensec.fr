@@ -35,7 +35,7 @@ include "template/menu.php";
 <br><br>
 <div class="container">
     <h2 class="text-center">PhD Defense</h2>
-    <h5 class="text-center">19 December 2024</h5>
+    <h5 class="text-center">December 19, 2024</h5>
     <p class="text-center">
         <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="PDF Manuscript" style="text-decoration: none;">
             <i class="fas fa-file-pdf large-icon" style="color: #d9534f;"></i>

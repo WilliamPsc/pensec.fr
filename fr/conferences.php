@@ -9,8 +9,15 @@ include "template/menu.php";
         color: blue;
     }
 
+    .table th,
+    .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
     .table-container {
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     table a {
@@ -21,7 +28,32 @@ include "template/menu.php";
     table a:hover {
         text-decoration: underline;
     }
+
+    .custom-table th:first-child,
+    .custom-table td:first-child {
+        width: 50%;
+    }
+
+    .custom-table th:not(:first-child),
+    .custom-table td:not(:first-child) {
+        width: calc(50% / 3);
+    }
+
+    .bordered-table th,
+    .bordered-table td {
+        border: 1px solid #dee2e6;
+    }
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tables = document.querySelectorAll('.equal-columns');
+        tables.forEach(table => {
+            const columnCount = table.querySelector('thead tr').children.length;
+            table.style.setProperty('--column-count', columnCount);
+        });
+    });
+</script>
 
 <br><br>
 <div class="container text-justify my-4">
@@ -75,7 +107,7 @@ include "template/menu.php";
             <div class="mb-4">
                 <h5 class="year-heading"><?php echo $year; ?></h5>
                 <div class="table-container">
-                    <table class="table table-striped table-hover">
+                    <table class="table table-striped table-hover custom-table">
                         <thead class="table">
                             <tr>
                                 <th style="text-align: center;">Nom</th>
@@ -87,7 +119,7 @@ include "template/menu.php";
                         <tbody>
                             <?php foreach ($activities as $activity) : ?>
                                 <tr>
-                                    <td style="text-align: left;"><?php echo "<a target='_blank' href='" . $activity['url'] . "'>" .  $activity['name'] . "</a>"; ?></td>
+                                    <td style="text-align: center;"><?php echo "<a target='_blank' href='" . $activity['url'] . "'>" .  $activity['name'] . "</a>"; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['dateStart']; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['dateEnd']; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['place']; ?></td>
@@ -106,13 +138,12 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-calendar-check"></i> Évènements scientifiques :</h2>
     <ul>
         <li>
-            <strong>Séminaire LIRMM</strong> - Présentation travaux de thèse - Montpellier - 07/01/2025
+            <strong>Séminaire au LIRMM</strong> - Présentation de mes travaux de thèse - Montpellier - 07/01/2025
             <a href="../assets/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
-                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
-                    </a>
-    </li>
+                <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+            </a>
+        </li>
     </ul>
-
     <ul>
         <li>
             <strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
@@ -122,7 +153,7 @@ include "template/menu.php";
         </li>
     </ul>
     <details>
-        <summary>Vidéo de MT180s</summary>
+        <summary class="text-center">Vidéo de MT180s</summary>
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </details>
 

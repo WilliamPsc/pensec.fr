@@ -2,12 +2,12 @@
     "2024": [
         {
             "type": "TD",
-            "anneeFR": "FISE 2 (2<sup>ème</sup> année cycle ingénieur TSE",
-            "anneeEN": "FISE 2",
+            "anneeFR": "FISE 2 (2<sup>ème</sup> année cycle ingénieur TSE)",
+            "anneeEN": "FISE 2 (2nd year of the TSE engineering cycle)",
             "anneeIT": "FISE 2",
             "idName": "PING",
-            "nameFR": "Projets PING - projet cycle ingénieur",
-            "nameEN": "",
+            "nameFR": "Projet Ingénieur",
+            "nameEN": "Engineering project",
             "nameIT": "",
             "nbHeures": 7
         }
@@ -16,33 +16,33 @@
         {
             "type": "TP",
             "anneeFR": "BUT 2 (2<sup>ème</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 2 (2<sup>nd</sup> year of IUT)",
             "anneeIT": "",
             "idName": "INFO3",
             "nameFR": "Introduction à la programmation et à l'algorithmique (programmation Python)",
-            "nameEN": "",
+            "nameEN": "Introduction to programming and algorithms (Python language)",
             "nameIT": "",
             "nbHeures": 20
         },
         {
             "type": "TP",
             "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 1 (1<sup>st</sup> year of IUT)",
             "anneeIT": "",
             "idName": "INFO1-b",
             "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
-            "nameEN": "",
+            "nameEN": "Introduction to digital electronics and Boolean logic",
             "nameIT": "",
             "nbHeures": 12
         },
         {
             "type": "TD",
             "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 1 (1<sup>st</sup> year of IUT)",
             "anneeIT": "",
             "idName": "INFO1-b",
             "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
-            "nameEN": "",
+            "nameEN": "Introduction to digital electronics and Boolean logic",
             "nameIT": "",
             "nbHeures": 8
         }
@@ -51,44 +51,44 @@
         {
             "type": "TP",
             "anneeFR": "Master 2 CSSE & SESI",
-            "anneeEN": "",
+            "anneeEN": "Master 2 CSSE & SESI",
             "anneeIT": "",
-            "idName": "Programmation parallèle",
+            "idName": "OpenMP",
             "nameFR": "Introduction à la progammation parallèle (C, OpenMP)",
-            "nameEN": "",
+            "nameEN": "Introduction to parallel programming (C, OpenMP)",
             "nameIT": "",
             "nbHeures": 8
         },
         {
             "type": "TP",
             "anneeFR": "Master 1 SESI",
-            "anneeEN": "",
+            "anneeEN": "Master 1 SESI",
             "anneeIT": "",
             "idName": "FPGA",
             "nameFR": "Conception d'Architecture Numérique",
-            "nameEN": "",
+            "nameEN": "Digital Architecture Design",
             "nameIT": "",
             "nbHeures": 16
         },
         {
             "type": "TP",
             "anneeFR": "BUT 2 (2<sup>ème</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 2 (2<sup>nd</sup> year of IUT)",
             "anneeIT": "",
             "idName": "INFO3",
-            "nameFR": "Introduction à la programmation et à l'algorithmique (programmation C)",
-            "nameEN": "",
+            "nameFR": "Introduction à la programmation et à l'algorithmique (langage C)",
+            "nameEN": "Introduction to programming and algorithms (C language)",
             "nameIT": "",
             "nbHeures": 24
         },
         {
             "type": "TP",
             "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 1 (1<sup>st</sup> year of IUT)",
             "anneeIT": "",
             "idName": "INFO1-b",
             "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
-            "nameEN": "",
+            "nameEN": "Introduction to digital electronics and Boolean logic",
             "nameIT": "",
             "nbHeures": 16
         }
@@ -97,22 +97,22 @@
         {
             "type": "TP",
             "anneeFR": "DUT 2 (2<sup>ème</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "DUT 2 (2<sup>nd</sup> year of University technical institute (IUT))",
             "anneeIT": "",
             "idName": "INFO2",
-            "nameFR": "Introduction à la programmation et à l'algorithmique (programmation C)",
-            "nameEN": "",
+            "nameFR": "Introduction à la programmation et à l'algorithmique (langage C)",
+            "nameEN": "Introduction to programming and algorithms (C language)",
             "nameIT": "",
             "nbHeures": 20
         },
         {
             "type": "TP",
             "anneeFR": "BUT 1 (1<sup>ère</sup> année d'IUT)",
-            "anneeEN": "",
+            "anneeEN": "BUT 1 (1<sup>st</sup> year of University technical institute (IUT))",
             "anneeIT": "",
             "idName": "OSI-b",
             "nameFR": "Introduction à l'électronique numérique et à la logique booléenne",
-            "nameEN": "",
+            "nameEN": "Introduction to digital electronics and Boolean logic",
             "nameIT": "",
             "nbHeures": 12
         }

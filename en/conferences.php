@@ -9,8 +9,15 @@ include "template/menu.php";
         color: blue;
     }
 
+    .table th,
+    .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
     .table-container {
         margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     table a {
@@ -22,11 +29,35 @@ include "template/menu.php";
         text-decoration: underline;
     }
 
+    .custom-table th:first-child,
+    .custom-table td:first-child {
+        width: 50%;
+    }
+
+    .custom-table th:not(:first-child),
+    .custom-table td:not(:first-child) {
+        width: calc(50% / 3);
+    }
+
+    .bordered-table th,
+    .bordered-table td {
+        border: 1px solid #dee2e6;
+    }
 </style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const tables = document.querySelectorAll('.equal-columns');
+        tables.forEach(table => {
+            const columnCount = table.querySelector('thead tr').children.length;
+            table.style.setProperty('--column-count', columnCount);
+        });
+    });
+</script>
 
 <br><br>
 <div class="container text-justify my-4">
-    <h2><i class="fa-solid fa-book-journal-whills"></i> Liste des conférences assistées :</h2>
+    <h2><i class="fa-solid fa-book-journal-whills"></i> List of conferences attended :</h2>
     <div class="table-responsive-md">
         <hr>
         <?php
@@ -39,10 +70,11 @@ include "template/menu.php";
         // Init variables
         $activityDetails = [];
 
-        // Function to format dates in French
-        function formatDate($date) {
+        // Function to format dates in english
+        function formatDate($date)
+        {
             $formatter = new IntlDateFormatter(
-                'fr_FR',
+                'en_EN',
                 IntlDateFormatter::LONG,
                 IntlDateFormatter::NONE
             );
@@ -75,19 +107,19 @@ include "template/menu.php";
             <div class="mb-4">
                 <h5 class="year-heading"><?php echo $year; ?></h5>
                 <div class="table-container">
-                    <table class="table table-striped table-hover">
+                    <table class="table table-striped table-hover custom-table">
                         <thead class="table">
                             <tr>
-                                <th style="text-align: center;">Nom</th>
-                                <th style="text-align: center;">Début</th>
-                                <th style="text-align: center;">Fin</th>
-                                <th style="text-align: center;">Lieu</th>
+                                <th style="text-align: center;">Name</th>
+                                <th style="text-align: center;">Start</th>
+                                <th style="text-align: center;">End</th>
+                                <th style="text-align: center;">Location</th>
                             </tr>
                         </thead>
                         <tbody>
                             <?php foreach ($activities as $activity) : ?>
                                 <tr>
-                                    <td style="text-align: left;"><?php echo "<a target='_blank' href='" . $activity['url'] . "'>" .  $activity['name'] . "</a>"; ?></td>
+                                    <td style="text-align: center;"><?php echo "<a target='_blank' href='" . $activity['url'] . "'>" .  $activity['name'] . "</a>"; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['dateStart']; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['dateEnd']; ?></td>
                                     <td style="text-align: center;"><?php echo $activity['place']; ?></td>
@@ -103,12 +135,25 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
-    <h2><i class="fa-solid fa-calendar-check"></i> Participation à des évènements scientifiques :</h2>
-
+    <h2><i class="fa-solid fa-calendar-check"></i> Scientific events:</h2>
     <ul>
-        <li><strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
+        <li>
+            <strong>Seminar at LIRMM</strong> - Presentation of my thesis work - Montpellier - 07/01/2025
+            <a href="../assets/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+            </a>
+        </li>
     </ul>
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <ul>
+        <li><strong>My Thesis in 180s (MT180)</strong> - Participation in the regional final - Rennes (France) - 14/03/2023
+            <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
+            </a>
+    </ul>
+    <details>
+        <summary class="text-center">Video of MT180 (in French)</summary>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </details>
 </div>
 
 <?php

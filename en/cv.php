@@ -32,23 +32,22 @@ $age = $intvl->y;
         <div class="text-justify">
             PENSEC William <br /><br />
             <?php echo $age ?> years old <br /><br />
-            Driving licence - Vehicle <br /><br />
-            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
+            France - Saint-Étienne (42000) - Laboratory Hubert Curien - University Jean Monnet<br /><br />
         </div>
         <hr>
         <div class="text-center">
-            <h4>EDUCATION</h4>
+            <h4 class="text-uppercase">University Curriculum</h4>
         </div>
         <hr>
         <div class="text-justify">
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
-            Postdoctorate: Security Evaluation of Neural Network FPGA implementations - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien - SESAM Team -  Saint-Étienne
+            Postdoctorate in computer science: Security Evaluation of Neural Network FPGA implementations - University Jean Monnet, UMR CNRS 5516, Laboratory Hubert Curien - SESAM Team - Saint-Étienne (France)
             <br><br>
             <ul>
                 <li>
-                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">PhD Defense</a> : 19 décembre 2024</strong>
+                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">PhD Defense</a> : December 19, 2024</strong>
                     <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
@@ -60,7 +59,7 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            PhD Thesis in Computer Sciences: Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - European Label - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
+            PhD Thesis in Computer Science: Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - European Label - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
@@ -75,7 +74,7 @@ $age = $intvl->y;
             <ul>
                 <li><strong>2014 - 2015</strong></li>
             </ul>
-            First Year Common to Medical Studies (Première Années Communes aux Études de Santé - PACES) - Université de Bretagne Occidentale - Brest
+            First Year Common to Medical Studies (Première Année Commune aux Études de Santé - PACES) - Université de Bretagne Occidentale - Brest
             <br /><br />
             <ul>
                 <li><strong>2014</strong></li>
@@ -236,6 +235,61 @@ $age = $intvl->y;
                 </ul>
             </ul>
         </div>
+        <hr>
+        <br><br>
+        <div class="container">
+            <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> University delegate:</h4>
+            <div class="table-responsive-md">
+                <hr>
+                <?php
+                // Read JSON file
+                $json = file_get_contents("../assets/json/delegue.json");
+
+                // Decode JSON
+                $json_data = json_decode($json, true);
+
+                // Function to format date
+                function formatDate($dateString)
+                {
+                    $date = DateTime::createFromFormat('Y-m', $dateString);
+                    return $date->format('F Y');
+                }
+
+                // Display content
+                echo "<div class=\"text-justify\">\n";
+                echo "\t\t\t<table class=\"table table-striped table-hover bordered-table text-center\">\n";
+                echo "\t\t\t\t<thead>\n";
+                echo "\t\t\t\t\t<tr>\n";
+                echo "\t\t\t\t\t\t<th>Start</th>\n";
+                echo "\t\t\t\t\t\t<th>Elections</th>\n";
+                echo "\t\t\t\t\t\t<th>Period</th>\n";
+                echo "\t\t\t\t\t</tr>\n";
+                echo "\t\t\t\t</thead>\n";
+                echo "\t\t\t\t<tbody>\n";
+
+                foreach ($json_data as $key => $value) {
+                    foreach ($value as $keyArray => $valuesArray) {
+                        // Format dates
+                        $formattedStartDate = formatDate($valuesArray['dateStart']);
+                        $formattedEndDate = $valuesArray['dateEnd'] == "" ? "" : formatDate($valuesArray['dateEnd']);
+
+                        // Display table row
+                        echo "\t\t\t\t\t<tr>\n";
+                        echo "\t\t\t\t\t\t<td><strong>$key</strong></td>\n";
+                        echo "\t\t\t\t\t\t<td>" . $valuesArray['nameEN'] . "</td>\n";
+                        echo "\t\t\t\t\t\t<td>$formattedStartDate - $formattedEndDate</td>\n";
+                        echo "\t\t\t\t\t</tr>\n";
+                    }
+                }
+
+                echo "\t\t\t\t</tbody>\n";
+                echo "\t\t\t</table>\n";
+                echo "\t\t</div>\n";
+                ?>
+                <br><br>
+            </div>
+        </div>
+
         <hr>
         <div class="text-center">
             <h4>HOBBIES</h4>

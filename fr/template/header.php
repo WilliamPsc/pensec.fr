@@ -66,6 +66,7 @@
         $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
         $_SESSION['language'] = "fr";
         ?>
-        <h1>Dr. William PENSEC</h1>
+        <h1>Dr William PENSEC</h1>
+        <h5>Docteur en Informatique et Architectures Numériques</h5>
         <p>SITE PERSONNEL</p>
     </div>

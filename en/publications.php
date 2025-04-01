@@ -85,9 +85,14 @@ include "template/menu.php";
     echo "\t</div>";
     ?>
 
-    <hr>
-    <h3>Revue papers: </h3>
     <?php
+    $filtered_values = count(array_filter($value, function ($value) {
+        return $value['subject'] == 'journal';
+    }));
+    if ($filtered_values != 0) {
+        echo "<hr>";
+        echo "<h3>Revue papers: </h3>";
+    }
     // Read JSON file
     $json = file_get_contents("../assets/json/publications.json");
 
@@ -97,12 +102,9 @@ include "template/menu.php";
     // Display content
     echo "\t<div class=\"text-justify\">\n";
     echo "\t\t<ul>\n";
-    foreach ($json_publications as $key => $value) {
-        $filtered_values = count(array_filter($value, function ($value) {
-            return $value['subject'] == 'journal';
-        }));
-        // Display HTML
-        if ($filtered_values != 0) {
+    if ($filtered_values != 0) {
+        foreach ($json_publications as $key => $value) {
+            // Display HTML
             echo "\t\t\t<li><strong>" . $key . "</strong>\n";
             echo "\t\t\t\t<ul>\n";
             foreach ($value as $keyArray => $valuesArray) {

@@ -36,7 +36,6 @@ $age = $intvl->y;
         <div class="text-justify">
             PENSEC William <br><br>
             <?php echo $age ?> ans <br><br>
-            Permis B - Véhiculé <br><br>
             Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
         </div>
         <hr>
@@ -247,6 +246,74 @@ $age = $intvl->y;
                 </li>
             </ul>
         </div>
+
+        <hr>
+        <div class="container">
+            <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> Représentant universitaire :</h4>
+            <div class="table-responsive-md">
+                <hr>
+                <?php
+                // Read JSON file
+                $json = file_get_contents("../assets/json/delegue.json");
+
+                // Decode JSON
+                $json_data = json_decode($json, true);
+
+                // Function to format date
+                function formatDate($dateString)
+                {
+                    $date = DateTime::createFromFormat('Y-m', $dateString);
+                    return $date->format('F Y');
+                }
+
+                // Display content
+                echo "<div class=\"text-justify\">\n";
+                echo "\t\t\t<table class=\"table table-striped table-hover bordered-table text-center\">\n";
+                echo "\t\t\t\t<thead>\n";
+                echo "\t\t\t\t\t<tr>\n";
+                echo "\t\t\t\t\t\t<th>Début</th>\n";
+                echo "\t\t\t\t\t\t<th>Élections</th>\n";
+                echo "\t\t\t\t\t\t<th>Période</th>\n";
+                echo "\t\t\t\t\t</tr>\n";
+                echo "\t\t\t\t</thead>\n";
+                echo "\t\t\t\t<tbody>\n";
+
+                foreach ($json_data as $key => $value) {
+                    foreach ($value as $keyArray => $valuesArray) {
+                        // Format dates
+                        $formattedStartDate = formatDate($valuesArray['dateStart']);
+                        $formattedEndDate = $valuesArray['dateEnd'] == "" ? "" : formatDate($valuesArray['dateEnd']);
+
+                        // Translate months to French
+                        $formattedStartDateFrench = str_replace(
+                            ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                            ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+                            $formattedStartDate
+                        );
+
+                        $formattedEndDateFrench = str_replace(
+                            ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                            ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'],
+                            $formattedEndDate
+                        );
+
+                        // Display table row
+                        echo "\t\t\t\t\t<tr>\n";
+                        echo "\t\t\t\t\t\t<td><strong>$key</strong></td>\n";
+                        echo "\t\t\t\t\t\t<td>" . $valuesArray['nameFR'] . "</td>\n";
+                        echo "\t\t\t\t\t\t<td>$formattedStartDateFrench - $formattedEndDateFrench</td>\n";
+                        echo "\t\t\t\t\t</tr>\n";
+                    }
+                }
+
+                echo "\t\t\t\t</tbody>\n";
+                echo "\t\t\t</table>\n";
+                echo "\t\t</div>\n";
+                ?>
+                <br><br>
+            </div>
+        </div>
+
         <hr>
         <div class="text-center">
             <h4>CENTRES D'INTÉRÊT</h4>

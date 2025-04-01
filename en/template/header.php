@@ -67,5 +67,6 @@
         $_SESSION['language'] = "en";
         ?>
         <h1>Dr. William PENSEC</h1>
+        <h5>PhD in Computer Science and Digital Architectures</h5>
         <p>PERSONAL WEBSITE</p>
     </div>

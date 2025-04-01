@@ -3,7 +3,7 @@
     echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
     ?>
     <br>
-    Chercheur postdoctorant
+    Chercheur post-doctorant
     <br>
     <?php
     echo "2017 - " . date("Y");

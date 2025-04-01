@@ -4,11 +4,6 @@ Order Allow,Deny
 Deny from all
 </Files>
 
-<Files "progress_bar.php">
-    Order Allow,Deny
-    Deny from all
-</Files>
-
 # Disable directory browsing 
 Options -Indexes
 
