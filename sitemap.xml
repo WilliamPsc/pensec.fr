@@ -15,8 +15,8 @@
 		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
-
-	<!-- ENGLISH WEBSITE -->
+</urlset>
+	<!-- ENGLISH WEBSITE
 	<url>
 		<loc>https://www.pensec.fr/en/</loc>
 		<changefreq>weekly</changefreq>
@@ -43,5 +43,4 @@
 		<loc>https://www.pensec.fr/it/index.php</loc>
 		<changefreq>weekly</changefreq>
 		<priority>1.0</priority>
-	</url>
-</urlset>
+	</url> -->
