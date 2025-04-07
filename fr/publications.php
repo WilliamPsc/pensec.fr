@@ -9,6 +9,20 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-book"></i> Publications scientifiques</h2>
     <hr>
 
+    <h3>Récompenses : </h3>
+    <div class="text-justify">
+        <ul>
+            <li><strong>2023</strong></li>
+            <ul>
+                <li>
+                    <strong style="display: inline;">Best Paper Award: </strong><br>
+                    <a href="https://sensorssp.github.io/sensorssp23/program/" target="_blank" style="font-size: small;">The International Workshop on Security and Privacy of Sensing Systems</a><p style="display: inline;font-size: small;">- Novembre 2023</p>
+                </li>
+            </ul>
+        </ul>
+    </div>
+
+    <hr>
     <h3>Liste des articles de conférences : </h3>
     <?php
     // Read JSON file
@@ -56,7 +70,7 @@ include "template/menu.php";
 
                     $publisher = $valuesArray['publisher'];
                     if ($publisher == "riscv") {
-                        $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"30\" style=\"margin-right: 5px;\"></img> ";
+                        $publish = "<img src=\"../assets/img/publishers/riscv.svg\" height=\"20\" style=\"margin-right: 5px;\"></img> ";
                     } else if ($publisher == "ieee") {
                         $publish = "<i class=\"ai ai-ieee ai-2x\" alt=\"ieee\"></i> ";
                     } else if ($publisher == "acm") {
@@ -69,13 +83,13 @@ include "template/menu.php";
                     $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
                     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                        $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                        $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
                         $valuesArray['titre'] . "</u>" . ", " .
                         $valuesArray['booktitle'] .
                         " (" . $valuesArray['acronyme'] . "), " .
                         $valuesArray['location'] . ", " .
                         $month_of_publications . ", " .
-                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $publish . "</a>\n";
                     echo "\t\t\t\t\t</li>\n";
                 }
             }
@@ -153,13 +167,13 @@ include "template/menu.php";
                     $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
                     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                        $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                        $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
                         $valuesArray['titre'] . "</u>" . ", " .
                         $valuesArray['booktitle'] .
                         " (" . $valuesArray['acronyme'] . "), " .
                         $valuesArray['location'] . ", " .
                         $month_of_publications . ", " .
-                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $publish . "</a>\n";
                     echo "\t\t\t\t\t</li>\n";
                 }
             }
@@ -232,13 +246,13 @@ include "template/menu.php";
                     $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
                     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                        $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                        $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
                         $valuesArray['titre'] . "</u>" . ", " .
                         $valuesArray['booktitle'] .
                         " (" . $valuesArray['acronyme'] . "), " .
                         $valuesArray['location'] . ", " .
                         $month_of_publications . ", " .
-                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $publish . "</a>\n";
                     echo "\t\t\t\t\t</li>\n";
                 }
             }
@@ -311,13 +325,13 @@ include "template/menu.php";
                     $month_of_publications = str_replace(['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'], ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'], $valuesArray['month']);
 
                     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t" .
-                        $publish . $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
+                        $strAuthors . ", " . "<u data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-placement=\"top\" title=\"" . $valuesArray['abstract'] . "\">" .
                         $valuesArray['titre'] . "</u>" . ", " .
                         $valuesArray['booktitle'] .
                         " (" . $valuesArray['acronyme'] . "), " .
                         $valuesArray['location'] . ", " .
                         $month_of_publications . ", " .
-                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $valuesArray['doi'] . "</a>\n";
+                        "<a target='_blank' href='" . $valuesArray['doi'] . "'>" . $publish . "</a>\n";
                     echo "\t\t\t\t\t</li>\n";
                 }
             }

@@ -135,6 +135,17 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
+    <h2><i class="fa-solid fa-calendar-check"></i> Organisations d'évènements :</h2>
+    <ul>
+        <li>
+            <strong><a href="http://cascade-conference.org/index.html" target="_blank" alt="Site de la conférence" style="text-decoration: none;">CASCADE</a></strong> - Aide au déroulement de la conférence CASCADE 2025 - Saint-Étienne
+            
+        </li>
+    </ul>
+</div>
+
+<div class="container text-justify">
+    <hr>
     <h2><i class="fa-solid fa-calendar-check"></i> Évènements scientifiques :</h2>
     <ul>
         <li>
@@ -156,7 +167,6 @@ include "template/menu.php";
         <summary class="text-center">Vidéo de MT180s</summary>
         <iframe width="1280" height="720" src="https://www.youtube.com/embed/m_whL8xGbMQ" title="William PENSEC - Finale régionale Bretagne - MT180 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </details>
-
 </div>
 
 <?php

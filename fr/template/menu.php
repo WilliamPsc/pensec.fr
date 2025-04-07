@@ -26,6 +26,9 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
             <!-- <li class="navbar-brand">
                 <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cours.php" ?>" style="color:white">Cours</a>
             </li> -->
+            <!-- <li class="navbar-brand">
+                <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/students.php" ?>" style="color:white">Étudiants</a>
+            </li> -->
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle navbar-brand" href="<?php echo $currPage ?>" id="engagement" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white">Engagement scientifique et universitaire</a>
                 <div class="dropdown-menu" aria-labelledby="engagement">
