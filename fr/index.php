@@ -29,7 +29,7 @@
     <div class="container">
         <h2 class="text-center"><u>Chercheur post-doctorant</u></h2>
         <div class="table-responsive-md">
-            <h4>Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux sur RISC-V</h4><br>
+            <h4 class="text-center">Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux sur RISC-V</h4><br>
             <!-- <h4>Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Saint-Étienne</h4> -->
             <br><br>
             <table class="table table-striped table-hover">

@@ -122,7 +122,7 @@ $age = $intvl->y;
                 </li>
             </ul>
         </div>
-        <hr>
+        <!-- <hr>
         <div class="text-center">
             <h4>PROJETS</h4>
         </div>
@@ -200,7 +200,7 @@ $age = $intvl->y;
                     </ul>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <hr>
         <div class="text-center">
             <h4>EXPÉRIENCES PROFESSIONNELLES</h4>

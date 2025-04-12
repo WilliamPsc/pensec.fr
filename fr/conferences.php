@@ -139,7 +139,9 @@ include "template/menu.php";
     <ul>
         <li>
             <strong><a href="http://cascade-conference.org/index.html" target="_blank" alt="Site de la conférence" style="text-decoration: none;">CASCADE</a></strong> - Aide au déroulement de la conférence CASCADE 2025 - Saint-Étienne
-            
+        </li>
+        <li>
+            <strong><a href="https://project.inria.fr/chairaml/summer-school-on-embedded-signal-processing-and-machine-learning-for-edge-intelligence/" target="_blank" alt="Site de la conférence" style="text-decoration: none;">AMLE Summer School</a></strong> - Participation à l'organisation de l'école d'été AMLE 2022 - Lorient
         </li>
     </ul>
 </div>
