@@ -9,14 +9,16 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-book"></i> Publications scientifiques</h2>
     <hr>
 
+    <!-- TODO: refactoriser ça et écrire les publications à la main avec les liens des pdfs à mettre dans assets/articles/ et les référencer dans google (sitemap.xml) -->
+
     <h3>Récompenses : </h3>
     <div class="text-justify">
         <ul>
             <li><strong>2023</strong></li>
             <ul>
                 <li>
-                    <strong style="display: inline;">Best Paper Award: </strong><br>
-                    <a href="https://sensorssp.github.io/sensorssp23/program/" target="_blank" style="font-size: small;">The International Workshop on Security and Privacy of Sensing Systems</a><p style="display: inline;font-size: small;">- Novembre 2023</p>
+                    <strong style="display: inline;">Prix du meilleur article : </strong>
+                    <a href="https://sensorssp.github.io/sensorssp23/program/" target="_blank" style="font-size: medium;">The International Workshop on Security and Privacy of Sensing Systems</a><p style="display: inline;font-size: medium;"> - Novembre 2023</p>
                 </li>
             </ul>
         </ul>
