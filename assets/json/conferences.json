@@ -1,6 +1,13 @@
 {
     "2025":[
         {
+            "name": "Colloque National du GDR SoC²",
+            "dateStart": "2025-06-11",
+            "dateEnd": "2025-06-13",
+            "place": "Lorient, France",
+            "link": "https://gdr-soc2-2025.sciencesconf.org/"
+        },
+        {
             "name": "CASCADE",
             "dateStart": "2025-04-02",
             "dateEnd": "2025-04-04",
@@ -17,18 +24,11 @@
     ],
     "2024":[
         {
-            "name": "Colloque National du GDR SoC²",
-            "dateStart": "2024-06-10",
-            "dateEnd": "2024-06-12",
-            "place": "Toulouse, France",
-            "link": "https://colloque-gdr-soc2.sciencesconf.org/"
-        },
-        {
-            "name": "IEEE Computer Society Annual Symposium on VLSI",
-            "dateStart": "2024-07-01",
-            "dateEnd": "2024-07-03",
-            "place": "Knoxville, Tennessee, USA",
-            "link": "https://www.ieee-isvlsi.org/ISVLSI_2024_Website/"
+            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2024",
+            "dateStart": "2024-10-01",
+            "dateEnd": "2024-10-01",
+            "place": "Rennes, France",
+            "link": "https://jaif.io/2024/"
         },
         {
             "name": "27th Euromicro Conference Series on Digital System Design",
@@ -38,34 +38,27 @@
             "link": "https://dsd-seaa.com/dsd2024/"
         },
         {
-            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2024",
-            "dateStart": "2024-10-01",
-            "dateEnd": "2024-10-01",
-            "place": "Rennes, France",
-            "link": "https://jaif.io/2024/"
+            "name": "IEEE Computer Society Annual Symposium on VLSI",
+            "dateStart": "2024-07-01",
+            "dateEnd": "2024-07-03",
+            "place": "Knoxville, Tennessee, USA",
+            "link": "https://www.ieee-isvlsi.org/ISVLSI_2024_Website/"
+        },
+        {
+            "name": "Colloque National du GDR SoC²",
+            "dateStart": "2024-06-10",
+            "dateEnd": "2024-06-12",
+            "place": "Toulouse, France",
+            "link": "https://colloque-gdr-soc2.sciencesconf.org/"
         }
     ],
     "2023":[
         {
-            "name": "10 years of PULP platform",
-            "dateStart": "2023-06-05",
-            "dateEnd": "2023-06-06",
-            "place": "Lugano, Switzerland",
-            "link": "https://pulp-platform.org/10years/"
-        },
-        {
-            "name": "RISC-V Summit Europe",
-            "dateStart": "2023-06-06",
-            "dateEnd": "2023-06-09",
-            "place": "Barcelona, Spain",
-            "link": "https://riscv-europe.org/"
-        },
-        {
-            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2023",
-            "dateStart": "2023-09-28",
-            "dateEnd": "2023-09-28",
-            "place": "Aix-en-Provence, France",
-            "link": "https://jaif.io/2023/"
+            "name": "BITFLIP By DGA - European Cyber Week (ECW)",
+            "dateStart": "2023-11-22",
+            "dateEnd": "2023-11-23",
+            "place": "Rennes, France",
+            "link": "https://www.european-cyber-week.eu/bitflip"
         },
         {
             "name": "Sensors S&P",
@@ -75,41 +68,34 @@
             "link": "https://sensorssp.github.io/sensorssp23/"
         },
         {
-            "name": "BITFLIP By DGA - European Cyber Week (ECW)",
-            "dateStart": "2023-11-22",
-            "dateEnd": "2023-11-23",
-            "place": "Rennes, France",
-            "link": "https://www.european-cyber-week.eu/bitflip"
+            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2023",
+            "dateStart": "2023-09-28",
+            "dateEnd": "2023-09-28",
+            "place": "Aix-en-Provence, France",
+            "link": "https://jaif.io/2023/"
+        },
+        {
+            "name": "RISC-V Summit Europe",
+            "dateStart": "2023-06-06",
+            "dateEnd": "2023-06-09",
+            "place": "Barcelona, Spain",
+            "link": "https://riscv-europe.org/"
+        },
+        {
+            "name": "10 years of PULP platform",
+            "dateStart": "2023-06-05",
+            "dateEnd": "2023-06-06",
+            "place": "Lugano, Switzerland",
+            "link": "https://pulp-platform.org/10years/"
         }
     ],
     "2022": [
         {
-            "name": "GT Méthodes Formelles pour la Sécurité",
-            "dateStart": "2022-03-21",
-            "dateEnd": "2022-03-23",
-            "place": "Fréjus, France",
-            "link": "https://gtmfs2022.sciencesconf.org/"
-        },
-        {
-            "name": "CryptArchi Workshop",
-            "dateStart": "2022-05-29",
-            "dateEnd": "2022-06-01",
-            "place": "Porquerolles, France",
-            "link": "https://labh-curien.univ-st-etienne.fr/cryptarchi/workshop22/home.html"
-        },
-        {
-            "name": "Summer School : Embedded Signal Processing and Machine Learning for Edge Intelligence",
-            "dateStart": "2022-06-13",
-            "dateEnd": "2022-06-16",
-            "place": "Lorient, France",
-            "link": "https://www.gdr-isis.fr/index.php/annonce/8476/"
-        },
-        {
-            "name": "International Conference on Unmanned Aircraft Systems (ICUAS)",
-            "dateStart": "2022-06-21",
-            "dateEnd": "2022-06-24",
-            "place": "Dubrovnik, Croatia",
-            "link": "http://www.uasconferences.com/2022_icuas/"
+            "name": "International Winter School on Microarchitectural Security",
+            "dateStart": "2022-12-05",
+            "dateEnd": "2022-12-09",
+            "place": "Paris, France",
+            "link": "https://www.ip-paris.fr/en/international-winter-school-microarchitectural-security-2022"
         },
         {
             "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2022",
@@ -119,11 +105,32 @@
             "link": "https://jaif.io/2022/"
         },
         {
-            "name": "International Winter School on Microarchitectural Security",
-            "dateStart": "2022-12-05",
-            "dateEnd": "2022-12-09",
-            "place": "Paris, France",
-            "link": "https://www.ip-paris.fr/en/international-winter-school-microarchitectural-security-2022"
+            "name": "International Conference on Unmanned Aircraft Systems (ICUAS)",
+            "dateStart": "2022-06-21",
+            "dateEnd": "2022-06-24",
+            "place": "Dubrovnik, Croatia",
+            "link": "http://www.uasconferences.com/2022_icuas/"
+        },
+        {
+            "name": "Summer School : Embedded Signal Processing and Machine Learning for Edge Intelligence",
+            "dateStart": "2022-06-13",
+            "dateEnd": "2022-06-16",
+            "place": "Lorient, France",
+            "link": "https://www.gdr-isis.fr/index.php/annonce/8476/"
+        },
+        {
+            "name": "CryptArchi Workshop",
+            "dateStart": "2022-05-29",
+            "dateEnd": "2022-06-01",
+            "place": "Porquerolles, France",
+            "link": "https://labh-curien.univ-st-etienne.fr/cryptarchi/workshop22/home.html"
+        },
+        {
+            "name": "GT Méthodes Formelles pour la Sécurité",
+            "dateStart": "2022-03-21",
+            "dateEnd": "2022-03-23",
+            "place": "Fréjus, France",
+            "link": "https://gtmfs2022.sciencesconf.org/"
         }
     ],
     "2021": [

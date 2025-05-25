@@ -152,7 +152,7 @@ include "template/menu.php";
     <ul>
         <li>
             <strong>Séminaire au LIRMM</strong> - Présentation de mes travaux de thèse - Montpellier - 07/01/2025
-            <a href="../assets/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+            <a href="../assets/pdf/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
                 <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
             </a>
         </li>

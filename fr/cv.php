@@ -44,6 +44,19 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="text-justify">
+            <!-- <ul>
+                <li>
+                    <strong>09/2025 - </strong>
+                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" alt="Dossier de candidature - poste MCF 61" style="text-decoration: none;">
+                        <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                    </a>
+                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" alt="Diapositives de l'audition" style="text-decoration: none;">
+                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                    </a>
+                </li>
+            </ul>
+            Maître de Conférences : ?
+            <br><br> -->
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
@@ -127,79 +140,8 @@ $age = $intvl->y;
             <h4>PROJETS</h4>
         </div>
         <hr>
-        <div class="text-center">
-            <p>Voir la page <a href="projets.php">projets</a> pour davantage d'informations et les liens vers les projets en questions</p>
-        </div>
         <div class="text-justify">
-            <ul>
-                <li><strong>Universitaires</strong>
-                    <ul>
-                        <li><strong>2020 - 2021 (Master 2) :</strong>
-                            <ul>
-                                <li>
-                                    Création d'un simulateur de drone en 3D à partir de la librairie INET de OMNeT++ - C++
-                                </li>
-                                <li>
-                                    Application Android/IoT : Matrice connectée - Android, Java, NodeJS, Raspberry Pi
-                                </li>
-                                <li>
-                                    Optimisation d'algorithmes parallèles - C, OpenMP - Compilation Parallélisme
-                                </li>
-                                <li>
-                                    Détection de dépassement de temps d'exécution - VHDL, FPGA, Vivado HLS - System-On-Chip
-                                </li>
-                                <li>
-                                    Accélérateurs sur ZedBoard - VHDL, C++, Vivado HLS, FPGA - Synthèse Co-Design
-                                </li>
-                                <li>
-                                    Modélisation et prototypage avec AADLInspector/Ocarina d'un Système Embarqué - AADL, AADLInspector, Ocarina
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li><strong>2019 - 2020 (Master 1) :</strong>
-                            <ul>
-                                <li>
-                                    Réalisation d'un calculateur entiers/chaines - JCup, JFlex - Compilation
-                                </li>
-                                <li>
-                                    Analyse d'un langage de gestion de scenarii domotiques (DOMUS) et production de code pour le simulateur de code SiDo - JCup, JFlex - Compilation
-                                </li>
-                                <li>
-                                    Simulation d'une épidémie - OpenCL, MatrixStudio - Programmation Massivement Parallèle (GPU)
-                                </li>
-                                <li>
-                                    Commande d'un robot par Websocket - HTML, NodeJS, CSS, BootStrap - Robotique Mobile
-                                </li>
-                                <li>
-                                    Mise en place d'un simulateur d'ordonnancement - Ada - Système Temps Réel
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li><strong>2017 - 2019 (Licence 3) :</strong>
-                            <ul>
-                                <li>Création d'un tableur - C</li>
-                                <li>Création d'un logiciel de comparaison de texte - C</li>
-                                <li>Projets robotiques - Arduino, Scratch</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><strong>Personnels</strong>
-                    <ul>
-                        <li>
-                            Création d'une application Android pour la gestion de ma consommation d'essence personnelle - Android, MySQL, php, BootStrap - 2021
-                        </li>
-                        <li>
-                            Création d'un site web de gestion de l'organisation d'évènements festifs personnels - PHP, JavaScript, MySQL, HTML - 2019/2021
-                        </li>
-                        <li>
-                            Création d'un site web - HTML, CSS, JavaScript - 2016
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            
         </div> -->
         <hr>
         <div class="text-center">

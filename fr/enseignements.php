@@ -135,7 +135,7 @@ error_reporting(E_ALL);
             <ul>
                 <li>
                     <h5 style="display: inline;"><?php echo $year; ?></h5>
-                    <h6 style="display: inline;"> : <?php echo $totalHoursByYear[$year] . " h"; ?></h6>
+                    <h5 style="display: inline;"> / <?php echo $totalHoursByYear[$year] . " h :"; ?></h5>
                 </li>
             </ul>
             <div class="table-container">
