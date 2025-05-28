@@ -9,7 +9,7 @@
     echo "2017 - " . date("Y");
     ?>
     <br>
-    Version 2.0
+    Version 3.0
     <br><br>
     <p style="font-size: 10px; margin-bottom: auto">
         <?php
