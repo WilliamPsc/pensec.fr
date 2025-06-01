@@ -86,15 +86,43 @@
                         </td>
                         <td class="align-middle text-center" colspan="2">H-Index : <?php echo "$hindex"; ?> / Index i10 : <?php echo "$index10"; ?></td>
                     </tr>
+                    <tr>
+                        <td class="align-middle text-center" colspan="2">
+                            Domaines de recherche :
+                        </td>
+                        <td class="align-middle" colspan="2">
+                            <ul>
+                                <li>Sécurité matérielle des systèmes embarqués / processeurs RISC-V.</li>
+                                <li>Attaques physiques (principalement injections de fautes).</li>
+                                <li>Sécurité des implémentations de réseaux de neurones.</li>
+                            </ul>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
 
+        <div class="container">
+            <h3 class="text-center">Biographie</h3>
+            <p class="justified-text">
+                Depuis octobre 2024, je suis chercheur postdoctoral à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle portent sur l’évaluation de la sécurité des implémentations FPGA de réseaux de neurones, dans l'objectif de leur sécurisation contre les attaques par injection de fautes.
+            </p>
+
+            <p class="justified-text">
+                De 2021 à 2024, j’ai réalisé une thèse de doctorat en informatique à l’Université Bretagne Sud, au sein de l’équipe ARCAD du Laboratoire des Sciences et Techniques de l'Information, de la Communication et de la Connaissance (Lab-STICC), à Lorient. Mes travaux ont porté sur l’extension de la protection des processeurs contre les menaces physiques et logicielles, via la sécurisation du mécanisme DIFT (Dynamic Information Flow Tracking) face aux attaques par injections de fautes.
+            </p>
+
+            <p class="justified-text">
+                Je suis également l'auteur ou coauteur de plusieurs articles de conférences publiés dans plusieurs conférences internationales (Sensors S&P, DSD, ISVLSI).
+            </p>
+        </div>
+
         <div class="table-responsive-md">
             <iframe width="100%" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=4.384360313415528%2C45.4522172679292%2C4.387900829315186%2C45.45382787736185&amp;layer=mapnik&amp;marker=45.4530225783951%2C4.3861305713653564" style="border: 1px solid black"></iframe>
-            <br/><small><a href="https://www.openstreetmap.org/?mlat=45.453023&amp;mlon=4.386131#map=19/45.453023/4.386131" target="_blank">Afficher une carte plus grande</a></small>
+            <br /><small><a href="https://www.openstreetmap.org/?mlat=45.453023&amp;mlon=4.386131#map=19/45.453023/4.386131" target="_blank">Afficher une carte plus grande</a></small>
         </div>
     </div>
+
 
     <?php
     $dateMajFile = date("d/m/Y.", filemtime(basename(__FILE__)));

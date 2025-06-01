@@ -57,6 +57,10 @@
         .progress {
             height: 25px;
         }
+
+        .justified-text {
+            text-align: justify;
+        }
     </style>
 </head>
 
@@ -68,5 +72,4 @@
         ?>
         <h1>Dr William PENSEC</h1>
         <h5>Docteur en Informatique et Architectures Numériques</h5>
-        <p>SITE PERSONNEL</p>
     </div>

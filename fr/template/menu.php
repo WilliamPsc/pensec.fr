@@ -38,6 +38,23 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
         background-color: #495057 !important; /* Darker background on hover */
         color: #ffffff !important; /* White color for dropdown items on hover */
     }
+
+    .active {
+        font-weight: bold !important;
+        color: #4da1ff !important;
+    }
+
+    .active:hover{
+        color: #1a75ff !important;
+    }
+
+    .active i {
+        color: #4da1ff !important;
+    }
+
+    .active:hover i {
+        color:#1a75ff !important;
+    }
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
@@ -51,19 +68,19 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>"><i class="bi bi-house me-1"></i> Accueil</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>"><i class="bi bi-house me-1"></i> Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>"><i class="fas fa-user-tie me-1"></i> Curriculum Vitae</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>"><i class="fas fa-user-tie me-1"></i> Curriculum Vitae</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns me-1"></i> Université</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns me-1"></i> Université</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader me-1"></i> Conférences</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader me-1"></i> Conférences</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book me-1"></i> Publications</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book me-1"></i> Publications</a>
                 </li>
                 <!-- <li class="navbar-brand">
                     <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cours.php" ?>" style="color:white">Cours</a>
