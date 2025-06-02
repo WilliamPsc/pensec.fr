@@ -10,33 +10,42 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 
 <style>
     .custom-nav-link {
-        color: #ffffff !important; /* White color for nav links */
-        transition: color 0.3s ease; /* Smooth transition for hover effect */
+        color: #ffffff !important;
+        /* White color for nav links */
+        transition: color 0.3s ease;
+        /* Smooth transition for hover effect */
     }
 
     .custom-nav-link:hover {
-        color: #adb5bd !important; /* Light gray color on hover */
+        color: #adb5bd !important;
+        /* Light gray color on hover */
     }
 
     .custom-nav-link i {
-        color: #ffffff !important; /* White color for icons */
+        color: #ffffff !important;
+        /* White color for icons */
     }
 
     .custom-nav-link:hover i {
-        color: #adb5bd !important; /* Light gray color for icons on hover */
+        color: #adb5bd !important;
+        /* Light gray color for icons on hover */
     }
 
     .dropdown-menu {
-        background-color: #343a40 !important; /* Dark background for dropdown menu */
+        background-color: #343a40 !important;
+        /* Dark background for dropdown menu */
     }
 
     .dropdown-item {
-        color: #ffffff !important; /* White color for dropdown items */
+        color: #ffffff !important;
+        /* White color for dropdown items */
     }
 
     .dropdown-item:hover {
-        background-color: #495057 !important; /* Darker background on hover */
-        color: #ffffff !important; /* White color for dropdown items on hover */
+        background-color: #495057 !important;
+        /* Darker background on hover */
+        color: #ffffff !important;
+        /* White color for dropdown items on hover */
     }
 
     .active {
@@ -44,7 +53,7 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
         color: #4da1ff !important;
     }
 
-    .active:hover{
+    .active:hover {
         color: #1a75ff !important;
     }
 
@@ -53,7 +62,7 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
     }
 
     .active:hover i {
-        color:#1a75ff !important;
+        color: #1a75ff !important;
     }
 </style>
 
@@ -92,11 +101,11 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="langages" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="flag-icon flag-icon-fr"></span> Français
+                        <span class="flag-icon flag-icon-fr me-2"></span> Français
                     </a>
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="langages">
                         <a class="dropdown-item" href="<?php echo $newPageEn ?>"><span class="flag-icon flag-icon-gb me-2"></span> English</a>
-                        <a class="dropdown-item" href="<?php echo $newPageIt ?>"><span class="flag-icon flag-icon-it me-2"></span> Italiano</a>
+                        <!-- <a class="dropdown-item" href="<?php echo $newPageIt ?>"><span class="flag-icon flag-icon-it me-2"></span> Italiano</a> -->
                     </div>
                 </li>
             </ul>
