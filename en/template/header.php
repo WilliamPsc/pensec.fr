@@ -57,6 +57,10 @@
         .progress {
             height: 25px;
         }
+
+        .justified-text {
+            text-align: justify;
+        }
     </style>
 </head>
 
@@ -66,7 +70,6 @@
         $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
         $_SESSION['language'] = "en";
         ?>
-        <h1>Dr. William PENSEC</h1>
+        <h1>Dr William PENSEC</h1>
         <h5>PhD in Computer Science and Digital Architectures</h5>
-        <p>PERSONAL WEBSITE</p>
     </div>

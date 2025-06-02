@@ -101,7 +101,6 @@
                 </tbody>
             </table>
         </div>
-
         <div class="container">
             <h3 class="text-center">Biographie</h3>
             <p class="justified-text">
