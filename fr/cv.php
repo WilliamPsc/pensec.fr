@@ -18,32 +18,32 @@ $intvl = $firstDate->diff($secondDate);
 $age = $intvl->y;
 ?>
 
-<br><br>
+<br /><br />
 <div class="container">
     <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
         <div class="text-center">
             <p>
-                Version PDF :
+                Version française :
                 <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
             <p>
-                Version anglaise PDF :
+                Version anglaise :
                 <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
         </div>
         <hr>
-        <div class="text-justify">
-            PENSEC William <br><br>
-            <?php echo $age ?> ans <br><br>
-            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
+        <div class="justified-text">
+            PENSEC William <br /><br />
+            <?php echo $age ?> ans <br /><br />
+            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
         </div>
         <hr>
         <div class="text-center">
             <h4>CURSUS UNIVERSITAIRE</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <!-- <ul>
                 <li>
                     <strong>09/2025 - </strong>
@@ -103,7 +103,7 @@ $age = $intvl->y;
             <h4>COMPÉTENCES</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>Encadrement :</strong>
                     <ul>
@@ -140,7 +140,7 @@ $age = $intvl->y;
             <h4>PROJETS</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             
         </div> -->
         <hr>
@@ -148,7 +148,7 @@ $age = $intvl->y;
             <h4>EXPÉRIENCES PROFESSIONNELLES</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>2023 - Università della Svizzera italiana (Suisse, Lugano)</strong>
                     <ul>
@@ -209,7 +209,7 @@ $age = $intvl->y;
                 }
 
                 // Display content
-                echo "<div class=\"text-justify\">\n";
+                echo "<div class=\"justified-text\">\n";
                 echo "\t\t\t<table class=\"table table-striped table-hover bordered-table text-center\">\n";
                 echo "\t\t\t\t<thead>\n";
                 echo "\t\t\t\t\t<tr>\n";
@@ -261,7 +261,7 @@ $age = $intvl->y;
             <h4>CENTRES D'INTÉRÊT</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>Sport : </strong> Natation (club et loisir), vélo, sports nautiques (kayak, bateau, plongée bouteille)</li>
                 <li><strong>Hobbies : </strong> Voyages (France, Italie, Espagne), Jeux vidéos, Films et séries, Lecture, Musique</li>

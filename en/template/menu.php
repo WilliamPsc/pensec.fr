@@ -44,7 +44,7 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
         color: #4da1ff !important;
     }
 
-    .active:hover{
+    .active:hover {
         color: #1a75ff !important;
     }
 
@@ -53,7 +53,7 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
     }
 
     .active:hover i {
-        color:#1a75ff !important;
+        color: #1a75ff !important;
     }
 </style>
 
@@ -96,7 +96,7 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
                     </a>
                     <div class="dropdown-menu dropdown-menu-end" aria-labelledby="langages">
                         <a class="dropdown-item" href="<?php echo $newPageFr ?>"><span class="flag-icon flag-icon-fr me-2"></span> Français</a>
-                        <a class="dropdown-item" href="<?php echo $newPageIt ?>"><span class="flag-icon flag-icon-it me-2"></span> Italiano</a>
+                        <!-- <a class="dropdown-item" href="<?php echo $newPageIt ?>"><span class="flag-icon flag-icon-it me-2"></span> Italiano</a> -->
                     </div>
                 </li>
             </ul>

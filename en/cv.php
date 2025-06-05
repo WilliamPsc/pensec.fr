@@ -24,22 +24,39 @@ $age = $intvl->y;
     <div class="table-responsive-md">
         <div class="text-center">
             <p>
-                Download PDF version :
+                French version:
+                <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+            </p>
+            <p>
+                English version:
                 <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
         </div>
         <hr />
-        <div class="text-justify">
+        <div class="justified-text">
             PENSEC William <br /><br />
             <?php echo $age ?> years old <br /><br />
-            France - Saint-Étienne (42000) - Laboratory Hubert Curien - University Jean Monnet<br /><br />
+            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
         </div>
         <hr>
         <div class="text-center">
             <h4 class="text-uppercase">University Curriculum</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
+            <!-- <ul>
+                <li>
+                    <strong>09/2025 - </strong>
+                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" alt="Application form - Associate Professor - section 61" style="text-decoration: none;">
+                        <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                    </a>
+                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" alt="Diapositives de l'audition" style="text-decoration: none;">
+                        <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                    </a>
+                </li>
+            </ul>
+            Maître de Conférences : ?
+            <br><br> -->
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
@@ -88,7 +105,7 @@ $age = $intvl->y;
         </div>
         <hr>
 
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>Supervision:</strong>
                     <ul>
@@ -126,7 +143,7 @@ $age = $intvl->y;
         <div class="text-center">
             <p>See the <a href="projets.php">projects</a> page for more information and links to the projects aforementioned</p>
         </div>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>Academics</strong></li>
                 <ul>
@@ -200,7 +217,7 @@ $age = $intvl->y;
             <h4>PROFESSIONAL EXPERIENCE</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
                     <ul>
@@ -256,7 +273,7 @@ $age = $intvl->y;
                 }
 
                 // Display content
-                echo "<div class=\"text-justify\">\n";
+                echo "<div class=\"justified-text\">\n";
                 echo "\t\t\t<table class=\"table table-striped table-hover bordered-table text-center\">\n";
                 echo "\t\t\t\t<thead>\n";
                 echo "\t\t\t\t\t<tr>\n";
@@ -295,7 +312,7 @@ $age = $intvl->y;
             <h4>HOBBIES</h4>
         </div>
         <hr>
-        <div class="text-justify">
+        <div class="justified-text">
             <ul>
                 <li><strong>Sports : </strong> Swimming (club and leisure), cycling, water sports (kayak, boat, scuba diving)</li>
                 <li><strong>Hobbies : </strong> Travel (France, Italy, Spain), Video games, Movies and series, Reading, Music</li>

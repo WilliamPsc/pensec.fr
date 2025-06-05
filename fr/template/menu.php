@@ -10,42 +10,33 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 
 <style>
     .custom-nav-link {
-        color: #ffffff !important;
-        /* White color for nav links */
-        transition: color 0.3s ease;
-        /* Smooth transition for hover effect */
+        color: #ffffff !important; /* White color for nav links */
+        transition: color 0.3s ease; /* Smooth transition for hover effect */
     }
 
     .custom-nav-link:hover {
-        color: #adb5bd !important;
-        /* Light gray color on hover */
+        color: #adb5bd !important; /* Light gray color on hover */
     }
 
     .custom-nav-link i {
-        color: #ffffff !important;
-        /* White color for icons */
+        color: #ffffff !important; /* White color for icons */
     }
 
     .custom-nav-link:hover i {
-        color: #adb5bd !important;
-        /* Light gray color for icons on hover */
+        color: #adb5bd !important; /* Light gray color for icons on hover */
     }
 
     .dropdown-menu {
-        background-color: #343a40 !important;
-        /* Dark background for dropdown menu */
+        background-color: #343a40 !important; /* Dark background for dropdown menu */
     }
 
     .dropdown-item {
-        color: #ffffff !important;
-        /* White color for dropdown items */
+        color: #ffffff !important; /* White color for dropdown items */
     }
 
     .dropdown-item:hover {
-        background-color: #495057 !important;
-        /* Darker background on hover */
-        color: #ffffff !important;
-        /* White color for dropdown items on hover */
+        background-color: #495057 !important; /* Darker background on hover */
+        color: #ffffff !important; /* White color for dropdown items on hover */
     }
 
     .active {

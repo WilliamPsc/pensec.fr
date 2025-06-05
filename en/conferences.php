@@ -57,7 +57,7 @@ include "template/menu.php";
 
 <br><br>
 <div class="container text-justify my-4">
-    <h2><i class="fa-solid fa-book-journal-whills"></i> List of conferences attended :</h2>
+    <h2><i class="fa-solid fa-book-journal-whills"></i> List of attended conferences:</h2>
     <div class="table-responsive-md">
         <hr>
         <?php
@@ -70,7 +70,7 @@ include "template/menu.php";
         // Init variables
         $activityDetails = [];
 
-        // Function to format dates in english
+        // Function to format dates in English
         function formatDate($date)
         {
             $formatter = new IntlDateFormatter(
@@ -135,18 +135,31 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
+    <h2><i class="fa-solid fa-calendar-check"></i> Organisations d'évènements :</h2>
+    <ul>
+        <li>
+            <strong><a href="http://cascade-conference.org/index.html" target="_blank" alt="Website of the conference" style="text-decoration: none;">CASCADE</a></strong> - Assistance with the CASCADE 2025 conference - Saint-Étienne, France
+        </li>
+        <li>
+            <strong><a href="https://project.inria.fr/chairaml/summer-school-on-embedded-signal-processing-and-machine-learning-for-edge-intelligence/" target="_blank" alt="Website of the conference" style="text-decoration: none;">AMLE Summer School</a></strong> - Participation in the organisation of the AMLE 2022 Summer School - Lorient, France
+        </li>
+    </ul>
+</div>
+
+<div class="container text-justify">
+    <hr>
     <h2><i class="fa-solid fa-calendar-check"></i> Scientific events:</h2>
     <ul>
         <li>
-            <strong>Seminar at LIRMM</strong> - Presentation of my thesis work - Montpellier - 07/01/2025
-            <a href="../assets/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+            <strong>Seminar at LIRMM</strong> - Presentation of my PhD thesis - Montpellier (France) - January 07, 2025
+            <a href="../assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
                 <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
             </a>
         </li>
     </ul>
     <ul>
-        <li><strong>My Thesis in 180s (MT180)</strong> - Participation in the regional final - Rennes (France) - 14/03/2023
-            <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+        <li><strong>My Thesis in 180s (MT180)</strong> - Participation in the regional final - Rennes (France) - March 14, 2023
+            <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" alt="YouTube video of the presentation" style="text-decoration: none;">
                 <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
             </a>
     </ul>
@@ -157,6 +170,6 @@ include "template/menu.php";
 </div>
 
 <?php
-$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
+$dateMajFile = date("d/m/Y.", filemtime(basename(__FILE__)));
 include "template/footer.php";
 ?>
