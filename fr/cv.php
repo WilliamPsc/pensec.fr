@@ -18,7 +18,7 @@ $intvl = $firstDate->diff($secondDate);
 $age = $intvl->y;
 ?>
 
-<br /><br />
+<br><br>
 <div class="container">
     <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
@@ -34,9 +34,9 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="justified-text">
-            PENSEC William <br /><br />
-            <?php echo $age ?> ans <br /><br />
-            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
+            PENSEC William <br><br>
+            <?php echo $age ?> ans <br><br>
+            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
         </div>
         <hr>
         <div class="text-center">
@@ -64,14 +64,14 @@ $age = $intvl->y;
             <br><br>
             <ul>
                 <li>
-                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">Soutenance</a> : 19 décembre 2024</strong>
-                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" style="text-decoration: none;">Soutenance</a> : 19 décembre 2024</strong>
+                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
-                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" style="text-decoration: none;">
                         <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
                     </a>
                 </li>
@@ -105,7 +105,8 @@ $age = $intvl->y;
         <hr>
         <div class="justified-text">
             <ul>
-                <li><strong>Encadrement :</strong>
+                <li>
+                    <strong>Encadrement :</strong>
                     <ul>
                         <li>2022 : Co-Encadrement d'un étudiant de M2 en projet sur : Implémentation d’un processeur RISC-V sur une cible FPGA</li>
                         <li>2022 : Co-Encadrement d'un stagiaire de M1 sur : Attaque physique sur cible FPGA</li>
@@ -114,7 +115,8 @@ $age = $intvl->y;
             </ul>
 
             <ul>
-                <li><strong>Informatique :</strong>
+                <li>
+                    <strong>Informatique :</strong>
                     <ul>
                         <li>Programmation logicielle : C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic</li>
                         <li>Programmation matérielle : VHDL, System Verilog, FPGA, Suite Vivado HLS, Assembleur, RISC-V, LiteX</li>
@@ -125,7 +127,8 @@ $age = $intvl->y;
                         <li>Micro-contrôleur : Arduino, Raspberry Pi, Zedboard Zynq-7000, Basic 3, ChipWhisperer, STM32</li>
                     </ul>
                 </li>
-                <li><strong>Langues :</strong>
+                <li>
+                    <strong>Langues :</strong>
                     <ul>
                         <li>Français : langue maternelle</li>
                         <li>Anglais : B2 </li>

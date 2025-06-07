@@ -60,18 +60,18 @@ $age = $intvl->y;
             <ul>
                 <li><strong>10/2024 - </strong></li>
             </ul>
-            Postdoctorate in computer science: Security Evaluation of Neural Network FPGA implementations - University Jean Monnet, UMR CNRS 5516, Laboratory Hubert Curien - SESAM Team - Saint-Étienne (France)
+            Postdoctorate in Computer Science: Security Evaluation of Neural Network FPGA implementations - University Jean Monnet, UMR CNRS 5516, Laboratory Hubert Curien - SESAM Team - Saint-Étienne (France)
             <br><br>
             <ul>
                 <li>
-                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" alt="Avis de soutenance" style="text-decoration: none;">PhD Defense</a> : December 19, 2024</strong>
-                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" style="text-decoration: none;">PhD Defense</a> : December 19, 2024</strong>
+                    <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
-                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="Diapositives de la soutenance" style="text-decoration: none;">
+                    <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="Vidéo YouTube de la soutenance" style="text-decoration: none;">
+                    <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" style="text-decoration: none;">
                         <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
                     </a>
                 </li>
@@ -135,83 +135,14 @@ $age = $intvl->y;
                 </ul>
             </ul>
         </div>
-        <hr>
+        <!-- <hr>
         <div class="text-center">
             <h4>PROJECTS</h4>
         </div>
         <hr>
-        <div class="text-center">
-            <p>See the <a href="projets.php">projects</a> page for more information and links to the projects aforementioned</p>
-        </div>
         <div class="justified-text">
-            <ul>
-                <li><strong>Academics</strong></li>
-                <ul>
-                    <li><strong>2020 - 2021 (Master 2) :</strong></li>
-                    <ul>
-                        <li>
-                            Creation of a 3D drone simulator from the INET library of OMNeT++ - C++.
-                        </li>
-                        <li>
-                            Android/IoT application : Connected Matrix - Android, Java, NodeJS, Raspberry Pi
-                        </li>
-                        <li>
-                            Optimization of parallel algorithms - C, OpenMP - Compilation Parallelism
-                        </li>
-                        <li>
-                            Runtime detection - VHDL, FPGA, Vivado HLS - System-On-Chip
-                        </li>
-                        <li>
-                            Accelerators on ZedBoard - C++, VHDL, Vivado HLS, FPGA - Co-Design Synthesis
-                        </li>
-                        <li>
-                            Modeling and prototyping with AADL Inspector/Ocarina of an Embedded System - AADL, AADLInspector, Ocarina
-                        </li>
-                    </ul>
 
-                    <li><strong>2019 - 2020 (Master 1) :</strong></li>
-                    <ul>
-                        <li>
-                            Realization of an integer/chain calculator - JCup, JFlex - Compilation
-                        </li>
-                        <li>
-                            Analysis of a home automation scenario management language (DOMUS) and code production for the SiDo code simulator - JCup, JFlex - Compilation
-                        </li>
-                        <li>
-                            Simulation of an epidemic - OpenCL, MatrixStudio - Massively Parallel Programming (GPU)
-                        </li>
-                        <li>
-                            Websocket robot control - HTML, NodeJS, CSS, BootStrap - Mobile Robotics
-                        </li>
-                        <li>
-                            Implementation of a scheduling simulator - Ada - Real Time System
-                        </li>
-                    </ul>
-
-                    <li><strong>2017 - 2019 (Licence 3) :</strong></li>
-                    <ul>
-                        <li>Creating a spreadsheet software - C</li>
-                        <li>Creation of a text comparison software - C</li>
-                        <li>Robotic projects - Arduino, Scratch</li>
-                    </ul>
-                </ul>
-            </ul>
-
-            <ul>
-                <li><strong>Personal</strong></li>
-                <ul>
-                    <li>
-                        Creation of an Android application for fuel consumption management - Android, MySQL, PHP, BootStrap - 2021
-                    </li>
-                    <li>
-                        Creation of a website to manage the organization of personal festive events - PHP, JavaScript, MySQL, HTML - 2019/2021
-                    </li>
-                    <li>
-                        Creation of a website - HTML, CSS, JavaScript - 2016
-                    </li>
-                </ul>
-            </ul>
-        </div>
+        </div> -->
         <hr>
         <div class="text-center">
             <h4>PROFESSIONAL EXPERIENCE</h4>
@@ -345,6 +276,6 @@ $age = $intvl->y;
 </div>
 
 <?php
-$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
+$dateMajFile = date("d/m/Y.", filemtime(basename(__FILE__)));
 include "template/footer.php";
 ?>

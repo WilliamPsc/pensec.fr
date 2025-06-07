@@ -37,16 +37,16 @@ include "template/menu.php";
     <h2 class="text-center">PhD Defense</h2>
     <h5 class="text-center">December 19, 2024</h5>
     <p class="text-center">
-        <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" alt="PDF Manuscript" style="text-decoration: none;">
+        <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
             <i class="fas fa-file-pdf large-icon" style="color: #d9534f;"></i>
         </a>
-        <a href="https://hal.science/tel-04862037/" target="_blank" alt="Manuscrit PDF" style="text-decoration: none;">
+        <a href="https://hal.science/tel-04862037/" target="_blank" style="text-decoration: none;">
             <i class="ai ai-hal ai-2x large-icon" style="margin-left: 20px;"></i>
         </a>
-        <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" alt="PhD defense slides" style="text-decoration: none;">
+        <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" style="text-decoration: none;">
             <i class="fas fa-file-powerpoint large-icon" style="margin-left: 20px; color: #f77b00;"></i>
         </a>
-        <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" alt="YouTube video of the PhD defense" style="text-decoration: none;">
+        <a href="https://www.youtube.com/watch?v=Qs29I_-iC1s" target="_blank" style="text-decoration: none;">
             <i class="fab fa-youtube large-icon" style="margin-left: 20px; color: red;"></i>
         </a>
     </p>
@@ -132,6 +132,6 @@ include "template/menu.php";
 </div>
 
 <?php
-$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
+$dateMajFile = date("d/m/Y.", filemtime(basename(__FILE__)));
 include "template/footer.php";
 ?>

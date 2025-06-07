@@ -8,55 +8,6 @@ $newPageEn = preg_replace("/\/fr\//", "/en/", $page);
 $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 ?>
 
-<style>
-    .custom-nav-link {
-        color: #ffffff !important; /* White color for nav links */
-        transition: color 0.3s ease; /* Smooth transition for hover effect */
-    }
-
-    .custom-nav-link:hover {
-        color: #adb5bd !important; /* Light gray color on hover */
-    }
-
-    .custom-nav-link i {
-        color: #ffffff !important; /* White color for icons */
-    }
-
-    .custom-nav-link:hover i {
-        color: #adb5bd !important; /* Light gray color for icons on hover */
-    }
-
-    .dropdown-menu {
-        background-color: #343a40 !important; /* Dark background for dropdown menu */
-    }
-
-    .dropdown-item {
-        color: #ffffff !important; /* White color for dropdown items */
-    }
-
-    .dropdown-item:hover {
-        background-color: #495057 !important; /* Darker background on hover */
-        color: #ffffff !important; /* White color for dropdown items on hover */
-    }
-
-    .active {
-        font-weight: bold !important;
-        color: #4da1ff !important;
-    }
-
-    .active:hover {
-        color: #1a75ff !important;
-    }
-
-    .active i {
-        color: #4da1ff !important;
-    }
-
-    .active:hover i {
-        color: #1a75ff !important;
-    }
-</style>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>">

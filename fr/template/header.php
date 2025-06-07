@@ -61,6 +61,111 @@
         .justified-text {
             text-align: justify;
         }
+
+        .custom-nav-link {
+            color: #ffffff !important;
+            /* White color for nav links */
+            transition: color 0.3s ease;
+            /* Smooth transition for hover effect */
+        }
+
+        .custom-nav-link:hover {
+            color: #adb5bd !important;
+            /* Light gray color on hover */
+        }
+
+        .custom-nav-link i {
+            color: #ffffff !important;
+            /* White color for icons */
+        }
+
+        .custom-nav-link:hover i {
+            color: #adb5bd !important;
+            /* Light gray color for icons on hover */
+        }
+
+        .dropdown-menu {
+            background-color: #343a40 !important;
+            /* Dark background for dropdown menu */
+        }
+
+        .dropdown-item {
+            color: #ffffff !important;
+            /* White color for dropdown items */
+        }
+
+        .dropdown-item:hover {
+            background-color: #495057 !important;
+            /* Darker background on hover */
+            color: #ffffff !important;
+            /* White color for dropdown items on hover */
+        }
+
+        .active {
+            font-weight: bold !important;
+            color: #4da1ff !important;
+        }
+
+        .active:hover {
+            color: #1a75ff !important;
+        }
+
+        .active i {
+            color: #4da1ff !important;
+        }
+
+        .active:hover i {
+            color: #1a75ff !important;
+        }
+
+        .table th,
+        .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table-container {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .equal-columns th,
+        .equal-columns td {
+            width: calc(100% / var(--column-count));
+        }
+
+        .bordered-table th,
+        .bordered-table td {
+            border: 1px solid #dee2e6;
+        }
+
+        .year-heading {
+            margin-top: 20px;
+            color: blue;
+        }
+
+        table a {
+            color: black;
+            text-decoration: none;
+        }
+
+        table a:hover {
+            text-decoration: underline;
+        }
+
+        .custom-table th:first-child,
+        .custom-table td:first-child {
+            width: 50%;
+        }
+
+        .custom-table th:not(:first-child),
+        .custom-table td:not(:first-child) {
+            width: calc(50% / 3);
+        }
+
+        .large-icon {
+            font-size: 35px;
+        }
     </style>
 </head>
 

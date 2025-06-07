@@ -169,6 +169,6 @@ error_reporting(E_ALL);
 <br><br>
 
 <?php
-$dateMajFile = date("d/m/Y H:i.", filemtime(basename(__FILE__)));
+$dateMajFile = date("d/m/Y.", filemtime(basename(__FILE__)));
 include "template/footer.php";
 ?>
