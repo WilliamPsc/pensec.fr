@@ -18,7 +18,7 @@ $intvl = $firstDate->diff($secondDate);
 $age = $intvl->y;
 ?>
 
-<br /><br />
+<br><br>
 <div class="container">
     <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
@@ -32,11 +32,11 @@ $age = $intvl->y;
                 <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
             </p>
         </div>
-        <hr />
+        <hr>
         <div class="justified-text">
-            PENSEC William <br /><br />
-            <?php echo $age ?> years old <br /><br />
-            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br /><br />
+            PENSEC William <br><br>
+            <?php echo $age ?> years old <br><br>
+            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
         </div>
         <hr>
         <div class="text-center">
@@ -58,7 +58,7 @@ $age = $intvl->y;
             Maître de Conférences : ?
             <br><br> -->
             <ul>
-                <li><strong>10/2024 - </strong></li>
+                <li><strong>10/2024 - 2025</strong></li>
             </ul>
             Postdoctorate in Computer Science: Security Evaluation of Neural Network FPGA implementations - University Jean Monnet, UMR CNRS 5516, Laboratory Hubert Curien - SESAM Team - Saint-Étienne (France)
             <br><br>
@@ -82,17 +82,17 @@ $age = $intvl->y;
                 <li><strong>2019 - 2021</strong></li>
             </ul>
             Master in Computer Science, specialization in Software for Embedded Systems (LSE) - Université de Bretagne Occidentale - Brest
-            <br /><br />
+            <br><br>
             <ul>
                 <li><strong>2015 - 2019</strong></li>
             </ul>
             Bachelor's degree in Computer Science (Computer Science: Foundations and Applications) - Université de Bretagne Occidentale - Brest
-            <br /><br />
+            <br><br>
             <ul>
                 <li><strong>2014 - 2015</strong></li>
             </ul>
             First Year Common to Medical Studies (Première Année Commune aux Études de Santé - PACES) - Université de Bretagne Occidentale - Brest
-            <br /><br />
+            <br><br>
             <ul>
                 <li><strong>2014</strong></li>
             </ul>
@@ -107,7 +107,8 @@ $age = $intvl->y;
 
         <div class="justified-text">
             <ul>
-                <li><strong>Supervision:</strong>
+                <li>
+                    <strong>Supervision:</strong>
                     <ul>
                         <li>2022 : Co-supervision of a M2 student working on : Implementation of a RISC-V processor on an FPGA target</li>
                         <li>2022 : Co-supervision of an M1 internship on : Physical attack on FPGA target</li>
@@ -115,24 +116,27 @@ $age = $intvl->y;
                 </li>
             </ul>
             <ul>
-                <li><strong>Computer Science:</strong></li>
-                <ul>
-                    <li>Programming language: C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic</li>
-                    <li>Hardware development: VHDL, System Verilog, FPGA, Vivado HLS, Assembly, RISC-V, LiteX</li>
-                    <li>Project management: GitHub</li>
-                    <li>Web: HTML, CSS, PHP, BootStrap, WordPress</li>
-                    <li>Data management: MySQL, JSON, YAML, XML</li>
-                    <li>Operating Systems: Linux, Windows</li>
-                    <li>Microcontroller: Arduino, Raspberry Pi, Zedboard Zynq-7000, Basic 3, ChipWhisperer, STM32</li>
-                </ul>
-
-                <li><strong>Languages:</strong></li>
-                <ul>
-                    <li>French: Native speaker</li>
-                    <li>English: B2 </li>
-                    <li>Italian: A2+</li>
-                    <li>Spanish: High School / A2</li>
-                </ul>
+                <li>
+                    <strong>Computer Science:</strong>
+                    <ul>
+                        <li>Programming language: C, C++, Java, JavaScript, Android, Python, Bash, TCL, AADL, Ada, Visual Basic</li>
+                        <li>Hardware development: VHDL, System Verilog, FPGA, Vivado HLS, Assembly, RISC-V, LiteX</li>
+                        <li>Project management: GitHub</li>
+                        <li>Web: HTML, CSS, PHP, BootStrap, WordPress</li>
+                        <li>Data management: MySQL, JSON, YAML, XML</li>
+                        <li>Operating Systems: Linux, Windows</li>
+                        <li>Microcontroller: Arduino, Raspberry Pi, Zedboard Zynq-7000, Basic 3, ChipWhisperer, STM32</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Languages:</strong>
+                    <ul>
+                        <li>French: Native speaker</li>
+                        <li>English: B2 </li>
+                        <li>Italian: A2+</li>
+                        <li>Spanish: High School / A2</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <!-- <hr>
@@ -150,37 +154,42 @@ $age = $intvl->y;
         <hr>
         <div class="justified-text">
             <ul>
-                <li><strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
+                <li>
+                    <strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
                     <ul>
                         <li>
                             International mobility as part of my PhD - Visiting PhD student - SystemVerilog, Python - May 2023 to September 2023
                         </li>
                     </ul>
                 </li>
-                <li><strong>2021 - UBO (Lab-STICC)</strong></li>
-                <ul>
-                    <li>Cooperation of drones in a heterogeneous system - Intern - Java, C++, ModBus, Raspberry Pi - April 2021 to August 2021</li>
-                </ul>
+                <li>
+                    <strong>2021 - UBO (Lab-STICC)</strong>
+                    <ul>
+                        <li>Cooperation of drones in a heterogeneous system - Intern - Java, C++, ModBus, Raspberry Pi - April 2021 to August 2021</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>2020 - UBO (Lab-STICC)</strong>
+                    <ul>
+                        <li>Simulation of a drone with GPS sensors and accelerometer in C++ - Intern - C++, Java, CARES Framework - May 2020 to June 2020</li>
+                    </ul>
+                </li>
 
-                <li><strong>2020 - UBO (Lab-STICC)</strong></li>
-                <ul>
-                    <li>Simulation of a drone with GPS sensors and accelerometer in C++ - Intern - C++, Java, CARES Framework - May 2020 to June 2020</li>
-                </ul>
-
-                <li><strong>2019 - UBO (Lab-STICC)</strong></li>
-                <ul>
-                    <li>Classification of I/O requests for file access optimization on an embedded system - Intern - R, Linux, Bash - June 2019 to July 2019</li>
-                </ul>
-
-                <li><strong>2019 - UBO OpenFactory</strong></li>
-                <ul>
-                    <li>Modeling the position of the Brest streetcar in real time - Intern - Arduino, C, Raspberry Pi, Python, JSON, PHP, HTML, Linux - April 2019 to June 2019</li>
-                </ul>
-
-                <li><strong>2018 - UBO OpenFactory</strong></li>
-                <ul>
-                    <li>Connected Weather Station - Intern - Arduino, WiFi, Server - May 2018 to July 2018</li>
-                </ul>
+                <li><strong>2019 - UBO (Lab-STICC)</strong>
+                    <ul>
+                        <li>Classification of I/O requests for file access optimization on an embedded system - Intern - R, Linux, Bash - June 2019 to July 2019</li>
+                    </ul>
+                </li>
+                <li><strong>2019 - UBO OpenFactory</strong>
+                    <ul>
+                        <li>Modeling the position of the Brest streetcar in real time - Intern - Arduino, C, Raspberry Pi, Python, JSON, PHP, HTML, Linux - April 2019 to June 2019</li>
+                    </ul>
+                </li>
+                <li><strong>2018 - UBO OpenFactory</strong>
+                    <ul>
+                        <li>Connected Weather Station - Intern - Arduino, WiFi, Server - May 2018 to July 2018</li>
+                    </ul>
+                </li>
             </ul>
         </div>
         <hr>

@@ -48,7 +48,7 @@
                             </svg> Email :
                         </td>
                         <td class="align-middle text-center">
-                            <script src="../js/script.js"></script>
+                            <script src="../assets/js/mail.js"></script>
                         </td>
                     </tr>
                     <tr>

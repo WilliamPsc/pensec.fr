@@ -3,35 +3,6 @@ include "template/header.php";
 include "template/menu.php";
 ?>
 
-<style>
-    .text-justify {
-        text-align: justify;
-    }
-
-    .table th,
-    .table td {
-        vertical-align: middle;
-        text-align: center;
-    }
-
-    .table thead {
-        background-color: #4CAF50;
-        color: white;
-    }
-
-    .table tbody tr:hover {
-        background-color: #f1f1f1;
-    }
-
-    .table td {
-        font-size: 1.1rem;
-    }
-
-    .large-icon {
-        font-size: 35px;
-    }
-</style>
-
 <br><br>
 <div class="container">
     <h2 class="text-center">PhD Defense</h2>
@@ -58,8 +29,8 @@ include "template/menu.php";
         Dynamic Information Flow Tracking (DIFT) detects software attacks, such as buffer overflows, by tagging and tracking data at runtime. Fault Injection Attacks (FIA) deliberately introduce hardware errors to disrupt normal operation and bypass security mechanisms. These faults can be introduced physically (e.g., via voltage or lasers). FIAs are concerning in embedded and cryptographic systems, where low-level faults can compromise sensitive data. Although many studies have explored FIA vulnerabilities, none have targeted DIFT mechanisms. 
         Our research focuses on the D-RI5CY processor, which implements a hardware in-core DIFT. We assess the impact of FIAs on DIFT's effectiveness in this processor. Through fault injection simulations, using FISSA, a tool developed to facilitate fault evaluation, we identify vulnerable hardware registers and implement three countermeasures: simple parity for error detection, Hamming Code for single-bit error correction, and SECDED to detect double-bit errors. These were optimised by grouping registers to minimise redundancy overhead. We further evaluated multiple register group compositions to enhance countermeasures against complex fault models, developing four strategies to improve error detection and correction efficiency.
     </div>
-    <br />
-    <hr><br />
+    <br>
+    <hr><br>
     <h3 class="text-center">PhD Thesis examination members</h3>
     <table class="table table-striped table-bordered table-hover shadow-sm">
         <thead>
@@ -123,12 +94,12 @@ include "template/menu.php";
             </tr>
         </tbody>
     </table>
-    <br />
+    <br>
     <hr>
     <h3 class="text-center">PhD Defense YouTube video</h3>
-    <iframe width="100%" height="720" src="https://www.youtube.com/embed/Qs29I_-iC1s?si=PGkbnKpnR2-j8W7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe style="width: 100%; height: 720px; border: 1px solid black;" src="https://www.youtube.com/embed/Qs29I_-iC1s?si=PGkbnKpnR2-j8W7I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-    <br /><br />
+    <br><br>
 </div>
 
 <?php

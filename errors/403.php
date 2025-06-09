@@ -17,8 +17,6 @@ if ($langue == "it") {
 <br><br>
 <div class="container">
     <?php
-    /* PARTIE BASIQUE */
-
     $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if ($langue == "it") {
         echo "<h1>Errore 403</h1>";
@@ -28,7 +26,7 @@ if ($langue == "it") {
         echo "<h1>Error 403</h1>";
     }
     ?>
-    <img src="../assets/img/403.webp" class="img-fluid rounded mx-auto d-block" alt="Error 403">
+    <img src="../assets/img/403.png" class="img-fluid rounded mx-auto d-block" alt="Error 403">
     <br />
     <br />
     <br />

@@ -17,8 +17,6 @@ if ($langue == "it") {
 <br><br>
 <div class="container">
     <?php
-    /* PARTIE BASIQUE */
-
     $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if ($langue == "it") {
         echo "<h1>Errore 404</h1>";

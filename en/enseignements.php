@@ -9,22 +9,6 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
 
-<style>
-    .table th, .table td {
-        text-align: center;
-        vertical-align: middle;
-    }
-    .table-container {
-        margin-bottom: 20px;
-    }
-    .equal-columns th, .equal-columns td {
-        width: calc(100% / var(--column-count));
-    }
-    .bordered-table th, .bordered-table td {
-        border: 1px solid #dee2e6;
-    }
-</style>
-
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const tables = document.querySelectorAll('.equal-columns');

@@ -1,48 +1,219 @@
-<!-- TODO: refaire cette partie en incorporant toutes les pages et pdf -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
-	<!-- FRENCH WEBSITE -->
-	<url>
-		<loc>https://www.pensec.fr/fr/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.pensec.fr/fr/index.php</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://pensec.fr/fr/cv.php</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
+<!-- FRENCH -->
+<url>
+  <loc>https://www.pensec.fr/fr/index.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/fr/cv.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/fr/defense.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/fr/enseignements.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/fr/conferences.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/fr/publications.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+<!-- ENGLISH -->
+<url>
+  <loc>https://www.pensec.fr/en/index.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>1.00</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/en/cv.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/en/defense.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.50</priority>
+  <changefreq>never</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/en/enseignements.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.80</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/en/conferences.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/en/publications.php</loc>
+  <lastmod>2025-06-07T22:14:43+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+
+
+<!-- PDF -->
+<url>
+  <loc>https://www.pensec.fr/assets/WilliamPENSEC_CV_fr.pdf</loc>
+  <lastmod>2025-03-26T20:08:50+00:00</lastmod>
+  <priority>0.30</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/WilliamPENSEC_CV_en.pdf</loc>
+  <lastmod>2025-01-04T13:44:17+00:00</lastmod>
+  <priority>0.30</priority>
+  <changefreq>yearly</changefreq>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/these/TRUSTIFT_Manuscrit_William.pdf</loc>
+  <lastmod>2025-01-05T19:58:29+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/these/slidesThese_TrustIFT_William_PENSEC.pdf</loc>
+  <lastmod>2025-01-05T19:58:29+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/articles/DSD2024_FISSA.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/articles/DSD2024_FIA_PMP_CVA6.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/articles/isvlsi2024_protectedDIFT.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/articles/sensorssp23.pdf</loc>
+  <lastmod>2025-05-29T14:24:20+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/articles/icuas2022.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/presentations/Bitflip_DGA.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/abstract/jaif2023_abstract.pdf</loc>
+  <lastmod>2025-05-29T14:24:20+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/presentations/JAIF2023-slides-Pensec.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/presentations/23_cyberus_williampensec.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/abstract/cryptarchi_2023.pdf</loc>
+  <lastmod>2025-05-29T14:24:20+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/presentations/2023_Cryptarchi_slides.pdf</loc>
+  <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/date_2025.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/jaif_2024_William.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/abstract/gdr_soc2_2024_abstract.pdf</loc>
+  <lastmod>2025-05-29T14:24:20+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/gdr_soc2_2024.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/cyberus_2024_William.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/jaif_2023.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/abstract/riscv_summit_2023_abstract.pdf</loc>
+  <lastmod>2025-05-29T14:24:20+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/riscv_summit_2023.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/micsec_2022.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
+<url>
+  <loc>https://www.pensec.fr/assets/pdf/posters/SHARP_2022.pdf</loc>
+  <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+  <priority>0.30</priority>
+</url>
 </urlset>
-	<!-- ENGLISH WEBSITE
-	<url>
-		<loc>https://www.pensec.fr/en/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.pensec.fr/en/index.php</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://pensec.fr/en/cv.php</loc>
-		<changefreq>weekly</changefreq>
-		<priority>0.8</priority>
-	</url>
-	
-	<!-- ITALIAN WEBSITE -->
-	<url>
-		<loc>https://www.pensec.fr/it/</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url>
-	<url>
-		<loc>https://www.pensec.fr/it/index.php</loc>
-		<changefreq>weekly</changefreq>
-		<priority>1.0</priority>
-	</url> -->

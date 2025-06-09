@@ -29,6 +29,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../logo/favicon-16x16.png">
     <link rel="manifest" href="../logo/site.webmanifest">
 
+    <?php
+    $baseURL = "https://$_SERVER[HTTP_HOST]";
+    $langue = substr($_SERVER['REQUEST_URI'], 1, 2);
+    ?>
+
     <style>
         .btn-linkedin {
             background: #0E76A8;
@@ -171,10 +176,6 @@
 
 <body>
     <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
-        <?php
-        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-        $_SESSION['language'] = "fr";
-        ?>
         <h1>Dr William PENSEC</h1>
         <h5>Docteur en Informatique et Architectures Numériques</h5>
     </div>

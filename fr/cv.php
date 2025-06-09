@@ -1,12 +1,4 @@
 <?php
-/* PARTIE BASIQUE */
-// $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-// if ($langue == "it") {
-//     header("Location : https://www.pensec.fr/it/cv.php");
-// } elseif ($langue != "fr") {
-//     header("Location : https://www.pensec.fr/en/cv.php");
-// }
-
 include "template/header.php";
 include "template/menu.php";
 
@@ -58,13 +50,13 @@ $age = $intvl->y;
             Maître de Conférences : ?
             <br><br> -->
             <ul>
-                <li><strong>10/2024 - </strong></li>
+                <li><strong>2024 - 2025</strong></li>
             </ul>
             Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Équipe SESAM - Saint-Étienne
             <br><br>
             <ul>
                 <li>
-                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" style="text-decoration: none;">Soutenance</a> : 19 décembre 2024</strong>
+                    <strong>10/2021 - 09/2024 / <a href="defense" target="_blank" style="text-decoration: none;">Soutenance</a> : 19 décembre 2024</strong>
                     <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>

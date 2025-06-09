@@ -1,4 +1,32 @@
+# Deny access to .htaccess
 <Files .htaccess>
     Order Allow,Deny
     Deny from all
 </Files>
+
+# Custom error documents
+ErrorDocument 404 /errors/404.php
+ErrorDocument 403 /errors/403.php
+
+# Disable directory browsing
+Options -Indexes
+
+# Hide the contents of directories
+IndexIgnore *
+
+# Hide files of type .png, .zip, .jpg, .pdf from listing
+IndexIgnore *.png *.zip *.jpg
+
+# Rewrite php
+RewriteEngine On
+RewriteLog "/var/log/apache2/rewrite.log"
+RewriteLogLevel 3
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^test\.html$ index.html [L]
+</IfModule>

@@ -29,6 +29,11 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../logo/favicon-16x16.png">
     <link rel="manifest" href="../logo/site.webmanifest">
 
+    <?php
+    $baseURL = "https://$_SERVER[HTTP_HOST]";
+    $langue = substr($_SERVER['REQUEST_URI'], 1, 2);
+    ?>
+
     <style>
         .btn-linkedin {
             background: #0E76A8;
@@ -117,15 +122,60 @@
         .active:hover i {
             color: #1a75ff !important;
         }
+
+        .table th,
+        .table td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .table-container {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .equal-columns th,
+        .equal-columns td {
+            width: calc(100% / var(--column-count));
+        }
+
+        .bordered-table th,
+        .bordered-table td {
+            border: 1px solid #dee2e6;
+        }
+
+        .year-heading {
+            margin-top: 20px;
+            color: blue;
+        }
+
+        table a {
+            color: black;
+            text-decoration: none;
+        }
+
+        table a:hover {
+            text-decoration: underline;
+        }
+
+        .custom-table th:first-child,
+        .custom-table td:first-child {
+            width: 50%;
+        }
+
+        .custom-table th:not(:first-child),
+        .custom-table td:not(:first-child) {
+            width: calc(50% / 3);
+        }
+
+        .large-icon {
+            font-size: 35px;
+        }
     </style>
 </head>
 
 <body>
     <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
-        <?php
-        $_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
-        $_SESSION['language'] = "en";
-        ?>
         <h1>Dr William PENSEC</h1>
         <h5>PhD in Computer Science and Digital Architectures</h5>
     </div>

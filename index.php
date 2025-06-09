@@ -1,9 +1,9 @@
 <?php
-$_SESSION['baseURL'] = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/";
-
 $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-$_SESSION['language'] = $langue;
+if($langue == ""){
+    $langue == "en";
+}
 
-$uri = $_SESSION['baseURL'] . $_SESSION['language'] . "/index.php";
+$uri = "https://$_SERVER[HTTP_HOST]/" . $langue . "/";
 header("Location: " . $uri);
 ?>

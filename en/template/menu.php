@@ -1,5 +1,5 @@
 <?php
-$page = $_SESSION['baseURL'] . $_SERVER['PHP_SELF'];
+$page = $baseURL . $_SERVER['PHP_SELF'];
 
 $currPage = preg_replace("/\/en\//", "/en/", $page);
 
@@ -10,8 +10,8 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>">
-            <img src="<?php echo $_SESSION['baseURL'] . "/logo/favicon-32x32.png" ?>" alt="Accueil" class="rounded-circle d-inline-block align-top">
+        <a class="navbar-brand" href="<?php echo $baseURL . "/" . $langue . "/index" ?>">
+            <img src="<?php echo $baseURL . "/logo/favicon-32x32.png" ?>" alt="Accueil" class="rounded-circle d-inline-block align-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -19,25 +19,25 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/index.php" ?>"><i class="bi bi-house me-1"></i> Home</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/index.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/index" ?>"><i class="bi bi-house me-1"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cv.php" ?>"><i class="fas fa-user-tie me-1"></i> Curriculum Vitae</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cv.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cv" ?>"><i class="fas fa-user-tie me-1"></i> Curriculum Vitae</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/enseignements.php" ?>"><i class="fa-solid fa-building-columns me-1"></i> University</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/enseignements.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/enseignements" ?>"><i class="fa-solid fa-building-columns me-1"></i> University</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/conferences.php" ?>"><i class="fas fa-book-reader me-1"></i> Conferences</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/conferences.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/conferences" ?>"><i class="fas fa-book-reader me-1"></i> Conferences</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php") ? 'active' : ''; ?>" href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/publications.php" ?>"><i class="fas fa-book me-1"></i> Publications</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
                 </li>
                 <!-- <li class="navbar-brand">
-                    <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/cours.php" ?>" style="color:white">Teachings</a>
+                    <a href="<?php echo $baseURL . "/" . $langue . "/cours" ?>" style="color:white">Teachings</a>
                 </li> -->
                 <!-- <li class="navbar-brand">
-                    <a href="<?php echo $_SESSION['baseURL'] . "/" . $_SESSION['language'] . "/students.php" ?>" style="color:white">Students</a>
+                    <a href="<?php echo $baseURL . "/" . $langue . "/students" ?>" style="color:white">Students</a>
                 </li> -->
             </ul>
             <ul class="navbar-nav">
