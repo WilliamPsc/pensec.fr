@@ -1,5 +1,6 @@
 <?php
 $page = $baseURL . $_SERVER['PHP_SELF'];
+$page = str_replace('.php', '', $page);
 
 $currPage = preg_replace("/\/fr\//", "/fr/", $page);
 
@@ -10,7 +11,7 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?php echo $baseURL . "/" . $langue . "/index" ?>">
+        <a class="navbar-brand" href="<?php echo $baseURL . "/" . $langue . "/index.php" ?>">
             <img src="<?php echo $baseURL . "/logo/favicon-32x32.png" ?>" alt="Accueil" class="rounded-circle d-inline-block align-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -33,11 +34,11 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
                 <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
                 </li>
-                <!-- <li class="navbar-brand">
-                    <a href="<?php echo $baseURL . "/" . $langue . "/cours" ?>" style="color:white">Cours</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cours.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cours" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Cours</a>
                 </li> -->
-                <!-- <li class="navbar-brand">
-                    <a href="<?php echo $baseURL . "/" . $langue . "/students" ?>" style="color:white">Étudiants</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/students.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/students" ?>"><i class="fa-solid fa-graduation-cap me-1"></i> Étudiants</a>
                 </li> -->
             </ul>
             <ul class="navbar-nav">

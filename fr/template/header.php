@@ -30,7 +30,8 @@
     <link rel="manifest" href="../logo/site.webmanifest">
 
     <?php
-    $baseURL = "https://$_SERVER[HTTP_HOST]";
+    $baseURL = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]";
+    $http = (empty($_SERVER['HTTPS']) ? 'http' : 'https');
     $langue = substr($_SERVER['REQUEST_URI'], 1, 2);
     ?>
 
@@ -87,6 +88,13 @@
         .custom-nav-link:hover i {
             color: #adb5bd !important;
             /* Light gray color for icons on hover */
+        }
+
+        .nav-item {
+            border-right: 1px solid #ccc;
+            /* Ajoute une bordure à droite */
+            padding-right: 5px;
+            /* Ajoute un peu d'espace à l'intérieur à droite */
         }
 
         .dropdown-menu {

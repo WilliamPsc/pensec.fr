@@ -1,5 +1,6 @@
 <?php
 $page = $baseURL . $_SERVER['PHP_SELF'];
+$page = str_replace('.php', '', $page);
 
 $currPage = preg_replace("/\/en\//", "/en/", $page);
 
@@ -33,11 +34,11 @@ $newPageIt = preg_replace("/\/en\//", "/it/", $page);
                 <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
                 </li>
-                <!-- <li class="navbar-brand">
-                    <a href="<?php echo $baseURL . "/" . $langue . "/cours" ?>" style="color:white">Teachings</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cours.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cours" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Teachings</a>
                 </li> -->
-                <!-- <li class="navbar-brand">
-                    <a href="<?php echo $baseURL . "/" . $langue . "/students" ?>" style="color:white">Students</a>
+                <!-- <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/students.php") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/students" ?>"><i class="fa-solid fa-graduation-cap me-1"></i> Students</a>
                 </li> -->
             </ul>
             <ul class="navbar-nav">
