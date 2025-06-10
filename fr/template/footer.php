@@ -1,6 +1,6 @@
 <footer class="footer mt-auto py-3 bg-body-secondary jumbotron text-center">
     <?php
-    echo "<a href=\"" . $_SESSION['baseURL'] . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
+    echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
     ?>
     <br>
     Chercheur post-doctorant

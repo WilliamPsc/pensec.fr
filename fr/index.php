@@ -103,12 +103,16 @@
         </div>
         <div class="container">
             <h3 class="text-center">Biographie</h3>
+            <!-- <p class="justified-text">
+                Depuis septembre 2025, je suis Maître de Conférences à l'Université de ...., rattaché au laboratoire .... (acronyme). J'enseigne à .... ainsi qu'à ...
+            </p> -->
+
             <p class="justified-text">
-                Depuis octobre 2024, je suis chercheur postdoctoral à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle portent sur l’évaluation de la sécurité des implémentations FPGA de réseaux de neurones, dans l'objectif de leur sécurisation contre les attaques par injection de fautes.
+                Depuis octobre 2024 jusqu'à septembre 2025, je suis chercheur postdoctoral à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle porte sur l’évaluation de la sécurité des implémentations de réseaux de neurones embarqués, avec comme objectif leur sécurisation contre les attaques par injection de fautes (laser).
             </p>
 
             <p class="justified-text">
-                De 2021 à 2024, j’ai réalisé une thèse de doctorat en informatique à l’Université Bretagne Sud, au sein de l’équipe ARCAD du Laboratoire des Sciences et Techniques de l'Information, de la Communication et de la Connaissance (Lab-STICC), à Lorient. Mes travaux ont porté sur l’extension de la protection des processeurs contre les menaces physiques et logicielles, via la sécurisation du mécanisme DIFT (Dynamic Information Flow Tracking) face aux attaques par injections de fautes.
+                De 2021 à 2024, j’ai réalisé une thèse de doctorat en informatique à l’Université Bretagne Sud, au sein de l’équipe ARCAD du Laboratoire des Sciences et Techniques de l'Information, de la Communication et de la Connaissance (Lab-STICC), à Lorient. Mes travaux ont porté sur l’extension de la protection des processeurs contre les menaces physiques et logicielles, via la sécurisation du mécanisme DIFT (Dynamic Information Flow Tracking) face aux attaques par injections de fautes. J'ai soutenu cette thèse de Doctorat en décembre 2024, à Lorient.
             </p>
 
             <p class="justified-text">
