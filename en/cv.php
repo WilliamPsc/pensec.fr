@@ -1,12 +1,4 @@
 <?php
-/* PARTIE BASIQUE */
-// $langue = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-// if ($langue == "fr") {
-//     header("Location : https://www.pensec.fr/fr/cv.php");
-// } elseif ($langue == "it") {
-//     header("Location : https://www.pensec.fr/it/cv.php");
-// }
-
 include "template/header.php";
 include "template/menu.php";
 
@@ -44,21 +36,21 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="justified-text">
-            <!-- <ul>
+            <ul>
                 <li>
                     <strong>09/2025 - </strong>
-                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" alt="Application form - Associate Professor - section 61" style="text-decoration: none;">
+                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
-                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" alt="Diapositives de l'audition" style="text-decoration: none;">
+                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
                 </li>
             </ul>
-            Maître de Conférences : ?
-            <br><br> -->
+            Associate Professor: Section 61 - University of Montpellier associated to Polytech Montpellier Engineering School - UMR CNRS 5506 - Laboratory of Computer Sciences, Robotics and Microelectronics of Montpellier (LIRMM) - ADAC Team - Montpellier, France.
+            <br><br>
             <ul>
-                <li><strong>10/2024 - 2025</strong></li>
+                <li><strong>10/2024 - 08/2025</strong></li>
             </ul>
             Postdoctorate in Computer Science: Security Evaluation of Neural Network FPGA implementations - University Jean Monnet, UMR CNRS 5516, Laboratory Hubert Curien - SESAM Team - Saint-Étienne (France)
             <br><br>
@@ -115,6 +107,7 @@ $age = $intvl->y;
                     </ul>
                 </li>
             </ul>
+
             <ul>
                 <li>
                     <strong>Computer Science:</strong>
@@ -263,13 +256,6 @@ $age = $intvl->y;
             <h4>CONTACT</h4>
         </div>
         <hr>
-        <!-- <div class="fs-4 mb-3 text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg>
-            Contact: +33 06.51.36.06.63
-        </div> -->
         <div class="fs-4 mb-3 text-center">
             <script src="../js/script.js"></script>
         </div>

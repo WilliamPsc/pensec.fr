@@ -9,7 +9,7 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-book"></i> Publications scientifiques</h2>
     <hr>
 
-    <h3>Récompenses : </h3>
+    <h3><i class="fa-solid fa-award"></i> Récompenses : </h3>
     <div class="text-justify">
         <ul>
             <li><strong>2023</strong>
@@ -379,7 +379,7 @@ include "template/menu.php";
 
 
     <hr>
-    <h3>Thèse de doctorat : </h3>
+    <h3>Manuscrit de ma thèse de doctorat : </h3>
     <ul>
         <li>
             <strong>2024</strong>

@@ -3,16 +3,6 @@ include "template/header.php";
 include "template/menu.php";
 ?>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const tables = document.querySelectorAll('.equal-columns');
-        tables.forEach(table => {
-            const columnCount = table.querySelector('thead tr').children.length;
-            table.style.setProperty('--column-count', columnCount);
-        });
-    });
-</script>
-
 <br><br>
 <div class="container text-justify my-4">
     <h2><i class="fa-solid fa-book-journal-whills"></i> Liste des conférences assistées :</h2>

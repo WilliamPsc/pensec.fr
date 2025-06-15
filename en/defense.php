@@ -76,7 +76,7 @@ include "template/menu.php";
                 <td>Pr. Francesco REGAZZONI</td>
                 <td>Senior Researcher</td>
                 <td>Amsterdam University (Netherlands) and Università della Svizzera italiana (Switzerland)</td>
-                <td>Examinateur</td>
+                <td>Examinator</td>
             </tr>
             <tr>
                 <td>6</td>

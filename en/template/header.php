@@ -97,6 +97,13 @@
             /* Ajoute un peu d'espace à l'intérieur à droite */
         }
 
+        .drop {
+            border-right: 0px solid black;
+            /* Ajoute une bordure à droite */
+            padding-right: 0px;
+            /* Ajoute un peu d'espace à l'intérieur à droite */
+        }
+
         .dropdown-menu {
             background-color: #343a40 !important;
             /* Dark background for dropdown menu */

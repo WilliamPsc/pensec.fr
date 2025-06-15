@@ -11,7 +11,7 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
     <div class="container-fluid">
-        <a class="navbar-brand" href="<?php echo $baseURL . "/" . $langue . "/index.php" ?>">
+        <a class="navbar-brand" href="<?php echo $baseURL . "/" . $langue . "/index" ?>">
             <img src="<?php echo $baseURL . "/logo/favicon-32x32.png" ?>" alt="Accueil" class="rounded-circle d-inline-block align-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">

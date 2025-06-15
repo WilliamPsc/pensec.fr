@@ -36,23 +36,23 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="justified-text">
-            <!-- <ul>
+            <ul>
                 <li>
                     <strong>09/2025 - </strong>
-                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" alt="Dossier de candidature - poste MCF 61" style="text-decoration: none;">
+                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
-                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" alt="Diapositives de l'audition" style="text-decoration: none;">
+                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
                 </li>
             </ul>
-            Maître de Conférences : ?
-            <br><br> -->
+            Maître de Conférences : Section 61 - Université de Montpellier rattaché à Polytech Montpellier - UMR CNRS 5506 - Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM) - Équipe ADAC - Montpellier.
+            <br><br>
             <ul>
-                <li><strong>2024 - 2025</strong></li>
+                <li><strong>10/2024 - 08/2025</strong></li>
             </ul>
-            Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Équipe SESAM - Saint-Étienne
+            Postdoctorat en Informatique : Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux - Université Jean Monnet, UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) - Équipe SESAM - Saint-Étienne.
             <br><br>
             <ul>
                 <li>
@@ -68,27 +68,27 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - Label Européen - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
+            Thèse de Doctorat en Informatique : Extension de la Protection des Processeurs Contre les Menaces Physiques et Logicielles par la Sécurisation du Mécanisme DIFT Contre les Attaques par Injections de Fautes - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - Label Européen - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>.
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
             </ul>
-            Master Informatique, spécialité Logiciels pour les Systèmes Embarqués (LSE) - Université de Bretagne Occidentale - Brest
+            Master Informatique, spécialité Logiciels pour les Systèmes Embarqués (LSE) - Université de Bretagne Occidentale - Brest.
             <br><br>
             <ul>
                 <li><strong>2015 - 2019</strong></li>
             </ul>
-            Licence Informatique (Informatique : Fondements et Applications) - Université de Bretagne Occidentale - Brest
+            Licence Informatique (Informatique : Fondements et Applications) - Université de Bretagne Occidentale - Brest.
             <br><br>
             <ul>
                 <li><strong>2014 - 2015</strong></li>
             </ul>
-            Première Année Commune aux Études de Santé (PACES) - Université de Bretagne Occidentale - Brest
+            Première Année Commune aux Études de Santé (PACES) - Université de Bretagne Occidentale - Brest.
             <br><br>
             <ul>
                 <li><strong>2014</strong></li>
             </ul>
-            Obtention du Baccalauréat, série S-SVT, option ISN (Informatique et Sciences du Numérique) - Lycée de Cornouaille - Quimper
+            Obtention du Baccalauréat, série S-SVT, option ISN (Informatique et Sciences du Numérique) - Lycée de Cornouaille - Quimper.
         </div>
         <hr>
         <div class="text-center">
@@ -267,13 +267,6 @@ $age = $intvl->y;
             <h4>CONTACT</h4>
         </div>
         <hr>
-        <!-- <div class="fs-4 mb-3 text-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg>
-            Contact : +33 06.51.36.06.63
-        </div> -->
         <div class="fs-4 mb-3 text-center">
             <script src="../js/script.js"></script>
         </div>
