@@ -1,4 +1,39 @@
 {
+    "2025": [
+        {
+            "type": "TP",
+            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "FISE 1",
+            "idName": "XA9S613B",
+            "nameFR": "Algorithmes numériques",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 42
+        },
+        {
+            "type": "TP",
+            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "FISE 1",
+            "idName": "XA9S610C",
+            "nameFR": "Initiation aux microcontrolleurs - µC",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 30
+        },
+        {
+            "type": "TP",
+            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "FISE 1",
+            "idName": "XA9S514A",
+            "nameFR": "Informatique (C)",
+            "nameEN": "Computer science",
+            "nameIT": "",
+            "nbHeures": 54
+        }
+    ],
     "2024": [
         {
             "type": "TD",

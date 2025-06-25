@@ -4,12 +4,6 @@
     Deny from all
 </Files>
 
-# Deny access to it/ folder
-<Directory /it/>
-    Order Allow,Deny
-    Deny from all
-</Directory>
-
 # Custom error documents
 ErrorDocument 404 /errors/404.php
 ErrorDocument 403 /errors/403.php

@@ -23,9 +23,9 @@
 
     <br><br>
     <div class="container">
-        <h2 class="text-center"><u>Chercheur post-doctorant</u></h2>
+        <h2 class="text-center"><u>Chercheur Contractuel - Post-doctorant</u></h2>
         <div class="table-responsive-md">
-            <h4 class="text-center">Évaluation de la sécurité des implémentations FPGA de réseaux neuronaux sur RISC-V</h4>
+            <h4 class="text-center">Évaluation de la sécurité des implémentations FPGA de réseaux de neurones sur RISC-V</h4>
             <br><br>
             <table class="table table-striped table-hover">
                 <tbody>
@@ -89,11 +89,11 @@
         <div class="container">
             <h3 class="text-center">Biographie</h3>
             <p class="justified-text">
-                A partir de septembre 2025, je serai Maître de Conférences à l'Université de Montpellier, rattaché au Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM). J'enseignerai à Polytech Montpellier dans le département Électronique et Informatique Industrielle (EII) pour les spécialités Micro-Électronique et Automatique (MEA) et Systèmes Embarqués (SE).
+                A partir de septembre 2025, je serai Maître de Conférences à l'Université de Montpellier, rattaché au Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM), au sein de l'équipe ADAC. J'enseignerai à Polytech Montpellier dans le département Électronique et Informatique Industrielle (EII) pour la spécialité Micro-Électronique et Automatique (MEA).
             </p>
 
             <p class="justified-text">
-                Depuis octobre 2024 jusqu'à août 2025, je suis chercheur postdoctoral à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle porte sur l’évaluation de la sécurité des implémentations de réseaux de neurones embarqués, avec comme objectif leur sécurisation contre les attaques par injection de fautes (laser).
+                Entre octobre 2024 et août 2025, je suis chercheur contractuel (post-doctorant) à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle porte sur l’évaluation de la sécurité des implémentations de réseaux de neurones embarqués, avec comme objectif leur sécurisation contre les attaques par injection de fautes (laser).
             </p>
 
             <p class="justified-text">
@@ -101,7 +101,7 @@
             </p>
 
             <p class="justified-text">
-                Je suis également l'auteur ou coauteur de plusieurs articles de conférences publiés dans plusieurs conférences internationales (Sensors S&P, DSD, ISVLSI).
+                Je suis également l'auteur et co-auteur de plusieurs articles de conférences publiés dans plusieurs conférences internationales (Sensors S&P, DSD, ISVLSI).
             </p>
         </div>
 
