@@ -39,10 +39,10 @@ $age = $intvl->y;
             <ul>
                 <li>
                     <strong>09/2025 - </strong>
-                    <a href="../assets/pdf/candidature_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
+                    <a href="../assets/pdf/divers/candidature_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>
-                    <a href="../assets/pdf/audition_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
+                    <a href="../assets/pdf/divers/audition_61_Montpellier.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
                     </a>
                 </li>
