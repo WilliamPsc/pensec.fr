@@ -99,13 +99,17 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-calendar-check"></i> Évènements scientifiques :</h2>
     <ul>
         <li>
+            <strong>Séminaire de pré-entrée dans l'équipe ADAC (LIRMM)</strong> - Présentation de mes travaux de recherche - Montpellier - 09/07/2025
+            <a href="../assets/pdf/presentations/Seminaire_Montpellier_juillet_2025.pdf" target="_blank" style="text-decoration: none;">
+                <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+            </a>
+        </li>
+        <li>
             <strong>Séminaire au LIRMM</strong> - Présentation de mes travaux de thèse - Montpellier - 07/01/2025
             <a href="../assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" style="text-decoration: none;">
                 <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
             </a>
         </li>
-    </ul>
-    <ul>
         <li>
             <strong>Ma Thèse en 180s (MT180)</strong> - Participation à la finale régionale - Rennes - 14/03/2023
             <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" style="text-decoration: none;">
