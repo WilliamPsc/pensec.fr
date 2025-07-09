@@ -100,7 +100,7 @@ include "template/menu.php";
     <ul>
         <li>
             <strong>Séminaire de pré-entrée dans l'équipe ADAC (LIRMM)</strong> - Présentation de mes travaux de recherche - Montpellier - 09/07/2025
-            <a href="../assets/pdf/presentations/Seminaire_Montpellier_juillet_2025.pdf" target="_blank" style="text-decoration: none;">
+            <a href="../assets/pdf/presentations/2025_07_09_ADAC_seminar.pdf" target="_blank" style="text-decoration: none;">
                 <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
             </a>
         </li>

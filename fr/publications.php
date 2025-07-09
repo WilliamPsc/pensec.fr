@@ -121,6 +121,18 @@ include "template/menu.php";
             <strong>2025</strong>
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <strong>Présentation de mes travaux de thèse et de post-doctorat</strong>
+                <a href="../assets/pdf/presentations/2025_07_09_ADAC_seminar.pdf" target="_blank" style="text-decoration: none;">
+                    <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                </a>
+                <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/dsd24_fissa.bib">Cite</a> -->
+                <br>
+                <span style="margin-left: 30px; margin-top: -15px;">William Pensec</span><br>
+                <span style="margin-left: 30px;">Séminaire de l'équipe ADAC (LIRMM) avant prise de poste</span><br>
+                <span style="margin-left: 30px;">Montpellier, France</span>
+            </p>
+            <p style="margin-left: 20px;">
+                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
                 <strong>Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks</strong>
                 <a href="../assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>

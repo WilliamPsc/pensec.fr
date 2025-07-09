@@ -42,10 +42,6 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
                 </li> -->
             </ul>
             <ul class="navbar-nav">
-                <!-- <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5" href="#" id="theme-toggle">
-                        <i class="fas fa-moon me-2" id="theme-icon"></i></a>
-                </li> -->
                 <li class="nav-item drop dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="langages" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span class="flag-icon flag-icon-fr me-2"></span> Français
@@ -59,29 +55,3 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
         </div>
     </div>
 </nav>
-
-<!-- <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const themeToggle = document.getElementById('theme-toggle');
-        const themeIcon = document.getElementById('theme-icon');
-        const navbar = document.querySelector('.navbar');
-        const body = document.body;
-
-        themeToggle.addEventListener('click', function(e) {
-            e.preventDefault();
-            if (body.classList.contains('light-mode')) {
-                body.classList.remove('light-mode');
-                navbar.classList.remove('light-mode');
-                themeIcon.classList.remove('fa-sun');
-                themeIcon.classList.add('fa-moon');
-                themeToggle.innerHTML = '<i class="fas fa-moon me-2"></i>';
-            } else {
-                body.classList.add('light-mode');
-                navbar.classList.add('light-mode');
-                themeIcon.classList.remove('fa-moon');
-                themeIcon.classList.add('fa-sun');
-                themeToggle.innerHTML = '<i class="fas fa-sun me-2"></i>';
-            }
-        });
-    });
-</script> -->
