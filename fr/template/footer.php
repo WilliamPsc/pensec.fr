@@ -3,7 +3,7 @@
     echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
     ?>
     <br>
-    Chercheur post-doctorant
+    Maître de Conférences
     <br>
     <?php
     echo "2017 - " . date("Y");

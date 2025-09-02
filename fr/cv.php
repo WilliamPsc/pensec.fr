@@ -28,7 +28,7 @@ $age = $intvl->y;
         <div class="justified-text">
             PENSEC William <br><br>
             <?php echo $age ?> ans <br><br>
-            Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
+            Montpellier (34000) - Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier - Université de Montpellier<br><br>
         </div>
         <hr>
         <div class="text-center">

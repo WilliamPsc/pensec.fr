@@ -1,10 +1,21 @@
 {
     "2025": [
         {
+            "type": "Gestion",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
+            "idName": "Stage",
+            "nameFR": "Responsable Stage MEA3",
+            "nameEN": "MEA3 Internship Manager",
+            "nameIT": "Responsabile Stage MEA3",
+            "nbHeures": 2
+        },
+        {
             "type": "TP",
-            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "FISE 1",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S613B",
             "nameFR": "Algorithmes numériques",
             "nameEN": "",
@@ -13,9 +24,9 @@
         },
         {
             "type": "TP",
-            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "FISE 1",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S610C",
             "nameFR": "Initiation aux microcontrolleurs - µC",
             "nameEN": "",
@@ -24,19 +35,19 @@
         },
         {
             "type": "TP",
-            "anneeFR": "FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "FISE 1",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S514A",
             "nameFR": "Informatique (C)",
-            "nameEN": "Computer science",
+            "nameEN": "Computer science (C language)",
             "nameIT": "",
             "nbHeures": 54
         }
     ],
     "2024": [
         {
-            "type": "TD",
+            "type": "Gestion",
             "anneeFR": "FISE 2 (2<sup>ème</sup> année cycle ingénieur TSE)",
             "anneeEN": "FISE 2 (2nd year of the TSE engineering cycle)",
             "anneeIT": "FISE 2",

@@ -25,7 +25,7 @@
     <div class="container">
         <h2 class="text-center"><u>Maître de Conférences</u></h2>
         <div class="table-responsive-md">
-            <h4 class="text-center">Évaluation de la sécurité des implémentations FPGA de réseaux de neurones sur RISC-V</h4>
+            <h4 class="text-center">Section 61</h4>
             <br><br>
             <table class="table table-striped table-hover">
                 <tbody>

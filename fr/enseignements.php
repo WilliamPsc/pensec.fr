@@ -32,7 +32,7 @@ error_reporting(E_ALL);
         $json_data = json_decode($json, true);
 
         // Init variables
-        $totalHoursByType = ['CM' => 0, 'TD' => 0, 'TP' => 0];
+        $totalHoursByType = ['CM' => 0, 'TD' => 0, 'TP' => 0, 'Gestion' => 0];
         $totalHoursByYear = [];
         $totalHours = 0;
         $activityDetails = [];
