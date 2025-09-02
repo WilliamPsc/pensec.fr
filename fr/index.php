@@ -23,7 +23,7 @@
 
     <br><br>
     <div class="container">
-        <h2 class="text-center"><u>Chercheur Contractuel - Post-doctorant</u></h2>
+        <h2 class="text-center"><u>Maître de Conférences</u></h2>
         <div class="table-responsive-md">
             <h4 class="text-center">Évaluation de la sécurité des implémentations FPGA de réseaux de neurones sur RISC-V</h4>
             <br><br>
@@ -33,7 +33,7 @@
                         <td class="align-middle text-center">
                             <i class="fa-solid fa-phone me-1"></i> Contact :
                         </td>
-                        <td class="align-middle text-center">+33 04.77.91.57.59 (Pro)</td>
+                        <td class="align-middle text-center">+33 XXXXXXX (Pro)</td>
                         <td class="align-middle text-center">
                             <i class="fa-regular fa-envelope me-1"></i> Email :
                         </td>
@@ -50,7 +50,7 @@
                             <i class="bi bi-bank me-1"></i> Institution :
                         </td>
                         <td class="align-middle text-center">
-                            <a href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/teams/secure-embedded-systems-hardware-architectures.html" target="_blank">Université Jean Monnet -<br> UMR CNRS 5516, Laboratoire Hubert Curien (LabHC) -<br> Équipe SESAM - Saint-Étienne</a>
+                            <a href="https://www.lirmm.fr/equipes/adac" target="_blank">Université de Montpellier - UMR CNRS 5506, LIRMM -<br> Équipe ADAC - Montpellier</a>
                         </td>
                     </tr>
                     <tr>
@@ -89,11 +89,11 @@
         <div class="container">
             <h3 class="text-center">Biographie</h3>
             <p class="justified-text">
-                A partir de septembre 2025, je serai Maître de Conférences à l'Université de Montpellier, rattaché au Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM), au sein de l'équipe ADAC. J'enseignerai à Polytech Montpellier dans le département Électronique et Informatique Industrielle (EII) pour la spécialité Micro-Électronique et Automatique (MEA).
+                Depuis le 1<sup>er</sup> septembre 2025, je suis Maître de Conférences à l'Université de Montpellier, rattaché au Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM), au sein de l'équipe ADAC. J'enseigne à l'école Polytech Montpellier dans le département Électronique et Informatique Industrielle (EII) pour la spécialité Micro-Électronique et Automatique (MEA) à des étudiants en cursus ingénieur.
             </p>
 
             <p class="justified-text">
-                Entre octobre 2024 et août 2025, je suis chercheur contractuel (post-doctorant) à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche actuelle porte sur l’évaluation de la sécurité des implémentations de réseaux de neurones embarqués, avec comme objectif leur sécurisation contre les attaques par injection de fautes (laser).
+                Entre octobre 2024 et août 2025, j'étais chercheur contractuel (post-doctorant) à l’Université Jean Monnet, à Saint-Étienne, au sein de l’équipe SESAM du Laboratoire Hubert Curien. Ma recherche portait sur l’évaluation de la sécurité des implémentations de réseaux de neurones embarqués, avec comme objectif leur sécurisation contre les attaques par injection de fautes (laser). J'ai travaillé en utilisant des réseaux de neurones keras aléatoires ou entraînés (MNIST, ou IRIS). Durant ce postdoctorat, j'ai développé un outil permettant de simuler ces fautes dans le but d'obtenir un modèle équivalent.
             </p>
 
             <p class="justified-text">
@@ -101,13 +101,13 @@
             </p>
 
             <p class="justified-text">
-                Je suis également l'auteur et co-auteur de plusieurs articles de conférences publiés dans plusieurs conférences internationales (Sensors S&P, DSD, ISVLSI).
+                Je suis également l'auteur et co-auteur de plusieurs articles de conférences publiés dans plusieurs conférences internationales.
             </p>
         </div>
 
         <div class="table-responsive-md">
-            <iframe style="width: 100%; height: 350px; border: 1px solid black;" src="https://www.openstreetmap.org/export/embed.html?bbox=4.384360313415528%2C45.4522172679292%2C4.387900829315186%2C45.45382787736185&amp;layer=mapnik&amp;marker=45.4530225783951%2C4.3861305713653564"></iframe>
-            <br><small><a href="https://www.openstreetmap.org/?mlat=45.453023&amp;mlon=4.386131#map=19/45.453023/4.386131" target="_blank">Afficher une carte plus grande</a></small>
+            <iframe style="width: 100%; height: 350px; border: 1px solid black;" src="https://www.openstreetmap.org/export/embed.html?bbox=3.839383721351624%2C43.6363547309251%2C3.8418942689895634%2C43.6377834417394&amp;layer=mapnik&amp;marker=43.63706909057851%2C3.8406389951705933"></iframe>
+            <br/><small><a href="https://www.openstreetmap.org/?mlat=43.637069&amp;mlon=3.840639#map=19/43.637069/3.840639"target="_blank">Afficher une carte plus grande</a></small>
         </div>
     </div>
 

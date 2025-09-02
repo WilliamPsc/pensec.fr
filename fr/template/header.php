@@ -191,7 +191,7 @@
 
 <body>
     <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
-        <h1>Dr William PENSEC</h1>
+        <h1>Dr. William PENSEC</h1>
         <h5>Docteur en Informatique et Architectures Numériques</h5>
-        <h5>Chercheur Contractuel</h5>
+        <h5>Maître de Conférences</h5>
     </div>
