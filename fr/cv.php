@@ -14,21 +14,43 @@ $age = $intvl->y;
 <div class="container">
     <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
-        <div class="text-center">
-            <p>
-                Version française :
-                <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
-            </p>
-            <p>
-                Version anglaise :
-                <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
-            </p>
+        <div class="row text-center mb-3">
+            <div class="col-6">
+                <p>
+                    Version française :
+                    <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    Version anglaise :
+                    <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                </p>
+            </div>
         </div>
         <hr>
-        <div class="justified-text">
-            PENSEC William <br><br>
-            <?php echo $age ?> ans <br><br>
+        <div class="row text-center mb-3">
+            <div class="col-6">
+                PENSEC William
+            </div>
+            <div class="col-6">
+                <?php echo $age ?> ans <br><br>
+            </div>
+        </div>
+        <div class="text-center">
             Montpellier (34000) - Laboratoire d'Informatique, de Robotique et de Microélectronique de Montpellier - Université de Montpellier<br><br>
+        </div>
+
+        <div class="row text-center mb-3">
+            <div class="col-4">
+                <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-50" alt="Logo LIRMM">
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-50" alt="Logo UM">
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-50" alt="Logo Polytech">
+            </div>
         </div>
         <hr>
         <div class="text-center">
