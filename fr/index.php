@@ -25,7 +25,7 @@
     <div class="container">
         <h2 class="text-center"><u>Maître de Conférences</u></h2>
         <div class="table-responsive-md">
-            <h4 class="text-center">Section 61</h4>
+            <h4 class="text-center">Section CNU 61 - Génie informatique, automatique et traitement du signal</h4>
             <br><br>
             <table class="table table-striped table-hover">
                 <tbody>
