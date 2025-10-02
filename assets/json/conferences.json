@@ -1,6 +1,13 @@
 {
     "2025":[
         {
+            "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2025",
+            "dateStart": "2025-10-01",
+            "dateEnd": "2025-10-01",
+            "place": "Grenoble, France",
+            "link": "https://jaif.io/2025/"
+        },
+        {
             "name": "Colloque National du GDR SoC²",
             "dateStart": "2025-06-11",
             "dateEnd": "2025-06-13",

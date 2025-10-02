@@ -16,13 +16,19 @@
         </p>
         <div class="row text-center mb-3">
             <div class="col-4">
-                <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-25" alt="Logo LIRMM">
+                <a href="https://www.lirmm.fr/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-25" alt="Logo LIRMM">
+                </a>
             </div>
             <div class="col-4">
-                <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-25" alt="Logo UM">
+                <a href="https://www.umontpellier.fr/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-25" alt="Logo UM">
+                </a>
             </div>
             <div class="col-4">
-                <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-25" alt="Logo Polytech">
+                <a href="https://www.polytech.umontpellier.fr/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-25" alt="Logo Polytech">
+                </a>
             </div>
         </div>
     </div>

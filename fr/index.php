@@ -93,13 +93,19 @@
             </p>
             <div class="row text-center mb-3">
                 <div class="col-4">
-                    <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-50" alt="Logo LIRMM">
+                    <a href="https://www.lirmm.fr/equipes/adac/" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-50" alt="Logo LIRMM">
+                    </a>
                 </div>
                 <div class="col-4">
-                    <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-50" alt="Logo UM">
+                    <a href="https://www.umontpellier.fr/" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-50" alt="Logo UM">
+                    </a>
                 </div>
                 <div class="col-4">
-                    <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-50" alt="Logo Polytech">
+                    <a href="https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/microelectronique-et-automatique" target="_blank" rel="noopener noreferrer">
+                        <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-50" alt="Logo Polytech">
+                    </a>
                 </div>
             </div>
 
@@ -110,10 +116,14 @@
                 <div class="col-6 offset-3">
                     <div class="row">
                         <div class="col-6">
-                            <img src="../assets/img/logo/labHC.png" class="img-fluid w-75" alt="Logo LABHC">
+                            <a href="https://laboratoirehubertcurien.univ-st-etienne.fr/en/teams/secure-embedded-systems-hardware-architectures.html" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/img/logo/labHC.png" class="img-fluid w-75" alt="Logo LABHC">
+                            </a>
                         </div>
                         <div class="col-6">
-                            <img src="../assets/img/logo/ujm.png" class="img-fluid w-50" alt="Logo UJM">
+                            <a href="https://www.univ-st-etienne.fr/fr/index.html/" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/img/logo/ujm.png" class="img-fluid w-50" alt="Logo UJM">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -126,10 +136,14 @@
                 <div class="col-6 offset-3">
                     <div class="row">
                         <div class="col-6">
-                            <img src="../assets/img/logo/labsticc.png" class="img-fluid w-50" alt="Logo LABSTICC">
+                            <a href="https://labsticc.fr/fr/equipes/arcad" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/img/logo/labsticc.png" class="img-fluid w-50" alt="Logo LABSTICC">
+                            </a>
                         </div>
                         <div class="col-6">
-                            <img src="../assets/img/logo/ubs.png" class="img-fluid w-50" alt="Logo UBS">
+                            <a href="https://www.univ-ubs.fr/fr/" target="_blank" rel="noopener noreferrer">
+                                <img src="../assets/img/logo/ubs.png" class="img-fluid w-50" alt="Logo UBS">
+                            </a>
                         </div>
                     </div>
                 </div>
