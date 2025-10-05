@@ -38,6 +38,12 @@
   <changefreq>monthly</changefreq>
 </url>
 <url>
+  <loc>https://www.pensec.fr/fr/recherche.php</loc>
+  <lastmod>2025-10-05T16:54:43+00:00</lastmod>
+  <priority>0.90</priority>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
   <loc>https://www.pensec.fr/fr/publications.php</loc>
   <lastmod>2025-06-07T22:14:43+00:00</lastmod>
   <priority>0.90</priority>

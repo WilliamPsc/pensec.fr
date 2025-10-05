@@ -12,7 +12,7 @@
             echo "2017 - " . date("Y");
             ?>
             <br>
-            Version 3.1
+            Version 3.2
         </p>
         <div class="row text-center mb-3">
             <div class="col-4">

@@ -1,0 +1,15 @@
+{
+    "ANR": [
+        {
+            "acronyme": "SCREAM",
+            "name": "Secure Processor based on MRAM technology",
+            "dateStart": "2025-03-01",
+            "dateEnd": "2029-02-28",
+            "funding": "ANR",
+            "roleFR": "Membre",
+            "roleEN": "Member",
+            "roleIT": "Membro",
+            "link": "https://gitlab.emse.fr/memorysecurity/scream-public/"
+        }
+    ]
+}

@@ -32,13 +32,13 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/conferences") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/conferences" ?>"><i class="fas fa-book-reader me-1"></i> Conférences</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/recherche") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/recherche" ?>"><i class="fa-solid fa-microscope me-1"></i> Recherche</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cours") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cours" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Cours</a>
-                </li> -->
-                <!-- <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/students") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/students" ?>"><i class="fa-solid fa-graduation-cap me-1"></i> Étudiants</a>
                 </li> -->
             </ul>
             <ul class="navbar-nav">
