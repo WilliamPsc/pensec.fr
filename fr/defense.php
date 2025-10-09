@@ -45,49 +45,49 @@ include "template/menu.php";
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Pr. Jean-Max DUTERTRE</td>
+                <td>Pr Jean-Max DUTERTRE</td>
                 <td>Professeur Titulaire</td>
                 <td>Ecole des Mines de Saint-Étienne</td>
                 <td>Président du jury</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Pr. Lejla BATINA</td>
+                <td>Pr Lejla BATINA</td>
                 <td>Professeure des Universités</td>
                 <td>Université de Radboub (Pays-Bas)</td>
                 <td>Rapporteuse</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Pr. Vincent BEROULLE</td>
+                <td>Pr Vincent BEROULLE</td>
                 <td>Professeur des Universités</td>
                 <td>INP et Université Grenoble Alpes</td>
                 <td>Rapporteur</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Pr. Nele MENTENS</td>
+                <td>Pr Nele MENTENS</td>
                 <td>Professeure des Universités</td>
                 <td>Université de Leiden (Pays-Bas) et KU Leuven (Belgique)</td>
                 <td>Rapporteuse</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>DR/Pr. Francesco REGAZZONI</td>
+                <td>DR/Pr Francesco REGAZZONI</td>
                 <td>Directeur de Recherche / Professeur des Universités</td>
                 <td>Université d'Amsterdam (Pays-Bas) et Université de Suisse italienne (Suisse)</td>
                 <td>Examinateur</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Pr. Guy GOGNIAT</td>
+                <td>Pr Guy GOGNIAT</td>
                 <td>Professeur des Universités</td>
                 <td>Université Bretagne Sud</td>
                 <td>Directeur de thèse</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Dr. Vianney LAPÔTRE</td>
+                <td>Dr Vianney LAPÔTRE</td>
                 <td>Maitre de Conférences HDR</td>
                 <td>Université Bretagne Sud</td>
                 <td>Co-Directeur de thèse</td>

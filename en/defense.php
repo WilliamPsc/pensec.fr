@@ -45,49 +45,49 @@ include "template/menu.php";
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Pr. Jean-Max DUTERTRE</td>
+                <td>Pr Jean-Max DUTERTRE</td>
                 <td>Full Professor</td>
                 <td>Ecole des Mines de Saint-Étienne (France)</td>
                 <td>Chairman of the jury</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Pr. Lejla BATINA</td>
+                <td>Pr Lejla BATINA</td>
                 <td>Full Professor</td>
                 <td>Radboub University (Netherlands)</td>
                 <td>Reviewer</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Pr. Vincent BEROULLE</td>
+                <td>Pr Vincent BEROULLE</td>
                 <td>Full Professor</td>
                 <td>INP and Université Grenoble Alpes (France)</td>
                 <td>Reviewer</td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>Pr. Nele MENTENS</td>
+                <td>Pr Nele MENTENS</td>
                 <td>Full Professor</td>
                 <td>Leiden University (Netherlands) and KU Leuven (Belgium)</td>
                 <td>Reviewer</td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>Pr. Francesco REGAZZONI</td>
+                <td>Pr Francesco REGAZZONI</td>
                 <td>Senior Researcher</td>
                 <td>Amsterdam University (Netherlands) and Università della Svizzera italiana (Switzerland)</td>
                 <td>Examinator</td>
             </tr>
             <tr>
                 <td>6</td>
-                <td>Pr. Guy GOGNIAT</td>
+                <td>Pr Guy GOGNIAT</td>
                 <td>Full Professor</td>
                 <td>Université Bretagne Sud (France)</td>
                 <td>Thesis Director</td>
             </tr>
             <tr>
                 <td>7</td>
-                <td>Dr. Vianney LAPÔTRE</td>
+                <td>Dr Vianney LAPÔTRE</td>
                 <td>Associate Professor</td>
                 <td>Université Bretagne Sud (France)</td>
                 <td>Thesis Co-director</td>

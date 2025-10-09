@@ -116,14 +116,14 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> Étudiants de Licence/Master encadrés :</h2>
     <ul>
         <li>
-            <strong>Kévin QUÉNÉHÉRVÉ (M1, 2022, 4 mois)</strong>
+            <strong>Kévin QUÉNÉHÉRVÉ (M1 CSSE UBS, 2022, 4 mois)</strong>
             <p>
                 <u>Titre</u> : Développement de plateforme d’injection de fautes.<br>
                 <u>Co-supervision</u> : Vianney LAPÔTRE
             </p>
         </li>
         <li>
-            <strong>Souad ET-TABITY (M2, 2022, 3 mois)</strong>
+            <strong>Souad ET-TABITY (M2 SESI UBS, 2022, 3 mois)</strong>
             <p>
                 <u>Titre</u> : Intégration du D-RI5CY sur FPGA.<br>
                 <u>Co-supervision</u> : Vianney LAPÔTRE

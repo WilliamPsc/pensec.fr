@@ -4,9 +4,23 @@ $page = str_replace('.php', '', $page);
 
 $currPage = preg_replace("/\/fr\//", "/fr/", $page);
 
+// ----------------------------------------------------------
 $newPageEn = preg_replace("/\/fr\//", "/en/", $page);
-
+if(str_contains($newPageEn, "recherche")) {
+    $newPageEn = str_replace("recherche", "research", $newPageEn);
+}
+if(str_contains($newPageEn, "universite")) {
+    $newPageEn = str_replace("universite", "university", $newPageEn);
+}
+// ----------------------------------------------------------
 $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
+if(str_contains($newPageIt, "recherche")) {
+    $newPageIt = str_replace("recherche", "ricerca", $newPageIt);
+}
+if(str_contains($newPageIt, "universite")) {
+    $newPageIt = str_replace("universite", "universita", $newPageIt);
+}
+// ----------------------------------------------------------
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ps-4 align-items-bottom">
@@ -26,20 +40,20 @@ $newPageIt = preg_replace("/\/fr\//", "/it/", $page);
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cv") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cv" ?>"><i class="fas fa-user-tie me-1"></i> Curriculum Vitae</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/enseignements") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/enseignements" ?>"><i class="fa-solid fa-building-columns me-1"></i> Université</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/conferences") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/conferences" ?>"><i class="fas fa-book-reader me-1"></i> Conférences</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/universite") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/universite" ?>"><i class="fa-solid fa-building-columns me-1"></i> Université</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/recherche") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/recherche" ?>"><i class="fa-solid fa-microscope me-1"></i> Recherche</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
-                </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/cours") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cours" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Cours</a>
                 </li> -->
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/conferences") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/conferences" ?>"><i class="fas fa-book-reader me-1"></i> Conférences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/publications") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/publications" ?>"><i class="fas fa-book me-1"></i> Publications</a>
+                </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item drop dropdown">

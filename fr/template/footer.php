@@ -2,7 +2,7 @@
     <div class="container">
         <p>
             <?php
-            echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr. William PENSEC</a>";
+            echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr William PENSEC</a>";
             ?>
             <br>
             Maître de Conférences

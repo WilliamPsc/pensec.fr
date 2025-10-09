@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-    <title>Dr. William PENSEC - Personal website</title>
+    <title>Dr William PENSEC - Associate Professor</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <meta name="description" content="Personal website">
-    <meta name="author" content="Dr. William PENSEC">
+    <meta name="author" content="Dr William PENSEC">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
@@ -193,4 +193,5 @@
     <div class="container p-5 my-5 border jumbotron text-center" id="titre" style="margin-bottom:0">
         <h1>Dr William PENSEC</h1>
         <h5>PhD in Computer Science and Digital Architectures</h5>
+        <h5>Associate Professor</h5>
     </div>
