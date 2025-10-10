@@ -99,17 +99,23 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-calendar-check"></i> Scientific events:</h2>
     <ul>
         <li>
+            <strong>Seminar of pre-entry in the ADAC team (LIRMM)</strong> - Presentation of my research work (PhD and postdoc) - Montpellier - July 09, 2025
+            <a href="../assets/pdf/presentations/2025_07_09_ADAC_seminar.pdf" target="_blank" style="text-decoration: none;">
+                <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+            </a>
+        </li>
+        <li>
             <strong>Seminar at LIRMM</strong> - Presentation of my PhD thesis - Montpellier (France) - January 07, 2025
             <a href="../assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" style="text-decoration: none;">
                 <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
             </a>
         </li>
-    </ul>
-    <ul>
-        <li><strong>My Thesis in 180s (MT180)</strong> - Participation in the regional final - Rennes (France) - March 14, 2023
+        <li>
+            <strong>My Thesis in 180s (MT180)</strong> - Participation in the regional final - Rennes (France) - March 14, 2023
             <a href="https://youtu.be/m_whL8xGbMQ" target="_blank" style="text-decoration: none;">
                 <i class="fab fa-youtube" style="margin-left: 10px; color: red;"></i>
             </a>
+        </li>
     </ul>
     <details>
         <summary class="text-center">Video of MT180 (in French)</summary>

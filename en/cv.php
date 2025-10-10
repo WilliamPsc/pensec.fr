@@ -14,21 +14,49 @@ $age = $intvl->y;
 <div class="container">
     <h2 class="text-center">Curriculum Vitae</h2>
     <div class="table-responsive-md">
-        <div class="text-center">
-            <p>
-                French version:
-                <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
-            </p>
-            <p>
-                English version:
-                <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
-            </p>
+        <div class="row text-center mb-3">
+            <div class="col-6">
+                <p>
+                    French version:
+                    <a href="../assets/WilliamPENSEC_CV_fr.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                </p>
+            </div>
+            <div class="col-6">
+                <p>
+                    English version:
+                    <a href="../assets/WilliamPENSEC_CV_en.pdf" target="_blank" rel="noopener noreferrer"><img loading="lazy" class="img-fluid mx-auto" src="../assets/img/icons/PDF_32.png" alt="pdf logo" width="32" height="32"></a>
+                </p>
+            </div>
         </div>
         <hr>
-        <div class="justified-text">
-            PENSEC William <br><br>
-            <?php echo $age ?> years old <br><br>
-            France - Saint-Étienne (42000) - Laboratoire Hubert Curien - Université Jean Monnet<br><br>
+        <div class="row text-center mb-3">
+            <div class="col-6">
+                PENSEC William
+            </div>
+            <div class="col-6">
+                <?php echo $age ?> years old <br><br>
+            </div>
+        </div>
+        <div class="text-center">
+            Montpellier (France) - Montpellier Laboratory of Computer Science, Robotics and Microelectronics (LIRMM) - University of Montpellier<br><br>
+        </div>
+
+        <div class="row text-center mb-3">
+            <div class="col-4">
+                <a href="https://www.lirmm.fr/equipes/adac/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/LogoLIRMMlong.png" class="img-fluid w-25" alt="Logo LIRMM">
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="https://www.umontpellier.fr/" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/logo_um_2022_rouge_RVB.png" class="img-fluid w-25" alt="Logo UM">
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="https://www.polytech.umontpellier.fr/formation/cycle-ingenieur/microelectronique-et-automatique" target="_blank" rel="noopener noreferrer">
+                    <img src="../assets/img/logo/Logo_polytech_montpellier.png" class="img-fluid w-25" alt="Logo Polytech">
+                </a>
+            </div>
         </div>
         <hr>
         <div class="text-center">
@@ -47,7 +75,7 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            Associate Professor: Section 61 - University of Montpellier associated to Polytech Montpellier Engineering School - UMR CNRS 5506 - Laboratory of Computer Sciences, Robotics and Microelectronics of Montpellier (LIRMM) - ADAC Team - Montpellier, France.
+            Associate Professor: University section 61 - University of Montpellier associated to Montpellier University Polytechnic School (Polytech Montpellier) - UMR CNRS 5506 - Laboratory of Computer Sciences, Robotics and Microelectronics of Montpellier (LIRMM) - ADAC Team - Montpellier, France.
             <br><br>
             <ul>
                 <li><strong>10/2024 - 08/2025</strong></li>
@@ -68,7 +96,7 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            PhD Thesis in Computer Science: Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - European Label - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>
+            PhD Thesis in Computer Science: Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks - Université Bretagne Sud, UMR CNRS 6285, Lab-STICC - Lorient - European Label - <a href="https://hal.science/tel-04862037/" target="_blank">https://hal.science/tel-04862037/</a>.
             <br><br>
             <ul>
                 <li><strong>2019 - 2021</strong></li>
@@ -91,12 +119,10 @@ $age = $intvl->y;
             Obtaining the Baccalaureate, S-SVT series, ISN option (Informatique et Sciences du Numérique / Computer Science and Digital Sciences) - Lycée de Cornouaille - Quimper
         </div>
         <hr>
-
         <div class="text-center">
             <h4>SKILLS</h4>
         </div>
         <hr>
-
         <div class="justified-text">
             <ul>
                 <li>
@@ -127,19 +153,11 @@ $age = $intvl->y;
                         <li>French: Native speaker</li>
                         <li>English: B2 </li>
                         <li>Italian: A2+</li>
-                        <li>Spanish: High School / A2</li>
+                        <li>Spanish: High School</li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <!-- <hr>
-        <div class="text-center">
-            <h4>PROJECTS</h4>
-        </div>
-        <hr>
-        <div class="justified-text">
-
-        </div> -->
         <hr>
         <div class="text-center">
             <h4>PROFESSIONAL EXPERIENCE</h4>
@@ -147,22 +165,19 @@ $age = $intvl->y;
         <hr>
         <div class="justified-text">
             <ul>
-                <li>
-                    <strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
+                <li><strong>2023 - Università della Svizzera italiana (Switzerland, Lugano)</strong>
                     <ul>
                         <li>
                             International mobility as part of my PhD - Visiting PhD student - SystemVerilog, Python - May 2023 to September 2023
                         </li>
                     </ul>
                 </li>
-                <li>
-                    <strong>2021 - UBO (Lab-STICC)</strong>
+                <li><strong>2021 - UBO (Lab-STICC)</strong>
                     <ul>
                         <li>Cooperation of drones in a heterogeneous system - Intern - Java, C++, ModBus, Raspberry Pi - April 2021 to August 2021</li>
                     </ul>
                 </li>
-                <li>
-                    <strong>2020 - UBO (Lab-STICC)</strong>
+                <li><strong>2020 - UBO (Lab-STICC)</strong>
                     <ul>
                         <li>Simulation of a drone with GPS sensors and accelerometer in C++ - Intern - C++, Java, CARES Framework - May 2020 to June 2020</li>
                     </ul>
@@ -186,7 +201,6 @@ $age = $intvl->y;
             </ul>
         </div>
         <hr>
-        <br><br>
         <div class="container">
             <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> University delegate:</h4>
             <div class="table-responsive-md">
@@ -247,8 +261,8 @@ $age = $intvl->y;
         <hr>
         <div class="justified-text">
             <ul>
-                <li><strong>Sports : </strong> Swimming (club and leisure), cycling, water sports (kayak, boat, scuba diving)</li>
-                <li><strong>Hobbies : </strong> Travel (France, Italy, Spain), Video games, Movies and series, Reading, Music</li>
+                <li><strong>Sports: </strong> Swimming (club and leisure), cycling, water sports (kayak, boat, scuba diving)</li>
+                <li><strong>Hobbies: </strong> Travel (France, Italy, Spain), Video games, Movies and series, Reading, Music</li>
             </ul>
         </div>
         <hr>

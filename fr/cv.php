@@ -75,7 +75,7 @@ $age = $intvl->y;
                     </a>
                 </li>
             </ul>
-            Maître de Conférences : Section 61 - Université de Montpellier rattaché à Polytech Montpellier - UMR CNRS 5506 - Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM) - Équipe ADAC - Montpellier.
+            Maître de Conférences : Section 61 - Université de Montpellier rattaché à l'École Polytechnique Universitaire de Montpellier (Polytech Montpellier) - UMR CNRS 5506 - Laboratoire d'Informatique, de Robotique et de Micro-électronique de Montpellier (LIRMM) - Équipe ADAC - Montpellier.
             <br><br>
             <ul>
                 <li><strong>10/2024 - 08/2025</strong></li>
@@ -153,19 +153,11 @@ $age = $intvl->y;
                         <li>Français : langue maternelle</li>
                         <li>Anglais : B2 </li>
                         <li>Italien : A2+</li>
-                        <li>Espagnol : Bac / A2</li>
+                        <li>Espagnol : Bac</li>
                     </ul>
                 </li>
             </ul>
         </div>
-        <!-- <hr>
-        <div class="text-center">
-            <h4>PROJETS</h4>
-        </div>
-        <hr>
-        <div class="justified-text">
-            
-        </div> -->
         <hr>
         <div class="text-center">
             <h4>EXPÉRIENCES PROFESSIONNELLES</h4>
@@ -185,7 +177,6 @@ $age = $intvl->y;
                         <li>Coopération de drones dans un système hétérogène - Stagiaire - Java, C++, ModBus, Raspberry Pi - Avril 2021 à Août 2021 </li>
                     </ul>
                 </li>
-
                 <li><strong>2020 - UBO (Lab-STICC)</strong>
                     <ul>
                         <li>Simulation d'un drone avec capteurs GPS et Accéléromètre en C++ - Stagiaire - C++, Java, Framework CARES - Mai 2020 à Juin 2020 </li>
@@ -197,13 +188,11 @@ $age = $intvl->y;
                         <li>Classification des requêtes d'Entrées/Sorties pour l'optimisation de l'accès aux fichiers sur un système embarqué - Stagiaire - R, Linux, Bash - Juin 2019 à Juillet 2019 </li>
                     </ul>
                 </li>
-
                 <li><strong>2019 - UBO OpenFactory</strong>
                     <ul>
                         <li>Modélisation de la position du tram de Brest en temps réel - Stagiaire - Arduino, C, Raspberry Pi, Python, JSON, PHP, HTML, Linux - Avril 2019 à Juin 2019 </li>
                     </ul>
                 </li>
-
                 <li><strong>2018 - UBO OpenFactory</strong>
                     <ul>
                         <li>Station Météo Connectée - Stagiaire - Arduino, WiFi, Serveur - Mai 2018 à Juillet 2018</li>
@@ -211,7 +200,6 @@ $age = $intvl->y;
                 </li>
             </ul>
         </div>
-
         <hr>
         <div class="container">
             <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> Représentant universitaire :</h4>

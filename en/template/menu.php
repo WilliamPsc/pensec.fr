@@ -46,7 +46,7 @@ if(str_contains($newPageIt, "university")) {
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/research") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/research" ?>"><i class="fa-solid fa-microscope me-1"></i> Research</a>
                 </li>
                 <!-- <li class="nav-item">
-                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/lessons") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/cours" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Teachings</a>
+                    <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/lessons") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/lessons" ?>"><i class="fa-solid fa-chalkboard-user me-1"></i> Teachings</a>
                 </li> -->
                 <li class="nav-item">
                     <a class="nav-link custom-nav-link fs-5 <?php echo ($currPage == $baseURL . "/" . $langue . "/conferences") ? 'active' : ''; ?>" href="<?php echo $baseURL . "/" . $langue . "/conferences" ?>"><i class="fas fa-book-reader me-1"></i> Conferences</a>

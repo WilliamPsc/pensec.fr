@@ -1,18 +1,19 @@
 <footer class="footer mt-auto py-3 bg-body-secondary jumbotron text-center">
-    <p>
-        <?php
-        echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr William PENSEC</a>";
-        ?>
-        <br>
-        Associate Professor
-    </p>
-    <p>
-        <?php
-        echo "2017 - " . date("Y");
-        ?>
-        <br>
-        Version 3.2
-    </p>
+    <div class="container">
+        <p>
+            <?php
+            echo "<a href=\"" . $baseURL . "/" . $langue . "\" target=\"_blank\" style=\"color:black;\">Dr William PENSEC</a>";
+            ?>
+            <br>
+            Associate Professor
+        </p>
+        <p>
+            <?php
+            echo "2017 - " . date("Y");
+            ?>
+            <br>
+            Version 3.2
+        </p>
         <div class="row text-center mb-3">
             <div class="col-4">
                 <a href="https://www.lirmm.fr/lirmm-en/" target="_blank" rel="noopener noreferrer">

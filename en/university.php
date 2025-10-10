@@ -21,7 +21,7 @@ error_reporting(E_ALL);
 
 <br><br>
 <div class="container">
-    <h2><i class="fas fa-chalkboard-teacher"></i> Teachings</h2>
+    <h2><i class="fas fa-chalkboard-teacher me-1"></i> Teachings</h2>
     <div class="table-responsive-md">
         <hr>
         <?php
@@ -32,7 +32,7 @@ error_reporting(E_ALL);
         $json_data = json_decode($json, true);
 
         // Init variables
-        $totalHoursByType = ['CM' => 0, 'TD' => 0, 'TP' => 0];
+        $totalHoursByType = ['CM' => 0, 'TD' => 0, 'TP' => 0, 'Gestion' => 0];
         $totalHoursByYear = [];
         $totalHours = 0;
         $activityDetails = [];
@@ -119,7 +119,7 @@ error_reporting(E_ALL);
             <ul>
                 <li>
                     <h5 style="display: inline;"><?php echo $year; ?></h5>
-                    <h6 style="display: inline;"> : <?php echo $totalHoursByYear[$year] . " h"; ?></h6>
+                    <h5 style="display: inline;"> / <?php echo $totalHoursByYear[$year] . " h:"; ?></h5>
                 </li>
             </ul>
             <div class="table-container">

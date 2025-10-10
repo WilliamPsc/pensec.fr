@@ -6,10 +6,10 @@ include "template/menu.php";
 
 <br><br>
 <div class="container text-justify">
-    <h2><i class="fa-solid fa-book"></i> Scientific publications</h2>
+    <h2><i class="fa-solid fa-book me-1"></i> Scientific publications</h2>
     <hr>
 
-    <h3><i class="fa-solid fa-award"></i> Award: </h3>
+    <h3><i class="fa-solid fa-award me-1"></i> Award:</h3>
     <div class="text-justify">
         <ul>
             <li><strong>2023</strong>
@@ -33,7 +33,7 @@ include "template/menu.php";
         <li>
             <strong>2024</strong><br>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Scripting the Unpredictable: Automate Fault Injection in CABA Simulation for Vulnerability Assessment</strong>
                 <a href="../assets/pdf/articles/DSD2024_FISSA.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -48,7 +48,7 @@ include "template/menu.php";
             </p>
 
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow</strong>
                 <a href="../assets/pdf/articles/DSD2024_FIA_PMP_CVA6.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -63,7 +63,7 @@ include "template/menu.php";
             </p>
 
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Defending the Citadel: Fault Injection Attacks against Dynamic Information Flow Tracking and Related Countermeasures</strong>
                 <a href="../assets/pdf/articles/isvlsi2024_protectedDIFT.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -80,7 +80,7 @@ include "template/menu.php";
         <li>
             <strong>2023</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Another Break in the Wall: Harnessing Fault Injection Attacks to Penetrate Software Fortresses</strong>
                 <a href="../assets/pdf/articles/sensorssp23.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -97,7 +97,7 @@ include "template/menu.php";
         <li>
             <strong>2022</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Smart Anomaly Detection and Monitoring of Industry 4.0 by Drones</strong>
                 <a href="../assets/pdf/articles/icuas2022.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -120,7 +120,19 @@ include "template/menu.php";
         <li>
             <strong>2025</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
+                <strong>Presentation of my research</strong>
+                <a href="../assets/pdf/presentations/2025_07_09_ADAC_seminar.pdf" target="_blank" style="text-decoration: none;">
+                    <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
+                </a>
+                <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/dsd24_fissa.bib">Cite</a> -->
+                <br>
+                <span style="margin-left: 30px; margin-top: -15px;">William Pensec</span><br>
+                <span style="margin-left: 30px;">ADAC seminar (LIRMM)</span><br>
+                <span style="margin-left: 30px;">Montpellier, France</span>
+            </p>
+            <p style="margin-left: 20px;">
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks</strong>
                 <a href="../assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
@@ -135,7 +147,7 @@ include "template/menu.php";
         <li>
             <strong>2024</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks</strong>
                 <a href="../assets/these/slidesThese_TrustIFT_William_PENSEC.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
@@ -153,7 +165,7 @@ include "template/menu.php";
         <li>
             <strong>2023</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Protecting a RISC-V embedded processor against physical and software attacks</strong>
                 <a href="../assets/pdf/presentations/Bitflip_DGA.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
@@ -167,7 +179,7 @@ include "template/menu.php";
             </p>
 
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks</strong>
                 <a href="../assets/pdf/abstract/jaif2023_abstract.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f;"></i>
@@ -183,7 +195,7 @@ include "template/menu.php";
             </p>
 
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Fault Injection Attacks Against an In-Core DIFT Mechanism</strong>
                 <a href="../assets/pdf/presentations/23_cyberus_williampensec.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-powerpoint" style="margin-left: 10px; color: #f77b00;"></i>
@@ -197,7 +209,7 @@ include "template/menu.php";
             </p>
 
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>When in-core Dynamic Information Flow Tracking faces fault injection attacks</strong>
                 <a href="../assets/pdf/abstract/cryptarchi_2023.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f;"></i>
@@ -216,7 +228,7 @@ include "template/menu.php";
         <li>
             <strong>2022</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Protection of a processor with DIFT against physical attacks</strong>
                 <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/dsd24_fissa.bib">Cite</a> -->
                 <br>
@@ -234,7 +246,7 @@ include "template/menu.php";
         <li>
             <strong>2025</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Implementation and evaluation of countermeasures in a DIFT mechanism against Fault Injection Attacks</strong>
                 <a href="../assets/pdf/posters/date_2025.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
@@ -250,7 +262,7 @@ include "template/menu.php";
         <li>
             <strong>2024</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Implementation and evaluation of countermeasures in a DIFT mechanism against Fault Injection Attacks</strong>
                 <a href="../assets/pdf/posters/jaif_2024_William.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
@@ -263,7 +275,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Rennes, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow</strong>
                 <a target='_blank' href='https://hal.science/hal-04729617'><img src="../assets/img/publishers/hal.svg" height="20" alt="HAL" style="margin-left: 10px;"></a>
                 <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/">Cite</a> -->
@@ -273,7 +285,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Rennes, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Automating Fault Injection through CABA Simulation for Vulnerability Assessment</strong>
                 <a href="../assets/pdf/abstract/gdr_soc2_2024_abstract.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -289,7 +301,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Toulouse, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Automating Fault Injection through CABA Simulation for Vulnerability Assessment</strong>
                 <a href="../assets/pdf/posters/cyberus_2024_William.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
@@ -302,7 +314,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Lorient, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Characterizing Clock Glitching Attacks on CVA6 PMP Configuration Flow</strong>
                 <a target='_blank' href='https://hal.science/hal-04729593'><img src="../assets/img/publishers/hal.svg" height="20" alt="HAL" style="margin-left: 10px;"></a>
                 <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/dsd24_fissa.bib">Cite</a> -->
@@ -315,7 +327,7 @@ include "template/menu.php";
         <li>
             <strong>2023</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks</strong>
                 <a href="../assets/pdf/abstract/jaif2023_abstract.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -331,7 +343,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Gardanne, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>When in-core DIFT faces fault injection attacks</strong>
                 <a href="../assets/pdf/abstract/riscv_summit_2023_abstract.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
@@ -350,7 +362,7 @@ include "template/menu.php";
         <li>
             <strong>2022</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Protection of a processor with DIFT against physical attacks</strong>
                 <a href="../assets/pdf/posters/micsec_2022.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
@@ -363,7 +375,7 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Paris, France</span>
             </p>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Protection of a processor with DIFT against physical attacks</strong>
                 <a href="../assets/pdf/posters/SHARP_2022.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
@@ -384,7 +396,7 @@ include "template/menu.php";
         <li>
             <strong>2024</strong>
             <p style="margin-left: 20px;">
-                <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks</strong>
                 <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f;"></i>
