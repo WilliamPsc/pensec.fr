@@ -18,8 +18,8 @@
             "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S613B",
             "nameFR": "Algorithmes numériques",
-            "nameEN": "",
-            "nameIT": "",
+            "nameEN": "Digital algorithms",
+            "nameIT": "Algoritmi numerici",
             "nbHeures": 42
         },
         {
@@ -29,8 +29,8 @@
             "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S610C",
             "nameFR": "Initiation aux microcontrolleurs - µC",
-            "nameEN": "",
-            "nameIT": "",
+            "nameEN": "Introduction to microcontrollers",
+            "nameIT": "Introduzione ai microcontrollori",
             "nbHeures": 30
         },
         {
@@ -39,9 +39,9 @@
             "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
             "anneeIT": "MEA3 - FISE 1",
             "idName": "XA9S514A",
-            "nameFR": "Informatique (C)",
-            "nameEN": "Computer science (C language)",
-            "nameIT": "",
+            "nameFR": "Informatique (langage de programmation C)",
+            "nameEN": "Computer science (C programming language)",
+            "nameIT": "Informatica (linguaggio di programmazione C)",
             "nbHeures": 54
         }
     ],
