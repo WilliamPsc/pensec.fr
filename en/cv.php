@@ -84,7 +84,7 @@ $age = $intvl->y;
             <br><br>
             <ul>
                 <li>
-                    <strong>10/2021 - 09/2024 / <a href="defense.php" target="_blank" style="text-decoration: none;">PhD Defense</a> : December 19, 2024</strong>
+                    <strong>10/2021 - 09/2024 / <a href="defense" target="_blank" style="text-decoration: none;">PhD Defense</a> : December 19, 2024</strong>
                     <a href="../assets/these/TRUSTIFT_Manuscrit_William.pdf" target="_blank" style="text-decoration: none;">
                         <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                     </a>

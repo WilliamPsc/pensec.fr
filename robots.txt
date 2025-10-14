@@ -1,4 +1,4 @@
-Sitemap:https://www.pensec.fr/sitemap.xml
+Sitemap: https://www.pensec.fr/sitemap.xml
 
 User-agent: * 
 Disallow: 
