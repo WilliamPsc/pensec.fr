@@ -222,7 +222,7 @@ include "template/menu.php";
                 <br>
                 <span style="margin-left: 30px; margin-top: -15px;">Vianney Lapôtre, William Pensec and Guy Gogniat</span><br>
                 <span style="margin-left: 30px;">19th International Workshops on Cryptographic architectures embedded in logic devices (CryptArchi)</span><br>
-                <span style="margin-left: 30px;">Cantabria, Espagne</span>
+                <span style="margin-left: 30px;">Cantabria, Spain</span>
             </p>
         </li>
         <li>
@@ -356,7 +356,7 @@ include "template/menu.php";
                 <br>
                 <span style="margin-left: 30px; margin-top: -15px;">William Pensec, Vianney Lapôtre and Guy Gogniat</span><br>
                 <span style="margin-left: 30px;">RISC-V Summit Europe (RISC-V Summit)</span><br>
-                <span style="margin-left: 30px;">Barcelone, Espagne</span>
+                <span style="margin-left: 30px;">Barcelona, Spain</span>
             </p>
         </li>
         <li>

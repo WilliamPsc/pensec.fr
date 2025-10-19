@@ -101,6 +101,8 @@
   </url>
 
   <!-- ===== PDF DOCUMENTS ===== -->
+
+  <!-- CV et Thèse -->
   <url>
     <loc>https://www.pensec.fr/assets/WilliamPENSEC_CV_fr.pdf</loc>
     <lastmod>2025-07-09T16:50:52+00:00</lastmod>
@@ -126,7 +128,7 @@
     <changefreq>yearly</changefreq>
   </url>
 
-  <!-- Publications -->
+  <!-- Articles -->
   <url>
     <loc>https://www.pensec.fr/assets/pdf/articles/DSD2024_FISSA.pdf</loc>
     <lastmod>2025-05-29T14:24:19+00:00</lastmod>
@@ -161,17 +163,82 @@
   <!-- Presentations -->
   <url>
     <loc>https://www.pensec.fr/assets/pdf/presentations/Seminaire_Montpellier_janvier_2025.pdf</loc>
-    <lastmod>2025-05-29T14:24:19+00:00</lastmod>
+    <lastmod>2025-07-09T16:50:57+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/23_cyberus_williampensec.pdf</loc>
+    <lastmod>2025-07-09T16:50:57+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/2023_Cryptarchi_slides.pdf</loc>
+    <lastmod>2025-07-09T16:50:56+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/2025_07_09_ADAC_seminar.pdf</loc>
+    <lastmod>2025-10-05T15:07:26+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/Bitflip_DGA.pdf</loc>
+    <lastmod>2025-07-09T16:50:56+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/introduction_anr_scream.pdf</loc>
+    <lastmod>2025-10-05T14:24:19+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/presentations/JAIF2023-slides-Pensec.pdf</loc>
+    <lastmod>2025-07-09T16:50:56+00:00</lastmod>
     <priority>0.30</priority>
     <changefreq>yearly</changefreq>
   </url>
 
   <!-- Abstracts -->
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/abstract/jaif2023_abstract.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/abstract/jaif2024_abstract.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/abstract/cryptarchi_2023.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/abstract/gdr_soc2_2024_abstract.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/abstract/riscv_summit_2023_abstract.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
 
   <!-- Posters -->
   <url>
     <loc>https://www.pensec.fr/assets/pdf/posters/date_2025.pdf</loc>
-    <lastmod>2025-05-29T14:24:18+00:00</lastmod>
+    <lastmod>2025-07-09T16:50:59+00:00</lastmod>
     <priority>0.30</priority>
     <changefreq>yearly</changefreq>
   </url>
@@ -185,6 +252,12 @@
     <loc>https://www.pensec.fr/assets/pdf/posters/jaif_2023.pdf</loc>
     <lastmod>2025-05-29T14:24:18+00:00</lastmod>
     <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/posters/jaif_2024_William.pdf</loc>
+    <lastmod>2025-07-09T16:50:59+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
   </url>
   <url>
     <loc>https://www.pensec.fr/assets/pdf/posters/riscv_summit_2023.pdf</loc>
@@ -202,6 +275,26 @@
     <loc>https://www.pensec.fr/assets/pdf/posters/SHARP_2022.pdf</loc>
     <lastmod>2025-05-29T14:24:18+00:00</lastmod>
     <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/posters/cyberus_2024_William.pdf</loc>
+    <lastmod>2025-07-09T16:50:58+00:00</lastmod>
+    <priority>0.30</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+
+  <!-- Divers -->
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/divers/candidature_61_Montpellier.pdf</loc>
+    <lastmod>2025-07-09T16:50:57+00:00</lastmod>
+    <priority>0.64</priority>
+    <changefreq>yearly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.pensec.fr/assets/pdf/divers/audition_61_Montpellier.pdf</loc>
+    <lastmod>2025-07-09T16:50:57+00:00</lastmod>
+    <priority>0.64</priority>
     <changefreq>yearly</changefreq>
   </url>
 
