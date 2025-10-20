@@ -102,7 +102,7 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> Doctorants encadrés :</h2>
     <ul>
         <li>
-            <strong>Ali Ait Hassou (septembre 2025 - )</strong>
+            <strong>Ali AIT HASSOU (septembre 2025 - )</strong>
             <p>
                 <u>Titre</u> : Conception et Sécurisation de Microarchitectures RISC-V Basées sur MRAM : Analyse des Vulnérabilités et Développement de Contre-mesures.<br>
                 <u>Co-supervision</u> : Florent BRUGUIER et Pascal BENOIT

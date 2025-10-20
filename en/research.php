@@ -102,7 +102,7 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> PhD students under supervision:</h2>
     <ul>
         <li>
-            <strong>Ali Ait Hassou (september 2025 - )</strong>
+            <strong>Ali AIT HASSOU (september 2025 - )</strong>
             <p>
                 <u>Title</u>: Design and Security of MRAM-Based RISC-V Microarchitectures: Vulnerability Analysis and Countermeasure Development.<br>
                 <u>Co-supervision</u>: Florent BRUGUIER and Pascal BENOIT
