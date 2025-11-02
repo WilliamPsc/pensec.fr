@@ -5,20 +5,26 @@ include "template/menu.php";
 ?>
 
 <?php
-include "../assets/googlescholar/googlescholar.php";
+// include "../assets/googlescholar/googlescholar.php";
 
-if ($json_data === FALSE) {
-    die('<h1 class="align-middle text-center">Error fetching JSON data.</h1>');
-}
+// if ($json_data === FALSE) {
+//     die('<h1 class="align-middle text-center">Error fetching JSON data.</h1>');
+// }
 
-// Decode the JSON data to a PHP array
-$data = json_decode($json_data, true);
+// // Decode the JSON data to a PHP array
+// $data = json_decode($json_data, true);
+$data = [
+    'total_citations' => 16,
+    'publications'    => [], // à compléter si besoin
+    'hindex'          => 3,
+    'indexi10'        => 0
+];
 
-// Extract the number of citations and publications
-$nb_citations = $data['total_citations'];
-$nb_publications = count($data['publications']);
-$hindex = $data['hindex'];
-$index10 = $data['indexi10'];
+// Extraction des valeurs
+$nb_citations   = $data['total_citations'];
+$nb_publications = 18;
+$hindex         = $data['hindex'];
+$index10        = $data['indexi10'];
 ?>
 
 <br><br>
