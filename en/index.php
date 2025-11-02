@@ -5,14 +5,6 @@ include "template/menu.php";
 ?>
 
 <?php
-// include "../assets/googlescholar/googlescholar.php";
-
-// if ($json_data === FALSE) {
-//     die('<h1 class="align-middle text-center">Error fetching JSON data.</h1>');
-// }
-
-// // Decode the JSON data to a PHP array
-// $data = json_decode($json_data, true);
 $data = [
     'total_citations' => 16,
     'publications'    => [], // à compléter si besoin

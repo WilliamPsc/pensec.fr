@@ -5,26 +5,17 @@ include "template/menu.php";
 ?>
 
 <?php
-// include "../assets/googlescholar/googlescholar.php";
+include '../assets/googlescholar/serpapi.php';
 
-// if ($json_data === FALSE) {
-//     die('<h1 class="align-middle text-center">Error fetching JSON data.</h1>');
-// }
-
-// // Decode the JSON data to a PHP array
-// $data = json_decode($json_data, true);
-$data = [
-    'total_citations' => 16,
-    'publications'    => [], // à compléter si besoin
-    'hindex'          => 3,
-    'indexi10'        => 0
-];
+if (isset($result['error'])) {
+    echo "<p style='color:red;'>Erreur : {$result['error']}</p>";
+}
 
 // Extraction des valeurs
-$nb_citations   = $data['total_citations'];
-$nb_publications = 18;
-$hindex         = $data['hindex'];
-$index10        = $data['indexi10'];
+$nb_citations   = $result['total_citations'];
+$nb_publications = count($result['publications']);
+$hindex         = $result['hindex'];
+$index10        = $result['indexi10'];
 ?>
 
 <br><br>
