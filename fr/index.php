@@ -2,9 +2,7 @@
 session_start(); // Ensure the session is started if you're using session variables
 include "template/header.php";
 include "template/menu.php";
-?>
 
-<?php
 include '../assets/googlescholar/serpapi.php';
 
 if (isset($result['error'])) {

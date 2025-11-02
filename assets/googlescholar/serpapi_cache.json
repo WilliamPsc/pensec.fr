@@ -1,0 +1,332 @@
+{
+    "search_metadata": {
+        "id": "6907be9dd17a80c94d62bf2e",
+        "status": "Success",
+        "json_endpoint": "https:\/\/serpapi.com\/searches\/ddaefa0cb15638cb\/6907be9dd17a80c94d62bf2e.json",
+        "created_at": "2025-11-02 20:27:09 UTC",
+        "processed_at": "2025-11-02 20:27:09 UTC",
+        "google_scholar_author_url": "https:\/\/scholar.google.com\/citations?user=AJE3er8AAAAJ&hl=en",
+        "raw_html_file": "https:\/\/serpapi.com\/searches\/ddaefa0cb15638cb\/6907be9dd17a80c94d62bf2e.html",
+        "total_time_taken": 1.26
+    },
+    "search_parameters": {
+        "engine": "google_scholar_author",
+        "author_id": "AJE3er8AAAAJ",
+        "hl": "en"
+    },
+    "author": {
+        "name": "William PENSEC",
+        "affiliations": "Associate Professor, LIRMM, Université de Montpellier",
+        "email": "Verified email at lirmm.fr",
+        "website": "https:\/\/www.pensec.fr\/",
+        "interests": [
+            {
+                "title": "Hardware Security",
+                "link": "https:\/\/scholar.google.com\/citations?view_op=search_authors&hl=en&mauthors=label:hardware_security",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Ahardware_security"
+            },
+            {
+                "title": "Computer Architecture",
+                "link": "https:\/\/scholar.google.com\/citations?view_op=search_authors&hl=en&mauthors=label:computer_architecture",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Acomputer_architecture"
+            },
+            {
+                "title": "Fault Injection",
+                "link": "https:\/\/scholar.google.com\/citations?view_op=search_authors&hl=en&mauthors=label:fault_injection",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Afault_injection"
+            },
+            {
+                "title": "FPGA",
+                "link": "https:\/\/scholar.google.com\/citations?view_op=search_authors&hl=en&mauthors=label:fpga",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Afpga"
+            }
+        ],
+        "thumbnail": "https:\/\/scholar.googleusercontent.com\/citations?view_op=view_photo&user=AJE3er8AAAAJ&citpid=3"
+    },
+    "articles": [
+        {
+            "title": "Scripting the Unpredictable: Automate Fault Injection in RTL Simulation for Vulnerability Assessment",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:ufrVoPGSRksC",
+            "citation_id": "AJE3er8AAAAJ:ufrVoPGSRksC",
+            "authors": "P William, L Vianney, G Guy",
+            "publication": "2024 27th Euromicro Conference on Digital System Design (DSD), 369-376, 2024",
+            "cited_by": {
+                "value": 4,
+                "link": "https:\/\/scholar.google.com\/scholar?oi=bibs&hl=en&cites=10007772015273479679",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?cites=10007772015273479679&engine=google_scholar&hl=en",
+                "cites_id": "10007772015273479679"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Smart Anomaly Detection and Monitoring of Industry 4.0 by Drones",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:u5HHmVD_uO8C",
+            "citation_id": "AJE3er8AAAAJ:u5HHmVD_uO8C",
+            "authors": "W Pensec, D Espes, C Dezan",
+            "publication": "2022 International Conference on Unmanned Aircraft Systems (ICUAS), 705-713, 2022",
+            "cited_by": {
+                "value": 4,
+                "link": "https:\/\/scholar.google.com\/scholar?oi=bibs&hl=en&cites=14256718380852551938",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?cites=14256718380852551938&engine=google_scholar&hl=en",
+                "cites_id": "14256718380852551938"
+            },
+            "year": "2022"
+        },
+        {
+            "title": "Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:Y0pCki6q_DkC",
+            "citation_id": "AJE3er8AAAAJ:Y0pCki6q_DkC",
+            "authors": "K Quénéhervé, W Pensec, P Tanguy, R Dafali, V Lapotre",
+            "publication": "2024 27th Euromicro Conference on Digital System Design (DSD), 43-50, 2024",
+            "cited_by": {
+                "value": 3,
+                "link": "https:\/\/scholar.google.com\/scholar?oi=bibs&hl=en&cites=12943937449878250895",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?cites=12943937449878250895&engine=google_scholar&hl=en",
+                "cites_id": "12943937449878250895"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Defending the Citadel: Fault Injection Attacks against Dynamic Information Flow Tracking and Related Countermeasures",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:zYLM7Y9cAGgC",
+            "citation_id": "AJE3er8AAAAJ:zYLM7Y9cAGgC",
+            "authors": "W Pensec, F Regazzoni, V Lapotre, G Gogniat",
+            "publication": "2024 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 2024",
+            "cited_by": {
+                "value": 3,
+                "link": "https:\/\/scholar.google.com\/scholar?oi=bibs&hl=en&cites=7383885925720299322",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?cites=7383885925720299322&engine=google_scholar&hl=en",
+                "cites_id": "7383885925720299322"
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Another Break in the Wall: Harnessing Fault Injection Attacks to Penetrate Software Fortresses",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:2osOgNQ5qMEC",
+            "citation_id": "AJE3er8AAAAJ:2osOgNQ5qMEC",
+            "authors": "W Pensec, V Lapôtre, G Gogniat",
+            "publication": "SensorsS&P: First International Workshop on Security and Privacy of Sensing …, 2023",
+            "cited_by": {
+                "value": 2,
+                "link": "https:\/\/scholar.google.com\/scholar?oi=bibs&hl=en&cites=2701059215348935920",
+                "serpapi_link": "https:\/\/serpapi.com\/search.json?cites=2701059215348935920&engine=google_scholar&hl=en",
+                "cites_id": "2701059215348935920"
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:WF5omc3nYNoC",
+            "citation_id": "AJE3er8AAAAJ:WF5omc3nYNoC",
+            "authors": "W Pensec",
+            "publication": "Université Bretagne sud, 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Scripting the Unpredictable: Automate Fault Injection in RTL Simulation for Vulnerability Assessment",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:Tyk-4Ss8FVUC",
+            "citation_id": "AJE3er8AAAAJ:Tyk-4Ss8FVUC",
+            "authors": "W Pensec, V Lapotre, G Guy",
+            "publication": "27th Euromicro Conference Series on Digital System Design (DSD), 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Automating Fault Injection through CABA Simulation for Vulnerability Assessment",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:W7OEmFMy1HYC",
+            "citation_id": "AJE3er8AAAAJ:W7OEmFMy1HYC",
+            "authors": "W Pensec, V Lapôtre, G Gogniat",
+            "publication": "Colloque National du GDR SoC2, 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Characterizing Clock Glitching Attacks on CVA6 PMP Configuration Flow",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:YsMSGLbcyi4C",
+            "citation_id": "AJE3er8AAAAJ:YsMSGLbcyi4C",
+            "authors": "K Quénéhervé, W Pensec, T Philippe, V Lapotre",
+            "publication": "CYBERUS Spring School 2024, 2024",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "FISSA: Fault Injection Simulation for Security Assessment",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:LkGwnXOMwfcC",
+            "citation_id": "AJE3er8AAAAJ:LkGwnXOMwfcC",
+            "authors": "W PENSEC, V LAP ˆOTRE, G GOGNIAT",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2024"
+        },
+        {
+            "title": "Protecting a RISC-V embedded processor against physical and software attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:qjMakFHDy7sC",
+            "citation_id": "AJE3er8AAAAJ:qjMakFHDy7sC",
+            "authors": "V Lapotre, W Pensec, G Guy",
+            "publication": "BITFLIP by DGA-European Cyber Week 2023, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Unveiling the Invisible Threads: Dynamic Information Flow Tracking and the Intriguing World of Fault Injection Attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:9yKSN-GCB0IC",
+            "citation_id": "AJE3er8AAAAJ:9yKSN-GCB0IC",
+            "authors": "W Pensec, V Lapôtre, G Gogniat",
+            "publication": "Journée thématique sur les Attaques par Injection de Fautes (JAIF), 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Fault Injection Attacks Against an In-Core DIFT Mechanism",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:d1gkVwhDpl0C",
+            "citation_id": "AJE3er8AAAAJ:d1gkVwhDpl0C",
+            "authors": "W Pensec",
+            "publication": "CYBERUS summer school, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "When in-core Dynamic Information Flow Tracking faces fault injection attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:IjCSPb-OGe4C",
+            "citation_id": "AJE3er8AAAAJ:IjCSPb-OGe4C",
+            "authors": "V Lapôtre, W Pensec, G Gogniat",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "When in-core DIFT faces fault injection attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:UeHWp8X0CEIC",
+            "citation_id": "AJE3er8AAAAJ:UeHWp8X0CEIC",
+            "authors": "V Lapotre, W Pensec, G Guy",
+            "publication": "CryptArchi 2023-19th International Workshops on Cryptographic architectures …, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "When in-core DIFT faces fault injection attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:u-x6o8ySG0sC",
+            "citation_id": "AJE3er8AAAAJ:u-x6o8ySG0sC",
+            "authors": "W Pensec, V Lapotre, G Gogniat",
+            "publication": "RISC-V Summit Europe 2023,, 2023",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2023"
+        },
+        {
+            "title": "Protection of a processor with DIFT against physical attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:eQOLeE2rZwMC",
+            "citation_id": "AJE3er8AAAAJ:eQOLeE2rZwMC",
+            "authors": "W Pensec, V Lapotre, G Gogniat",
+            "publication": "International Winter School on Microarchitectural Security, 2022",
+            "cited_by": {
+                "value": null
+            },
+            "year": "2022"
+        },
+        {
+            "title": "Implementation and Evaluation of Countermea-sures in a DIFT Mechanism against Fault Injection Attacks",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:_FxGoFyzp5QC",
+            "citation_id": "AJE3er8AAAAJ:_FxGoFyzp5QC",
+            "authors": "W PENSEC, V LAPÔTRE, G GOGNIAT",
+            "cited_by": {
+                "value": null
+            },
+            "year": ""
+        }
+    ],
+    "cited_by": {
+        "table": [
+            {
+                "citations": {
+                    "all": 16,
+                    "since_2020": 16
+                }
+            },
+            {
+                "h_index": {
+                    "all": 3,
+                    "since_2020": 3
+                }
+            },
+            {
+                "i10_index": {
+                    "all": 0,
+                    "since_2020": 0
+                }
+            }
+        ],
+        "graph": [
+            {
+                "year": 2023,
+                "citations": 2
+            },
+            {
+                "year": 2024,
+                "citations": 8
+            },
+            {
+                "year": 2025,
+                "citations": 6
+            }
+        ]
+    },
+    "co_authors": [
+        {
+            "name": "Vianney Lapotre",
+            "link": "https:\/\/scholar.google.com\/citations?user=w0aSCHcAAAAJ&hl=en",
+            "serpapi_link": "https:\/\/serpapi.com\/search.json?author_id=w0aSCHcAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "w0aSCHcAAAAJ",
+            "affiliations": "Associate professor \/ Lab-STICC",
+            "email": "Verified email at univ-ubs.fr",
+            "thumbnail": "https:\/\/scholar.googleusercontent.com\/citations?view_op=small_photo&user=w0aSCHcAAAAJ&citpid=5"
+        },
+        {
+            "name": "Guy GOGNIAT",
+            "link": "https:\/\/scholar.google.com\/citations?user=YajdbH0AAAAJ&hl=en",
+            "serpapi_link": "https:\/\/serpapi.com\/search.json?author_id=YajdbH0AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "YajdbH0AAAAJ",
+            "affiliations": "Professor, Université Bretagne Sud",
+            "email": "Verified email at univ-ubs.fr",
+            "thumbnail": "https:\/\/scholar.googleusercontent.com\/citations?view_op=small_photo&user=YajdbH0AAAAJ&citpid=6"
+        },
+        {
+            "name": "Kévin QUÉNÉHERVÉ",
+            "link": "https:\/\/scholar.google.com\/citations?user=EyydMi4AAAAJ&hl=en",
+            "serpapi_link": "https:\/\/serpapi.com\/search.json?author_id=EyydMi4AAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "EyydMi4AAAAJ",
+            "affiliations": "PhD. Student",
+            "email": "Verified email at univ-ubs.fr",
+            "thumbnail": "https:\/\/scholar.googleusercontent.com\/citations?view_op=small_photo&user=EyydMi4AAAAJ&citpid=1"
+        },
+        {
+            "name": "Francesco Regazzoni",
+            "link": "https:\/\/scholar.google.com\/citations?user=ERvZONQAAAAJ&hl=en",
+            "serpapi_link": "https:\/\/serpapi.com\/search.json?author_id=ERvZONQAAAAJ&engine=google_scholar_author&hl=en",
+            "author_id": "ERvZONQAAAAJ",
+            "affiliations": "University of Amsterdam and Università della Svizzera italiana",
+            "email": "Verified email at alari.ch",
+            "thumbnail": "https:\/\/scholar.google.com\/citations\/images\/avatar_scholar_56.png"
+        }
+    ]
+}

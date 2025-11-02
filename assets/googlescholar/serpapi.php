@@ -14,9 +14,11 @@ function get_month_key() {
 if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_duration)) {
     $data = json_decode(file_get_contents($cache_file), true);
     if ($data) {
+        echo "Chargement valeurs via fichier";
         return; // On sort du script, $data est prêt
     }
 }
+echo "On ne passe pas ici";
 
 // === Construction de l'URL ===
 $url = "https://serpapi.com/search.json"

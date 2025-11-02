@@ -2,21 +2,18 @@
 session_start(); // Ensure the session is started if you're using session variables
 include "template/header.php";
 include "template/menu.php";
-?>
 
-<?php
-$data = [
-    'total_citations' => 16,
-    'publications'    => [], // à compléter si besoin
-    'hindex'          => 3,
-    'indexi10'        => 0
-];
+include '../assets/googlescholar/serpapi.php';
 
-// Extract the number of citations and publications
-$nb_citations = $data['total_citations'];
-$nb_publications = 18;
-$hindex = $data['hindex'];
-$index10 = $data['indexi10'];
+if (isset($result['error'])) {
+    echo "<p style='color:red;'>Error : {$result['error']}</p>";
+}
+
+// Extraction des valeurs
+$nb_citations   = $result['total_citations'];
+$nb_publications = count($result['publications']);
+$hindex         = $result['hindex'];
+$index10        = $result['indexi10'];
 ?>
 
 <br><br>
