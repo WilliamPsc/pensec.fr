@@ -1,0 +1,3 @@
+<Files "api.php">
+    Require all denied
+</Files>

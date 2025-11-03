@@ -1,6 +1,7 @@
 <?php
 // === CONFIGURATION ===
-$api_key = '91e3f8273a2df2b536e71a00c142f6dab544e7e4f23932703f87243f98fce1a8';
+include 'api.php';
+$api_key = get_api_key();
 $author_id = 'AJE3er8AAAAJ';
 $cache_file = __DIR__ . '/serpapi_cache.json';
 $cache_lifetime = 24 * 3600; // 1 jour
@@ -11,14 +12,12 @@ function get_month_key() {
 }
 
 // === Si le cache existe et est récent, on le lit ===
-if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_duration)) {
-    $data = json_decode(file_get_contents($cache_file), true);
-    if ($data) {
-        echo "Chargement valeurs via fichier";
+if (file_exists($cache_file) && (time() - filemtime($cache_file) < $cache_lifetime)) {
+    $result = json_decode(file_get_contents($cache_file), true);
+    if ($result) {
         return; // On sort du script, $data est prêt
     }
 }
-echo "On ne passe pas ici";
 
 // === Construction de l'URL ===
 $url = "https://serpapi.com/search.json"
@@ -48,6 +47,17 @@ $total_citations = $data['cited_by']['table'][0]['citations']['all'] ?? 0;
 $hindex          = $data['cited_by']['table'][1]['h_index']['all'] ?? 0;
 $i10index        = $data['cited_by']['table'][2]['i10_index']['all'] ?? 0;
 
+// === Graphique des citations ===
+$citation_graph = $data['cited_by']['graph'] ?? [];
+$graph_data = [];
+foreach ($citation_graph as $entry) {
+    $year   = $entry['year'] ?? null;
+    $citations = $entry['citations'] ?? 0;
+    if ($year) {
+        $graph_data[$year] = $citations;
+    }
+}
+
 // === Étape 4 : extraire la liste des publications ===
 $publications = [];
 if (!empty($data['articles'])) {
@@ -67,10 +77,11 @@ $result = [
     'hindex'          => $hindex,
     'indexi10'        => $i10index,
     'publications'    => $publications,
+    'graph'           => $graph_data,
     'last_update'     => date('Y-m-d H:i:s')
 ];
 
 // === Sauvegarde dans le cache ===
-file_put_contents($cache_file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+file_put_contents($cache_file, json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
 header('Content-Type: application/json');
