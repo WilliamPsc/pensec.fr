@@ -14,6 +14,7 @@ $nb_citations   = $result['total_citations'];
 $nb_publications = count($result['publications']);
 $hindex         = $result['hindex'];
 $index10        = $result['indexi10'];
+$graph_citations = $result['graph'];
 ?>
 
 <br><br>

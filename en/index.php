@@ -6,7 +6,7 @@ include "template/menu.php";
 include '../assets/googlescholar/serpapi.php';
 
 if (isset($result['error'])) {
-    echo "<p style='color:red;'>Error : {$result['error']}</p>";
+    echo "<p style='color:red;'>Error: {$result['error']}</p>";
 }
 
 // Extraction des valeurs
@@ -14,6 +14,7 @@ $nb_citations   = $result['total_citations'];
 $nb_publications = count($result['publications']);
 $hindex         = $result['hindex'];
 $index10        = $result['indexi10'];
+$graph_citations = $result['graph'];
 ?>
 
 <br><br>
