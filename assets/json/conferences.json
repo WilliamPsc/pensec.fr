@@ -1,6 +1,13 @@
 {
     "2025":[
         {
+            "name": "18èmes Journées Pédagogiques du CNFM",
+            "dateStart": "2025-12-03",
+            "dateEnd": "2025-12-05",
+            "place": "Saint-Malo, France",
+            "link": "https://jpcnfm2025.sciencesconf.org/"
+        },
+        {
             "name": "Journée thématique sur les Attaques par Injection de Fautes (JAIF) 2025",
             "dateStart": "2025-10-01",
             "dateEnd": "2025-10-01",

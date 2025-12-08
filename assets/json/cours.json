@@ -1,6 +1,17 @@
 {
     "2025": [
         {
+            "type": "CM",
+            "anneeFR": "CNFM - Mastère Spécialisé SECNUM",
+            "anneeEN": "",
+            "anneeIT": "",
+            "idName": "SECNUM",
+            "nameFR": "Présentation des Aspects experts industriels",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 3
+        },
+        {
             "type": "Gestion",
             "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
             "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
