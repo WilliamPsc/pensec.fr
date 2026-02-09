@@ -30,6 +30,7 @@
     <link rel="manifest" href="../logo/site.webmanifest">
 
     <?php
+    session_start(); // Ensure the session is started if you're using session variables
     $baseURL = (empty($_SERVER['HTTPS']) ? 'http' : 'https') . "://$_SERVER[HTTP_HOST]";
     $http = (empty($_SERVER['HTTPS']) ? 'http' : 'https');
     $langue = substr($_SERVER['REQUEST_URI'], 1, 2);

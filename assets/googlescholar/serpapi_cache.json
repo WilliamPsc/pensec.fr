@@ -1,31 +1,31 @@
 {
-    "total_citations": 16,
-    "hindex": 3,
+    "total_citations": 21,
+    "hindex": 4,
     "indexi10": 0,
     "publications": [
         {
-            "title": "Scripting the Unpredictable: Automate Fault Injection in RTL Simulation for Vulnerability Assessment",
-            "citations": 4,
+            "title": "Scripting the unpredictable: Automate fault injection in rtl simulation for vulnerability assessment",
+            "citations": 6,
             "year": "2024",
             "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:ufrVoPGSRksC"
+        },
+        {
+            "title": "Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow",
+            "citations": 4,
+            "year": "2024",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:Y0pCki6q_DkC"
+        },
+        {
+            "title": "Defending the Citadel: Fault Injection Attacks against Dynamic Information Flow Tracking and Related Countermeasures",
+            "citations": 4,
+            "year": "2024",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:zYLM7Y9cAGgC"
         },
         {
             "title": "Smart Anomaly Detection and Monitoring of Industry 4.0 by Drones",
             "citations": 4,
             "year": "2022",
             "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:u5HHmVD_uO8C"
-        },
-        {
-            "title": "Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow",
-            "citations": 3,
-            "year": "2024",
-            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:Y0pCki6q_DkC"
-        },
-        {
-            "title": "Defending the Citadel: Fault Injection Attacks against Dynamic Information Flow Tracking and Related Countermeasures",
-            "citations": 3,
-            "year": "2024",
-            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:zYLM7Y9cAGgC"
         },
         {
             "title": "Another Break in the Wall: Harnessing Fault Injection Attacks to Penetrate Software Fortresses",
@@ -35,9 +35,15 @@
         },
         {
             "title": "Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks",
-            "citations": 0,
+            "citations": 1,
             "year": "2024",
             "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:WF5omc3nYNoC"
+        },
+        {
+            "title": "Extension de la protection des processeurs contre les menaces physiques et logicielles par la sécurisation du mécanisme DIFT contre les attaques par injections de fautes",
+            "citations": 0,
+            "year": "2024",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:roLk4NBRz8UC"
         },
         {
             "title": "Scripting the Unpredictable: Automate Fault Injection in RTL Simulation for Vulnerability Assessment",
@@ -56,6 +62,12 @@
             "citations": 0,
             "year": "2024",
             "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:YsMSGLbcyi4C"
+        },
+        {
+            "title": "Enhanced Processor Defence Against Physical and Software Threats by Securing DIFT Against Fault Injection Attacks.(Extension de la Protection des Processeurs Contre les Menaces …",
+            "citations": 0,
+            "year": "2024",
+            "link": "https:\/\/scholar.google.com\/citations?view_op=view_citation&hl=en&user=AJE3er8AAAAJ&citation_for_view=AJE3er8AAAAJ:Se3iqnhoufwC"
         },
         {
             "title": "FISSA: Fault Injection Simulation for Security Assessment",
@@ -115,7 +127,7 @@
     "graph": {
         "2023": 2,
         "2024": 8,
-        "2025": 6
+        "2025": 11
     },
-    "last_update": "2025-11-03 16:05:52"
+    "last_update": "2026-02-09 15:52:24"
 }
