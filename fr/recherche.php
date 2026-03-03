@@ -101,6 +101,13 @@ include "template/menu.php";
     <hr>
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> Doctorants encadrés :</h2>
     <ul>
+        <!-- <li>
+            <strong> (octobre 2026 - )</strong>
+            <p>
+                <u>Titre</u> : <br>
+                <u>Co-supervision</u> : Florent BRUGUIER et Pascal BENOIT
+            </p>
+        </li> -->
         <li>
             <strong>Ali AIT HASSOU (septembre 2025 - )</strong>
             <p>
@@ -113,8 +120,15 @@ include "template/menu.php";
 
 <div class="container text-justify my-4">
     <hr>
-    <h2><i class="fa-solid fa-graduation-cap me-1"></i> Étudiants de Licence/Master encadrés :</h2>
+    <h2><i class="fa-solid fa-graduation-cap me-1"></i> Stagiaires (Licence/Master) encadrés :</h2>
     <ul>
+        <li>
+            <strong>Rayan CADI (2A ISMIN (EMSE, Gardanne), 2026, 4 mois)</strong>
+            <p>
+                <u>Titre</u> : Implémentation d’un mécanisme automatique de classification des données selon leur contexte de manipulation<br>
+                <!-- <u>Co-supervision</u> : (Florent BRUGUIER / Pascal BENOIT) -->
+            </p>
+        </li>
         <li>
             <strong>Kévin QUÉNÉHÉRVÉ (M1 CSSE UBS, 2022, 4 mois)</strong>
             <p>

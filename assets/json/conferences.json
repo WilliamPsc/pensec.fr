@@ -1,4 +1,13 @@
 {
+    "2026": [
+        {
+            "name": "Colloque National du GDR SoC²",
+            "dateStart": "2026-06-17",
+            "dateEnd": "2026-06-19",
+            "place": "Marseille, France",
+            "link": "https://gdr-soc2-2026.sciencesconf.org/"
+        }
+    ],
     "2025":[
         {
             "name": "18èmes Journées Pédagogiques du CNFM",
