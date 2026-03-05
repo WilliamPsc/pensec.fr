@@ -1,7 +1,6 @@
 # Deny access to .htaccess
-<Files .htaccess>
-    Order Allow,Deny
-    Deny from all
+<Files ".htaccess">
+    Require all denied
 </Files>
 
 # Custom error documents
@@ -22,7 +21,7 @@ IndexIgnore *.png *.zip *.jpg
 # Rewrite php
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
 RewriteEngine On
