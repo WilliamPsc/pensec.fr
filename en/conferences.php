@@ -83,7 +83,17 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
-    <h2><i class="fa-solid fa-calendar-check"></i> Events organisation:</h2>
+    <h2><i class="fa-solid fa-users"></i> Program committee:</h2>
+    <ul>
+        <li>
+            <strong><a href="https://security.ucc.ie/mal-iot2026/" target="_blank" style="text-decoration: none;">MAL-IoT 2026</a></strong> - 11th International Workshop on Malicious Software and Hardware in the Internet of Things - Catania, Italia
+        </li>
+    </ul>
+</div>
+
+<div class="container text-justify">
+    <hr>
+    <h2><i class="fa-solid fa-calendar-check"></i> Conferences / Schools organisation:</h2>
     <ul>
         <li>
             <strong><a href="http://cascade-conference.org/index.html" target="_blank" style="text-decoration: none;">CASCADE</a></strong> - Assistance with the CASCADE 2025 conference - Saint-Étienne, France

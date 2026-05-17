@@ -101,18 +101,18 @@ include "template/menu.php";
     <hr>
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> Doctorants encadrés :</h2>
     <ul>
-        <!-- <li>
+        <li>
             <strong> (octobre 2026 - )</strong>
             <p>
                 <u>Titre</u> : <br>
-                <u>Co-supervision</u> : Florent BRUGUIER et Pascal BENOIT
+                <u>Co-encadrement</u> : Florent BRUGUIER et Pascal BENOIT
             </p>
-        </li> -->
+        </li>
         <li>
             <strong>Ali AIT HASSOU (septembre 2025 - )</strong>
             <p>
                 <u>Titre</u> : Conception et Sécurisation de Microarchitectures RISC-V Basées sur MRAM : Analyse des Vulnérabilités et Développement de Contre-mesures.<br>
-                <u>Co-supervision</u> : Florent BRUGUIER et Pascal BENOIT
+                <u>Co-encadrement</u> : Florent BRUGUIER et Pascal BENOIT
             </p>
         </li>
     </ul>
@@ -123,24 +123,24 @@ include "template/menu.php";
     <h2><i class="fa-solid fa-graduation-cap me-1"></i> Stagiaires (Licence/Master) encadrés :</h2>
     <ul>
         <li>
-            <strong>Rayan CADI (2A ISMIN (EMSE, Gardanne), 2026, 4 mois)</strong>
+            <strong>Rayan CADI (2A EMSE (Gardanne), 2026, 4 mois)</strong>
             <p>
                 <u>Titre</u> : Implémentation d’un mécanisme automatique de classification des données selon leur contexte de manipulation<br>
-                <!-- <u>Co-supervision</u> : (Florent BRUGUIER / Pascal BENOIT) -->
+                <u>Co-encadrement</u> : Ali Ait HASSOU
             </p>
         </li>
         <li>
             <strong>Kévin QUÉNÉHÉRVÉ (M1 CSSE UBS, 2022, 4 mois)</strong>
             <p>
                 <u>Titre</u> : Développement de plateforme d’injection de fautes.<br>
-                <u>Co-supervision</u> : Vianney LAPÔTRE
+                <u>Co-encadrement</u> : Vianney LAPÔTRE
             </p>
         </li>
         <li>
             <strong>Souad ET-TABITY (M2 SESI UBS, 2022, 3 mois)</strong>
             <p>
                 <u>Titre</u> : Intégration du D-RI5CY sur FPGA.<br>
-                <u>Co-supervision</u> : Vianney LAPÔTRE
+                <u>Co-encadrement</u> : Vianney LAPÔTRE
             </p>
         </li>
     </ul>
