@@ -93,8 +93,11 @@ include "template/menu.php";
 
 <div class="container text-justify">
     <hr>
-    <h2><i class="fa-solid fa-calendar-check"></i> Organisations de conférences / écoles :</h2>
+    <h2><i class="fa-solid fa-calendar-check"></i> Organisations d'évènements :</h2>
     <ul>
+        <li>
+            <strong><a href="https://gdr-soc2.fr/staticpage/13" target="_blank" style="text-decoration: none;">Concours RISC-V Thalès</a></strong> - Implication dans la co-organisation du concours Thalès RISC-V - En ligne
+        </li>
         <li>
             <strong><a href="http://cascade-conference.org/index.html" target="_blank" style="text-decoration: none;">CASCADE</a></strong> - Aide au déroulement de la conférence CASCADE 2025 - Saint-Étienne
         </li>
