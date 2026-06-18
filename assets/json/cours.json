@@ -1,4 +1,116 @@
 {
+    "2026": [
+        {
+            "type": "CM",
+            "anneeFR": "MEA4 - FISE 2 (2<sup>ème</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA4 - FISE 2 (2nd year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA4 - FISE 2",
+            "idName": "Dev Mobile",
+            "nameFR": "Introduction au développement mobile",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 3
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA4 - FISE 2 (2<sup>ème</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA4 - FISE 2 (2nd year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA4 - FISE 2",
+            "idName": "Dev Mobile",
+            "nameFR": "Introduction au développement mobile",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 24
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
+            "idName": "sys logiques",
+            "nameFR": "Systèmes logiques",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 36
+        },
+        {
+            "type": "TP",
+            "anneeFR": "PeiP 1",
+            "anneeEN": "PeiP 1",
+            "anneeIT": "PeiP 1",
+            "idName": "TP découvertes",
+            "nameFR": "TP découvertes de spécialités",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 30
+        },
+        {
+            "type": "CM",
+            "anneeFR": "CNFM - Mastère Spécialisé SECNUM",
+            "anneeEN": "",
+            "anneeIT": "",
+            "idName": "SECNUM",
+            "nameFR": "Présentation des Aspects experts industriels",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 3
+        },
+        {
+            "type": "Gestion",
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
+            "idName": "Stage",
+            "nameFR": "Responsable Stage MEA3",
+            "nameEN": "MEA3 Internship Manager",
+            "nameIT": "Responsabile Stage MEA3",
+            "nbHeures": 4
+        },
+        {
+            "type": "TD",
+            "anneeFR": "Polytech3A",
+            "anneeEN": "Polytech3A",
+            "anneeIT": "Polytech3A",
+            "idName": "DDRS",
+            "nameFR": "Introduction au développement durable",
+            "nameEN": "Introduction to sustainable development",
+            "nameIT": "Introduzione allo sviluppo sostenibile",
+            "nbHeures": 6
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S613B",
+            "nameFR": "Algorithmes numériques",
+            "nameEN": "Digital algorithms",
+            "nameIT": "Algoritmi numerici",
+            "nbHeures": 42
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S610C",
+            "nameFR": "Initiation aux microcontrolleurs - µC",
+            "nameEN": "Introduction to microcontrollers",
+            "nameIT": "Introduzione ai microcontrollori",
+            "nbHeures": 30
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S514A",
+            "nameFR": "Informatique (langage de programmation C)",
+            "nameEN": "Computer science (C programming language)",
+            "nameIT": "Informatica (linguaggio di programmazione C)",
+            "nbHeures": 54
+        }
+    ],
     "2025": [
         {
             "type": "CM",
