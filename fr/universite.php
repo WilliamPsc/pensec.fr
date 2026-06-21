@@ -19,6 +19,65 @@ error_reporting(E_ALL);
     });
 </script>
 
+<style>
+    .year-block {
+        margin-bottom: 15px;
+        border-left: 4px solid #f5f5f5;
+        padding-left: 10px;
+    }
+
+    .year-block summary:hover {
+        background: #e9ecef;
+        border-left: 4px solid #e9ecef;
+    }
+
+
+    .year-block summary {
+        list-style: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border-radius: 6px;
+    }
+
+    .year-block summary::-webkit-details-marker {
+        display: none;
+    }
+
+    /* Ajoute un bullet */
+    .year-block summary::before {
+        content: "• ";
+        font-size: 1.3em;
+    }
+
+    /* Optionnel : changer le bullet quand ouvert */
+    .year-block[open] summary::before {
+        content: "◦ ";
+    }
+
+    .year-block[open] summary {
+        margin-bottom: 10px;
+    }
+
+    .table-container {
+        margin-top: 10px;
+        animation: fade 0.25s ease;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+            transform: translateY(-5px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+</style>
+
 <br><br>
 <div class="container">
     <h2><i class="fas fa-chalkboard-teacher me-1"></i> Enseignements</h2>
@@ -116,7 +175,44 @@ error_reporting(E_ALL);
 
         <h4>Détails :</h4>
         <?php foreach ($activityDetails as $year => $activities) : ?>
-            <ul>
+            <details class="year-block">
+
+                <summary>
+                    <strong>
+                        <?php echo $year; ?>
+                        / <?php echo $totalHoursByYear[$year]; ?> h
+                    </strong>
+                </summary>
+
+                <div class="table-container">
+                    <table class="table table-striped table-hover equal-columns">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Promotion</th>
+                                <th>Nom</th>
+                                <th>Intitulé</th>
+                                <th>Nombre d'heures</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <?php foreach ($activities as $activity) : ?>
+                                <tr>
+                                    <td><?= htmlspecialchars($activity['type']) ?></td>
+                                    <td><?= htmlspecialchars($activity['annee']) ?></td>
+                                    <td><?= htmlspecialchars($activity['idName']) ?></td>
+                                    <td><?= htmlspecialchars($activity['name']) ?></td>
+                                    <td><?= htmlspecialchars($activity['nbHeures']) ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+
+                    </table>
+                </div>
+
+            </details>
+            <!-- <ul>
                 <li>
                     <h5 style="display: inline;"><?php echo $year; ?></h5>
                     <h5 style="display: inline;"> / <?php echo $totalHoursByYear[$year] . " h :"; ?></h5>
@@ -145,7 +241,7 @@ error_reporting(E_ALL);
                         <?php endforeach; ?>
                     </tbody>
                 </table>
-            </div>
+            </div> -->
         <?php endforeach; ?>
     </div>
 </div>
