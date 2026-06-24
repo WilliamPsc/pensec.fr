@@ -7,9 +7,63 @@ include "template/menu.php";
 <br><br>
 <div class="container text-justify">
     <h2><i class="fa-solid fa-book me-1"></i> Publications scientifiques</h2>
-    <hr>
 
-    <h3><i class="fa-solid fa-award me-1"></i> Récompenses :</h3>
+    <hr>
+    <h3>Récapitulatif du nombre de publications : </h3>
+
+    <div class="table-responsive-md">
+        <?php
+        // Read JSON file
+        $json = file_get_contents("../assets/json/publications.json");
+
+        //Decode JSON
+        $json_data = json_decode($json, true);
+
+        // Init variables
+        $totalPublicationsByType = ['poster' => 0, 'paper' => 0, 'presentation' => 0, 'journal' => 0];
+        $totalPublicationsByYear = [];
+        $activityDetails = [];
+
+        // Compute values
+        foreach ($json_data as $year => $activities) {
+            foreach ($activities as $activity) {
+                $type = $activity['subject'];
+
+                // Update total hours by type
+                if (isset($totalPublicationsByType[$type])) {
+                    $totalPublicationsByType[$type] += 1;
+                }
+
+                // Update total hours by year
+                if (!isset($totalPublicationsByYear[$year])) {
+                    $totalPublicationsByYear[$year] = 0;
+                }
+                $totalPublicationsByYear[$year] += 1;
+            }
+        }
+        ?>
+        <table class="table table-striped table-hover equal-columns">
+            <thead>
+                <tr>
+                    <th>Type de publication</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($totalPublicationsByType as $type => $number) : ?>
+                    <?php if ($number != 0) { ?>
+                        <tr>
+                            <td><?php echo ucfirst($type); ?></td>
+                            <td><?php echo $number; ?></td>
+                        </tr>
+                    <?php } ?>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+    <h3><i class="fa-solid fa-award me-1"></i> Distinctions :</h3>
     <div class="text-justify">
         <ul>
             <li><strong>2023</strong>

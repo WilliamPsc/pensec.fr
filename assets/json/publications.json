@@ -1,4 +1,30 @@
 {
+    "2026": [
+        {
+            "subject": "poster",
+            "author": [
+                "Ali Ait HASSOU",
+                "William PENSEC",
+                "Florent BRUGUIER",
+                "Pascal BENOIT"
+            ],
+            "titre": "Toward Secure SoCs with Dynamic Information Flow Tracking",
+            "booktitle": "Journée Nationales du GDR SOC2",
+            "acronyme": "GDR SOC2",
+            "month": "June",
+            "abstract": "",
+            "doi": "",
+            "location": "Marseille",
+            "publisher": "hal",
+            "keywords": [
+                "Hardware security",
+                "Physical Attacks",
+                "Fault injection simulation",
+                "DIFT",
+                "Vulnerability Assessment"
+            ]
+        }
+    ],
     "2025": [
         {
             "subject": "poster",

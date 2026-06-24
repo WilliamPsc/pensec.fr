@@ -76,6 +76,10 @@ error_reporting(E_ALL);
             transform: translateY(0);
         }
     }
+
+    h4, h5 {
+        display: inline !important;
+    }
 </style>
 
 <br><br>
@@ -93,7 +97,9 @@ error_reporting(E_ALL);
         // Init variables
         $totalHoursByType = ['CM' => 0, 'TD' => 0, 'TP' => 0, 'Gestion' => 0];
         $totalHoursByYear = [];
+        $eqTD = [];
         $totalHours = 0;
+        $totalHeqTD = 0;
         $activityDetails = [];
 
         // Compute values
@@ -113,8 +119,11 @@ error_reporting(E_ALL);
                 // Update total hours by year
                 if (!isset($totalHoursByYear[$year])) {
                     $totalHoursByYear[$year] = 0;
+                    $eqTD[$year] = 0;
                 }
                 $totalHoursByYear[$year] += $nbHeures;
+                if ($type == "CM") $eqTD[$year] += ($nbHeures * 1.5);
+                else $eqTD[$year] += $nbHeures;
 
                 // Update overall total hours
                 $totalHours += $nbHeures;
@@ -128,15 +137,17 @@ error_reporting(E_ALL);
                     'nbHeures' => $nbHeures
                 ];
             }
+            $totalHeqTD += $eqTD[$year];
         }
         ?>
 
-        <h4>Récapitulatif</h4>
+        <h3>Récapitulatif</h3>
         <table class="table table-striped table-hover equal-columns">
             <thead>
                 <tr>
                     <th>Année</th>
                     <th>Total</th>
+                    <th>Total eq TD</th>
                 </tr>
             </thead>
             <tbody>
@@ -144,11 +155,13 @@ error_reporting(E_ALL);
                     <tr>
                         <td><?php echo $year . " - " . ($year + 1); ?></td>
                         <td><?php echo $hours . " h"; ?></td>
+                        <td><?php echo $eqTD[$year] . " h"; ?></td>
                     </tr>
                 <?php endforeach; ?>
                 <tr>
                     <th>Nombre total d'heures :</th>
-                    <td><?php echo $totalHours . " h"; ?></td>
+                    <td><strong><?php echo $totalHours . " h"; ?></strong></td>
+                    <td><strong><?php echo $totalHeqTD . " h"; ?></strong></td>
                 </tr>
             </tbody>
         </table>
@@ -173,15 +186,17 @@ error_reporting(E_ALL);
             </tbody>
         </table>
 
-        <h4>Détails :</h4>
+        <h3>Détails :</h3>
         <?php foreach ($activityDetails as $year => $activities) : ?>
             <details class="year-block">
 
                 <summary>
-                    <strong>
-                        <?php echo $year; ?>
-                        / <?php echo $totalHoursByYear[$year]; ?> h
-                    </strong>
+                    <h4>
+                        <?php echo $year . " / " . $totalHoursByYear[$year] . " h - "; ?>
+                    </h4>
+                    <h5>
+                        <?php  echo "(". $eqTD[$year] . " h eq TD)" ?>
+                    </h5>
                 </summary>
 
                 <div class="table-container">
