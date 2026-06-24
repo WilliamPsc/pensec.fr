@@ -200,7 +200,7 @@ error_reporting(E_ALL);
                             <?php foreach ($activities as $activity) : ?>
                                 <tr>
                                     <td><?= htmlspecialchars($activity['type']) ?></td>
-                                    <td><?= htmlspecialchars($activity['annee']) ?></td>
+                                    <td><?= strip_tags($activity['annee'], '<sup>') ?></td>
                                     <td><?= htmlspecialchars($activity['idName']) ?></td>
                                     <td><?= htmlspecialchars($activity['name']) ?></td>
                                     <td><?= htmlspecialchars($activity['nbHeures']) ?></td>

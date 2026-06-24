@@ -202,7 +202,7 @@ $age = $intvl->y;
         </div>
         <hr>
         <div class="container">
-            <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> Représentant universitaire :</h4>
+            <h4 class="text-center text-uppercase"><i class="fas fa-vote-yea"></i> Responsabilités universitaire :</h4>
             <div class="table-responsive-md">
                 <hr>
                 <?php

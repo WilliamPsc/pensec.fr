@@ -5,7 +5,7 @@
             "anneeFR": "MEA4 - FISE 2 (2<sup>ème</sup> année cycle ingénieur Polytech Montpellier)",
             "anneeEN": "MEA4 - FISE 2 (2nd year of the Polytech Montpellier engineering cycle)",
             "anneeIT": "MEA4 - FISE 2",
-            "idName": "Dev Mobile",
+            "idName": "",
             "nameFR": "Introduction au développement mobile",
             "nameEN": "",
             "nameIT": "",
@@ -16,7 +16,7 @@
             "anneeFR": "MEA4 - FISE 2 (2<sup>ème</sup> année cycle ingénieur Polytech Montpellier)",
             "anneeEN": "MEA4 - FISE 2 (2nd year of the Polytech Montpellier engineering cycle)",
             "anneeIT": "MEA4 - FISE 2",
-            "idName": "Dev Mobile",
+            "idName": "",
             "nameFR": "Introduction au développement mobile",
             "nameEN": "",
             "nameIT": "",
@@ -24,21 +24,32 @@
         },
         {
             "type": "TP",
-            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "MEA3 - FISE 1",
-            "idName": "sys logiques",
-            "nameFR": "Systèmes logiques",
-            "nameEN": "",
-            "nameIT": "",
-            "nbHeures": 36
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S613D",
+            "nameFR": "Algorithmes numériques",
+            "nameEN": "Digital algorithms",
+            "nameIT": "Algoritmi numerici",
+            "nbHeures": 42
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S610D",
+            "nameFR": "Initiation aux microcontrolleurs - µC",
+            "nameEN": "Introduction to microcontrollers",
+            "nameIT": "Introduzione ai microcontrollori",
+            "nbHeures": 30
         },
         {
             "type": "TP",
             "anneeFR": "PeiP 1",
             "anneeEN": "PeiP 1",
             "anneeIT": "PeiP 1",
-            "idName": "TP découvertes",
+            "idName": "",
             "nameFR": "TP découvertes de spécialités",
             "nameEN": "",
             "nameIT": "",
@@ -56,17 +67,6 @@
             "nbHeures": 3
         },
         {
-            "type": "Gestion",
-            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "MEA3 - FISE 1",
-            "idName": "Stage",
-            "nameFR": "Responsable Stage MEA3",
-            "nameEN": "MEA3 Internship Manager",
-            "nameIT": "Responsabile Stage MEA3",
-            "nbHeures": 4
-        },
-        {
             "type": "TD",
             "anneeFR": "Polytech3A",
             "anneeEN": "Polytech3A",
@@ -79,25 +79,14 @@
         },
         {
             "type": "TP",
-            "anneeFR": "MEA3",
-            "anneeEN": "MEA3",
-            "anneeIT": "MEA3",
-            "idName": "XA9S613B",
-            "nameFR": "Algorithmes numériques",
-            "nameEN": "Digital algorithms",
-            "nameIT": "Algoritmi numerici",
-            "nbHeures": 42
-        },
-        {
-            "type": "TP",
-            "anneeFR": "MEA3",
-            "anneeEN": "MEA3",
-            "anneeIT": "MEA3",
-            "idName": "XA9S610C",
-            "nameFR": "Initiation aux microcontrolleurs - µC",
-            "nameEN": "Introduction to microcontrollers",
-            "nameIT": "Introduzione ai microcontrollori",
-            "nbHeures": 30
+            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA3 - FISE 1",
+            "idName": "",
+            "nameFR": "Systèmes logiques",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 36
         },
         {
             "type": "TP",
@@ -113,6 +102,39 @@
     ],
     "2025": [
         {
+            "type": "Gestion",
+            "anneeFR": "MEA5 - FISE 3 (3<sup>ème<\/sup> année cycle ingénieur Polytech Montpellier)",
+            "anneeEN": "MEA5 - FISE 3 (3rd year of the Polytech Montpellier engineering cycle)",
+            "anneeIT": "MEA5 - FISE 3",
+            "idName": "Stage",
+            "nameFR": "Encadrement de projets tutorés, de fin d'études et d'apprentissage",
+            "nameEN": "",
+            "nameIT": "",
+            "nbHeures": 4
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S613D",
+            "nameFR": "Algorithmes numériques",
+            "nameEN": "Digital algorithms",
+            "nameIT": "Algoritmi numerici",
+            "nbHeures": 42
+        },
+        {
+            "type": "TP",
+            "anneeFR": "MEA3",
+            "anneeEN": "MEA3",
+            "anneeIT": "MEA3",
+            "idName": "XA9S610D",
+            "nameFR": "Initiation aux microcontrolleurs - µC",
+            "nameEN": "Introduction to microcontrollers",
+            "nameIT": "Introduzione ai microcontrollori",
+            "nbHeures": 30
+        },
+        {
             "type": "CM",
             "anneeFR": "CNFM - Mastère Spécialisé SECNUM",
             "anneeEN": "",
@@ -124,17 +146,6 @@
             "nbHeures": 3
         },
         {
-            "type": "Gestion",
-            "anneeFR": "MEA3 - FISE 1 (1<sup>ère</sup> année cycle ingénieur Polytech Montpellier)",
-            "anneeEN": "MEA3 - FISE 1 (1st year of the Polytech Montpellier engineering cycle)",
-            "anneeIT": "MEA3 - FISE 1",
-            "idName": "Stage",
-            "nameFR": "Responsable Stage MEA3",
-            "nameEN": "MEA3 Internship Manager",
-            "nameIT": "Responsabile Stage MEA3",
-            "nbHeures": 4
-        },
-        {
             "type": "TD",
             "anneeFR": "Polytech3A",
             "anneeEN": "Polytech3A",
@@ -144,28 +155,6 @@
             "nameEN": "Introduction to sustainable development",
             "nameIT": "Introduzione allo sviluppo sostenibile",
             "nbHeures": 6
-        },
-        {
-            "type": "TP",
-            "anneeFR": "MEA3",
-            "anneeEN": "MEA3",
-            "anneeIT": "MEA3",
-            "idName": "XA9S613B",
-            "nameFR": "Algorithmes numériques",
-            "nameEN": "Digital algorithms",
-            "nameIT": "Algoritmi numerici",
-            "nbHeures": 42
-        },
-        {
-            "type": "TP",
-            "anneeFR": "MEA3",
-            "anneeEN": "MEA3",
-            "anneeIT": "MEA3",
-            "idName": "XA9S610C",
-            "nameFR": "Initiation aux microcontrolleurs - µC",
-            "nameEN": "Introduction to microcontrollers",
-            "nameIT": "Introduzione ai microcontrollori",
-            "nbHeures": 30
         },
         {
             "type": "TP",
