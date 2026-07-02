@@ -1,6 +1,13 @@
 {
     "2026": [
         {
+            "name": "29th Euromicro Conference Series on Digital System Design",
+            "dateStart": "2026-09-02",
+            "dateEnd": "2026-09-04",
+            "place": "Kraków, Poland",
+            "link": "https://dsd-seaa.com/dsd2026/"
+        },
+        {
             "name": "Colloque National du GDR SoC²",
             "dateStart": "2026-06-17",
             "dateEnd": "2026-06-19",

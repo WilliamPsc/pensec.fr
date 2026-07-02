@@ -1,6 +1,31 @@
 {
     "2026": [
         {
+            "subject": "paper",
+            "author": [
+                "Ali Ait HASSOU",
+                "William PENSEC",
+                "Florent BRUGUIER",
+                "Pascal BENOIT"
+            ],
+            "titre": "TagGuard: Peripheral-to-Pipeline Hardware DIFT for Bare-Metal RISC-V",
+            "booktitle": "Euromicro Conference on Digital System Design",
+            "acronyme": "DSD 2026",
+            "month": "September",
+            "abstract": "",
+            "doi": "",
+            "location": "Kraków, Poland",
+            "publisher": "ieee",
+            "keywords": [
+                "RISC-V",
+                "SoC Security",
+                "Memory Tagging",
+                "Hardware Auto-Tagging",
+                "FPGA",
+                "CV32E40P"
+            ]
+        },
+        {
             "subject": "poster",
             "author": [
                 "Ali Ait HASSOU",
@@ -72,7 +97,8 @@
                 "Error-Correcting Code",
                 "Error-Detecting Code",
                 "Embedded processor",
-                "IoT","RISC-V"
+                "IoT",
+                "RISC-V"
             ]
         }
     ],
@@ -100,7 +126,8 @@
                 "Error-Correcting Code",
                 "Error-Detecting Code",
                 "Embedded processor",
-                "IoT","RISC-V"
+                "IoT",
+                "RISC-V"
             ]
         },
         {
@@ -285,7 +312,6 @@
             "doi": "https://hal.science/hal-04729593",
             "keywords": []
         }
-        
     ],
     "2023": [
         {
@@ -476,7 +502,11 @@
             "doi": "",
             "location": "Lorient",
             "publisher": "",
-            "keywords": ["embedded systems", "security", "processors"]
+            "keywords": [
+                "embedded systems",
+                "security",
+                "processors"
+            ]
         },
         {
             "subject": "poster",

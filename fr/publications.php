@@ -85,6 +85,24 @@ include "template/menu.php";
     <h3>Liste des articles de conférences : </h3>
     <ul>
         <li>
+            <strong>2026</strong><br>
+            <p style="margin-left: 20px;">
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
+                <strong>TagGuard: Peripheral-to-Pipeline Hardware DIFT for Bare-Metal RISC-V</strong>
+                <a href="../assets/pdf/articles/" target="_blank" style="text-decoration: none;">
+                    <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                </a>
+                <a target='_blank' href=''><img src="../assets/img/publishers/hal.svg" height="20" alt="HAL" style="margin-left: 10px;"></a>
+                <a target='_blank' href=''><i class="ai ai-ieee" style="margin-left: 10px;"></i></a>
+                <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/dsd24_fissa.bib">Cite</a> -->
+                <br>
+                <span style="margin-left: 30px; margin-top: -15px;">Ali Ait Hassou, William Pensec, Florent Bruguier et Pascal Benoit</span><br>
+                <span style="margin-left: 30px;">Euromicro Conference on Digital System Design (DSD)</span><br>
+                <span style="margin-left: 30px;">Kraków, Poland</span>
+            </p>
+            <p style
+        </li>
+        <li>
             <strong>2024</strong><br>
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
@@ -100,7 +118,6 @@ include "template/menu.php";
                 <span style="margin-left: 30px;">Euromicro Conference on Digital System Design (DSD)</span><br>
                 <span style="margin-left: 30px;">Paris, France</span>
             </p>
-
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Exploring Fault Injection Attacks on CVA6 PMP Configuration Flow</strong>

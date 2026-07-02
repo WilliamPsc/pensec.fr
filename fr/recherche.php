@@ -99,20 +99,22 @@ include "template/menu.php";
 
 <div class="container text-justify my-4">
     <hr>
-    <h2><i class="fa-solid fa-graduation-cap me-1"></i> Doctorants encadrés :</h2>
+    <h2><i class="fa-solid fa-graduation-cap me-1"></i> Doctorants :</h2>
     <ul>
         <li>
-            <strong> (octobre 2026 - )</strong>
+            <strong>Samia KADI (octobre 2026 - )</strong>
             <p>
-                <u>Titre</u> : <br>
-                <u>Co-encadrement</u> : Florent BRUGUIER et Pascal BENOIT
+                <u>Titre</u> : Sécurité adaptative par conception et évaluation intelligente par agent IA<br>
+                <u>Encadrement</u> : Pascal BENOIT (30%), Florent BRUGUIER (30%) et William PENSEC (40%)<br>
+                <u>Financement</u> : Ecole Doctorale (I2S) 100%
             </p>
         </li>
         <li>
-            <strong>Ali AIT HASSOU (septembre 2025 - )</strong>
+            <strong>Ali Ait HASSOU (septembre 2025 - )</strong>
             <p>
                 <u>Titre</u> : Conception et Sécurisation de Microarchitectures RISC-V Basées sur MRAM : Analyse des Vulnérabilités et Développement de Contre-mesures.<br>
-                <u>Co-encadrement</u> : Florent BRUGUIER et Pascal BENOIT
+                <u>Encadrement</u> : Pascal BENOIT (40%), Florent BRUGUIER (30%) et William PENSEC (30%)<br>
+                <u>Financement</u> : ANR SCREAM 100%
             </p>
         </li>
     </ul>
