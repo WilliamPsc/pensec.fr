@@ -315,6 +315,22 @@ include "template/menu.php";
     <h3>Liste des posters : </h3>
     <ul>
         <li>
+            <strong>2026</strong>
+            <p style="margin-left: 20px;">
+                <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
+                <strong>Toward Secure SoCs with Dynamic Information Flow Tracking</strong>
+                <a href="../assets/pdf/posters/gdr_soc2_2026.pdf" target="_blank" style="text-decoration: none;">
+                    <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
+                </a>
+                <!-- <a target='_blank' href='https://hal.science/'><img src="../assets/img/publishers/hal.svg" height="20" alt="HAL" style="margin-left: 10px;"></a> -->
+                <!-- <a href="#" class="btn btn-outline-primary btn-page-header btn-sm" data-filename="../assets/bib/">Cite</a> -->
+                <br>
+                <span style="margin-left: 30px; margin-top: -15px;">Ali Ait Hassou, William Pensec, Florent Bruguier et Pascal Benoit</span><br>
+                <span style="margin-left: 30px;">Journées Nationales du GDR SOC2 (GDR SOC2)</span><br>
+                <span style="margin-left: 30px;">Marseille, France</span>
+            </p>
+        </li>
+        <li>
             <strong>2025</strong>
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
