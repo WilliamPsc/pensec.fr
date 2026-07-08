@@ -319,6 +319,9 @@ include "template/menu.php";
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>Toward Secure SoCs with Dynamic Information Flow Tracking</strong>
+                <a href="../assets/pdf/abstract/gdr_soc2_2026_abstract.pdf" target="_blank" style="text-decoration: none;">
+                    <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
+                </a>
                 <a href="../assets/pdf/posters/gdr_soc2_2026.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-image" style="margin-left: 10px; color: #228B22"></i>
                 </a>
