@@ -114,7 +114,7 @@ include "template/menu.php";
             <p>
                 <u>Titre</u> : Conception et Sécurisation de Microarchitectures RISC-V Basées sur MRAM : Analyse des Vulnérabilités et Développement de Contre-mesures.<br>
                 <u>Encadrement</u> : Pascal BENOIT (40%), Florent BRUGUIER (30%) et William PENSEC (30%)<br>
-                <u>Financement</u> : ANR SCREAM 100%
+                <u>Financement</u> : <a href="https://gitlab.emse.fr/memorysecurity/scream-public" target="_blank" style="text-decoration: none;">ANR SCREAM</a> - 100%
             </p>
         </li>
     </ul>

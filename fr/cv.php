@@ -114,9 +114,14 @@ $age = $intvl->y;
             Première Année Commune aux Études de Santé (PACES) - Université de Bretagne Occidentale - Brest.
             <br><br>
             <ul>
-                <li><strong>2014</strong></li>
+                <li><strong>2011 - 2014</strong></li>
             </ul>
             Obtention du Baccalauréat, série S-SVT, option ISN (Informatique et Sciences du Numérique) - Lycée de Cornouaille - Quimper.
+            <br><br>
+            <ul>
+                <li><strong>2007 - 2011</strong></li>
+            </ul>
+            Obtention du Brevet des collèges - Collège Pierre Stéphan - Briec-de-l'Odet.
         </div>
         <hr>
         <div class="text-center">
