@@ -89,7 +89,7 @@ include "template/menu.php";
             <p style="margin-left: 20px;">
                 <i class="far fa-file-alt pub-icon me-1" aria-hidden="true"></i>
                 <strong>TagGuard: Peripheral-to-Pipeline Hardware DIFT for Bare-Metal RISC-V</strong>
-                <a href="../assets/pdf/articles/" target="_blank" style="text-decoration: none;">
+                <a href="../assets/pdf/articles/DSD2026_TagGuard.pdf" target="_blank" style="text-decoration: none;">
                     <i class="fas fa-file-pdf" style="margin-left: 10px; color: #d9534f"></i>
                 </a>
                 <a target='_blank' href=''><img src="../assets/img/publishers/hal.svg" height="20" alt="HAL" style="margin-left: 10px;"></a>
