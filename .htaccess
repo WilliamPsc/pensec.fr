@@ -24,6 +24,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php [NC,L]
 
-RewriteEngine On
+# Force HTTPS except on local development
+RewriteCond %{HTTP_HOST} !\.local$ [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
